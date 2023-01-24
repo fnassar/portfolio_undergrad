@@ -44,6 +44,18 @@
         background-size: cover;
         position: fixed;
     }
+    .header_border {
+        width: 3vw;
+        height: 100vh;
+        top: 0;
+        left: 21vw;
+        /* position */
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        position: fixed;
+    }
     .nav_title {
         display: flex;
         /* flex-wrap: wrap; */
