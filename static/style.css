@@ -1,4 +1,17 @@
+@font-face {
+    font-family: 'Mine';
+    src: url('../sources/Mine-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Mine';
+}
+
 @media only screen and (min-width: 700px) {
+    /* * {
+        margin: 0;
+        padding: 0;
+    } */
     html,
     body {
         display: flex;
@@ -12,12 +25,14 @@
         min-height: 100vh;
         /* overflow-x: hidden; */
         overflow-y: auto;
-        /* bb */
+        /* bg */
         background-image: url(../sources/images/bg3.jpeg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        /*  */
+        font-family: Mine;
     }
     /* header */
     header {
@@ -77,8 +92,9 @@
         display: flex;
         align-items: center;
         text-align: center;
-        font-size: 4.5vw;
-        font-family: 'Rubik Beastly', cursive;
+        font-size: 9rem;
+        line-height: 4rem;
+        /* font-family: 'Rubik Beastly', cursive; */
     }
     .nav_title_txt:hover {
         color: aliceblue;
@@ -89,8 +105,8 @@
         align-content: center;
         justify-content: center;
         text-align: center;
-        font-size: 2vw;
-        line-height: 4vh;
+        font-size: 2rem;
+        line-height: 4rem;
     }
     .nav_title_icons a:hover {
         transform: scale(1.4);
@@ -105,8 +121,8 @@
         width: 100%;
     }
     nav a {
-        line-height: 3;
-        font-size: 1.5vw;
+        line-height: 1rem;
+        font-size: 4rem;
     }
     nav a:hover {
         transform: scale(1.4);
@@ -130,9 +146,14 @@
     }
     .subcontainer_title {
         color: aliceblue;
+        font-size: 6rem;
+        line-height: 2rem;
+        margin: 0;
     }
     .subcontainer_text {
         color: aliceblue;
+        font-size: 3.5rem;
+        line-height: 1.5rem;
     }
     .main_title {
         text-align: center;
@@ -144,20 +165,20 @@
         border: black solid 1px;
     }
     #maintitle {
-        font-size: 6vw;
-        font-family: 'Rubik Beastly', cursive;
-        line-height: 6vw;
+        font-size: 15rem;
+        line-height: 6rem;
+        /* font-family: 'Rubik Beastly', cursive; */
         margin-top: 5vw;
         margin-bottom: 3vw;
     }
     h1#title {
-        font-size: 2vw;
+        font-size: 5vw;
         line-height: 2vw;
         margin-top: 1vw;
         margin-bottom: 5vw;
     }
     h2#title {
-        font-size: 2vw;
+        font-size: 4vw;
         line-height: 2vw;
         margin-top: 1vw;
         margin-bottom: 1vw;
