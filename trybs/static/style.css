@@ -1,0 +1,25 @@
+.purple{
+    border: 0.1px solid blueviolet;
+    /* min-height: 10vh; */
+}
+
+.blue{
+    border: 0.1px solid blue;
+}
+
+.box{
+    border: 0,1px solid blueviolet;
+    background-color: lightpink;
+    min-height: 5vh;
+}
+
+/* .details{
+    border: 1px solid blueviolet;
+} */
+
+/* .header{
+    border: 1px solid blueviolet;
+} */
+.fix{
+    padding: 0  1rem;
+}
