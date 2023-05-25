@@ -19,7 +19,7 @@ io.sockets.on('connect', (socket) => { // listen for connect event
 })
 
 //run the createServer
-let port = process.env.PORT || 4000; // set the port number
+let port = process.env.PORT || 6500; // set the port number
 server.listen(port, () => { // listen for requests on port 4000
     console.log("Server listening at port: " + port); // print a message when the server starts listening
 });
