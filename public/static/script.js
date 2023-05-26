@@ -9,3 +9,4 @@ form.addEventListener('submit', e => {
     }
     form.classList.add('was-validated');
 });
+

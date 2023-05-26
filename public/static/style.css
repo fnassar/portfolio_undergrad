@@ -1,8 +1,47 @@
-/* header */
-#navContent {
-    justify-content: flex-end;
-    /* find bs code */
+body {
+    background-image: url("http://1.bp.blogspot.com/-2UPMytLmxIM/VMjNHfmtpBI/AAAAAAAAUHM/S7LKcaYz0Ls/s1600/SpectacularPhotos%2BOf%2BThe%2BNight%2BSky%2BAround%2BThe%2BWorld%2B7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    top:0;
 }
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+    color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #cbbcb1;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+}
+
+/* header */
+/* #navContent {
+    justify-content: flex-end;
+    /* find bs code *
+} */
 /* side details */
 
 /* main section */
@@ -12,7 +51,7 @@
 } */
 
 .content-section {
-    background: lavender;
+    background:none;
     min-height: calc(100vh - 50px);
     padding: 2em;
     /* justify-content: ; */
@@ -32,6 +71,9 @@
     }
 }
 
+.smaller-text {
+    font-size: 12px;
+}
 
 .sidebar-content {
     background: cornflowerblue;
