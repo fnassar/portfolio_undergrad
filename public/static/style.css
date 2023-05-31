@@ -1,11 +1,20 @@
+/* ========================================= */
+/* ================= body  ================= */
+/* ========================================= */
+
 body {
-    background-image: url("http://1.bp.blogspot.com/-2UPMytLmxIM/VMjNHfmtpBI/AAAAAAAAUHM/S7LKcaYz0Ls/s1600/SpectacularPhotos%2BOf%2BThe%2BNight%2BSky%2BAround%2BThe%2BWorld%2B7.jpg");
+    /* background-image: url(""); */
+    background: radial-gradient(#cfcfcf, #928dbb);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    top:0;
+    top: 0;
 }
+
+/* ========================================= */
+/* ================ nav bar ================ */
+/* ========================================= */
 
 /* Color of the links BEFORE scroll */
 .navbar-scroll .nav-link,
@@ -27,36 +36,22 @@ body {
     background-color: #cbbcb1;
 }
 
-.mask-custom {
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.15);
-}
-
 .navbar-brand {
-    font-size: 1.75rem;
+    font-size: large;
     letter-spacing: 3px;
 }
 
-/* header */
-/* #navContent {
-    justify-content: flex-end;
-    /* find bs code *
-} */
-/* side details */
+/* class names:
+    - nav-mail1
+    - nav-mail2
+    - nav-linkedin
+    - nav-github
 
-/* main section */
-/* .sections {
-    height: 90vh;
-    border: 0.1px solid black;
-} */
+*/
 
-.content-section {
-    background:none;
-    min-height: calc(100vh - 50px);
-    padding: 2em;
-    /* justify-content: ; */
-    /* border: 5px solid rgb(133, 41, 41); */
-}
+/* ========================================= */
+/* ================ sidebar ================ */
+/* ========================================= */
 
 @media screen and (min-width: 768px) {
     aside {
@@ -71,11 +66,102 @@ body {
     }
 }
 
+.sidebar-content {
+    background: cornflowerblue;
+    padding: 1em;
+}
+
+/* ========================================= */
+/* ============= main sections ============= */
+/* ========================================= */
+
+.content-section {
+    background: none;
+    min-height: calc(100vh - 50px);
+    padding: 2em;
+    height: 90% !important;
+}
+
+.sec-content {
+    height: 95%;
+}
+
+/* .sec-content */
+
+/* ============= about section ============= */
+
+/* 
+.sec-content-about
+.about-edit 
+.other-skills
+*/
+
+/* ============ skills section  ============ */
+
+/* 
+.sec-content-skills 
+.prog-skills -> progress bars programming skills
+.tools-skills -> progress bars tools skills
+.other-skills -> progress bars other skills
+*/
+
+/* ========== Experience section  ========== */
+
+.sec-content-experience {
+    height: 55vh;
+}
+
+/* 
+.experience-cards-edit
+*/
+
+/* =========== projects section  =========== */
+
+.cs-img-bg, .im-img-bg{
+    height: 55vh;
+    max-width: 20vw;
+
+}
+
+.proj-cards-container {
+    height: 55vh;
+}
+
+.cs-card, .im-card {
+    max-height: 100% !important;
+}
+
+.card-proj-body {
+    color: white;
+    height: 50vh;
+    cursor: pointer;
+}
+/* 
+.sec-content-projects
+
+*/
+
+/* ============== end section ============== */
+
+/* ========================================= */
+/* ============ general effects ============ */
+/* ========================================= */
+
+.hover-zoom:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 .smaller-text {
     font-size: 12px;
 }
 
-.sidebar-content {
-    background: cornflowerblue;
-    padding: 1em;
+.custom-modal .modal-content {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.15);
 }

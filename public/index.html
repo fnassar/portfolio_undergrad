@@ -10,11 +10,10 @@
         <!-- stylesheet -->
         <link rel="stylesheet" href="static/style.css" />
 
-        <!-- javascript -->
-        <!--  -->
-
         <!-- icons -->
-        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+        <!-- AOS -->
         <link
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
@@ -34,17 +33,14 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
-        <!-- other -->
 
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-        />
+        <!-- fonts -->
         <!-- Google Fonts Roboto -->
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
         />
+
         <!-- MDB -->
         <link rel="stylesheet" href="css/mdb.min.css" />
         <!-- cite: https://mdbootstrap.com/snippets/standard/mdbootstrap/4686783/ -->
@@ -56,10 +52,10 @@
                 class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0"
             >
                 <div class="container">
-                    <a class="navbar-brand" href="#!"
-                        ><span style="color: #5e9693">Fatema</span
-                        ><span style="color: #fff">Nassar</span></a
-                    >
+                    <a class="navbar-brand" href="#">
+                        <span style="color: #3e3960">Fatema</span>
+                        <span style="color: #fff">Nassar</span>
+                    </a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -77,32 +73,70 @@
                     >
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">About</a>
+                                <a
+                                    class="nav-link"
+                                    style="font-size: 15"
+                                    href="#about"
+                                    >About</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">Skills</a>
+                                <a
+                                    class="nav-link"
+                                    style="font-size: 15"
+                                    href="#skills"
+                                    >Skills</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">Experience</a>
+                                <a
+                                    class="nav-link"
+                                    style="font-size: 15"
+                                    href="#experience"
+                                    >Experience</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#!">Projects</a>
+                                <a
+                                    class="nav-link"
+                                    style="font-size: 15"
+                                    href="#projects"
+                                    >Projects</a
+                                >
                             </li>
                         </ul>
                         <ul class="navbar-nav d-flex flex-row">
+                            <!-- navbar-nav me-auto mb-2 mb-lg-0  -->
                             <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link" href="#!">
-                                    <i class="fas fa-shopping-cart"></i>
+                                <a class="nav-link fs-5 nav-mail1" id="nav-mail1" href="#">
+                                    <span
+                                        class="iconify"
+                                        data-icon="material-symbols:mail-outline"
+                                    ></span>
                                 </a>
                             </li>
                             <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link" href="#!">
-                                    <i class="fab fa-twitter"></i>
+                                <a class="nav-link fs-5 nav-mail2" id="nav-mail2" href="#">
+                                    <span
+                                        class="iconify"
+                                        data-icon="mdi:email-edit-outline"
+                                    ></span>
                                 </a>
                             </li>
                             <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link" href="#!">
-                                    <i class="fab fa-instagram"></i>
+                                <a class="nav-link fs-5 nav-linkedin" id="nav-linkedin" href="#">
+                                    <span
+                                        class="iconify"
+                                        data-icon="bi:linkedin"
+                                    ></span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-3 me-sm-0">
+                                <a class="nav-link fs-5 nav-github" id="nav-github" href="#">
+                                    <span
+                                        class="iconify"
+                                        data-icon="bi:github"
+                                    ></span>
                                 </a>
                             </li>
                         </ul>
@@ -110,324 +144,607 @@
                 </div>
             </nav>
             <!-- Navbar end -->
-            
             <!--Section: Design Block-->
             <section>
                 <!-- Intro -->
-                <!-- <div
-                    id="intro"
-                    class="bg-image vh-100"
-                    style="
-                        background-image: url('https://mdbootstrap.com/img/Photos/new-templates/psychologist/img1.jpg');
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        background-position: center center;
-                    "
-                > -->
-                    <div
-                        class="mask"
-                        style="background-color: rgba(250, 182, 162, 0.15)"
-                    >
-                </div> 
-                </div>
+                <div
+                    class="mask"
+                    style="background-color: rgba(250, 182, 162, 0.15)"
+                ></div>
                 <!-- Intro -->
             </section>
             <!--Section: Design Block end-->
         </header>
+        <!--Main Content-->
         <main class="container-fluid text-dark">
             <div class="row">
                 <div class="col-sm-9 col-12">
                     <div class="row">
+                        <!-- About -->
                         <div
                             class="col-12 content-section p-5 border-light mt-5 about"
                             id="about"
-                            style="max-height: 90%;"
                         >
-                            <h3 class="text-center mask-custom width-auto rounded-2">Content Section</h3>
-                            <div
-                                class="d-flex justify-content-center align-items-center flex-column sec-content"
-                                style="height: 95%"
+                            <h3
+                                class="text-center mask-custom width-auto rounded-2 py-2"
                             >
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing
-                                    elit. Laboriosam est doloremque tempore consectetur
-                                    ut dolorem, optio omnis laudantium blanditiis,
-                                    magnam libero perspiciatis voluptates. Et quasi eum,
-                                    quos corporis sed magnam deleniti odio? Suscipit
+                                ABOUT
+                            </h3>
+                            <div
+                                class="d-flex justify-content-center align-items-center flex-column sec-content rounded-3 sec-content-about"
+                                id="sec-content-about"
+                            >
+                                <p
+                                    class="px-5 py-3 mask-custom rounded-3 about-edit"
+                                    id="about-edit"
+                                >
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Laboriosam est doloremque
+                                    tempore consectetur ut dolorem, optio omnis
+                                    laudantium blanditiis, magnam libero
+                                    perspiciatis voluptates. Et quasi eum, quos
+                                    corporis sed magnam deleniti odio? Suscipit
                                     nemo ad, culpa vero nam possimus architecto
-                                    exercitationem est eaque corporis dicta tempora,
-                                    debitis neque laboriosam commodi a! Possimus rem
-                                    perferendis, perspiciatis nobis placeat officiis
-                                    magni consectetur modi deleniti ut tempore, iusto,
-                                    eum voluptatem dolorem quas ullam. Maxime suscipit
-                                    odio alias omnis perferendis voluptates tempore modi
-                                    commodi? Quis, sunt! Earum, corrupti blanditiis!
-                                    Animi reiciendis nam ullam voluptates quis et,
+                                    exercitationem est eaque corporis dicta
+                                    tempora, debitis neque laboriosam commodi a!
+                                    Possimus rem perferendis, perspiciatis nobis
+                                    placeat officiis magni consectetur modi
+                                    deleniti ut tempore, iusto, eum voluptatem
+                                    dolorem quas ullam. Maxime suscipit odio
+                                    alias omnis perferendis voluptates tempore
+                                    modi commodi? Quis, sunt! Earum, corrupti
+                                    blanditiis! Animi reiciendis nam ullam
+                                    voluptates quis et,
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="col-12 content-section p-5 resume" id="resume">
-                    </div> -->
+                        <!-- About end -->
+                        <!-- Skills -->
                         <div
                             class="col-12 content-section p-5 border-light border-top skills"
                             id="skills"
-                            style="max-height: 90%"
                         >
-                            <h3 class="text-center mask-custom width-auto rounded-2">Skills</h3>
-                            <div
-                                class="d-flex justify-content-center align-items-center flex-column sec-content"
-                                style="height: 95%"
+                            <h3
+                                class="text-center mask-custom width-auto rounded-2 py-2"
                             >
-                                <div class="prog" id="prog">
-                                    <h4>Prog Lang</h4>
-                                    <div class="row mt-2 prog-skills"></div>
-                                    <!-- <div class="col-sm-3 col-6">
-                                        <p class="" style="text-indent: 20px">
-                                            Programming languages
-                                        </p>
-                                        <div class="progress bg-light">
-                                            <div
-                                                class="progress-bar bg-dark"
-                                                role="progressbar"
-                                                style="width: 75%"
-                                                aria-valuenow="75"
-                                                aria-valuemin="0"
-                                                aria-valuemax="100"
+                                SKILLS
+                            </h3>
+                            <div
+                                class="d-flex justify-content-center align-items-start flex-column sec-content sec-content-skills" id="sec-content-skills"
+                            >
+                                <div
+                                    class="prog py-2 w-100 d-flex align-items-start flex-column"
+                                    id="prog "
+                                >
+                                    <h5 class="mask-custom rounded-3 px-2 py-1">
+                                        Prog Lang
+                                    </h5>
+                                    <div class="row w-100 mt-2 prog-skills" id="prog-skills">
+                                        <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
                                             >
-                                                75%
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-grey">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                        <!-- <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
                                 </div>
-                                <div class="tools" id="tools">
-                                    <h4>Tools</h4>
-                                    <div class="row mt-2 tools-skills"></div>
+                                <div
+                                    class="tools py-2 w-100 d-flex align-items-start flex-column"
+                                    id="tools"
+                                >
+                                    <h5 class="mask-custom rounded-3 px-2 py-1">
+                                        Tools
+                                    </h5>
+                                    <div class="row w-100 mt-2 tools-skills" id="tools-skills"">
+                                        <!-- <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
                                     <!--  -->
                                 </div>
-                                <div class="other" id="other">
-                                    <h4>Other</h4>
-                                    <div class="row mt-2 other-skills"></div>
+                                <div
+                                    class="other py-2 w-100 d-flex align-items-start flex-column"
+                                    id="other"
+                                >
+                                    <h5 class="mask-custom rounded-3 px-2 py-1">
+                                        Other
+                                    </h5>
+                                    <div class="row w-100 mt-2 other-skills" id="other-skills">
+                                        <!-- <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-6">
+                                            <p
+                                                class=""
+                                                style="text-indent: 20px"
+                                            >
+                                                C/C++
+                                            </p>
+                                            <div class="progress bg-light">
+                                                <div
+                                                    class="progress-bar bg-dark"
+                                                    role="progressbar"
+                                                    style="width: 75%"
+                                                    aria-valuenow="75"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                >
+                                                    75%
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
                                     <!--  -->
                                 </div>
                             </div>
                         </div>
+                        <!-- Skills end -->
+                        <!-- Experience -->
                         <div
                             class="col-12 content-section p-5 border-light border-top experience"
                             id="experience"
-                            style="max-height: 90%"
                         >
-                            <h3 class="text-center mask-custom width-auto rounded-2">Experience</h3>
-                            <div
-                                class="row d-flex align-content-center flex-row flex-nowrap overflow-auto mx-5 my-2 sec-content"
-                                style="height: 70vh"
+                            <h3
+                                class="text-center mask-custom width-auto rounded-2 py-2"
                             >
-                                <!-- <div
-                                class="row flex-row flex-nowrap overflow-auto mx-3"
-                            > -->
+                                EXPERIENCE
+                            </h3>
+                            <div
+                                class="row d-flex align-content-center flex-row flex-nowrap overflow-auto m-5 sec-content sec-content-experience" id="sec-content-experience"
+                            >
                                 <div
                                     class="col-4 d-flex justify-content-center align-items-center"
-                                    style="max-height: 68vh"
                                 >
                                     <div
-                                        class="card mb-1 card mx-auto"
-                                        style="max-height: 100%"
+                                        class="card mb-1 card mx-auto mask-custom"
+                                        style="
+                                            max-height: 100%;
+                                            background-color: #fff3;
+                                            border: 0;
+                                        "
                                     >
                                         <img
                                             src="https://via.placeholder.com/200x200"
                                             class="card-img"
                                             alt="..."
-                                            style="height: 13vh"
+                                            style="height: 15vh"
                                         />
                                         <div
                                             class="card-body d-flex flex-column justify-content-around"
                                             style="height: 40vh"
                                         >
-                                            <h3 class="card-title">card title</h3>
-                                            <span class="card-subtitle text-small"
+                                            <h3 class="card-title">
+                                                card title
+                                            </h3>
+                                            <span
+                                                class="card-subtitle text-small"
                                                 >card subtitle</span
                                             >
                                             <p class="card-text smaller-text">
-                                                Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Accusantium neque
-                                                corrupti asperiores sit laboriosam nobis
-                                                qui similique sint magnam accusamus
-                                                distinctio voluptatem fuga in tempore
-                                                facere omnis e90s,
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-4 d-flex justify-content-center align-items-center"
-                                    style="max-height: 68vh"
-                                >
-                                    <div
-                                        class="card mb-1 card mx-auto"
-                                        style="max-height: 100%"
-                                    >
-                                        <img
-                                            src="https://via.placeholder.com/200x200"
-                                            class="card-img"
-                                            alt="..."
-                                            style="height: 13vh"
-                                        />
-                                        <div
-                                            class="card-body d-flex flex-column justify-content-around"
-                                            style="height: 40vh"
-                                        >
-                                            <h3 class="card-title">card title</h3>
-                                            <span class="card-subtitle text-small"
-                                                >card subtitle</span
-                                            >
-                                            <p class="card-text smaller-text">
-                                                Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Accusantium neque
-                                                corrupti asperiores sit laboriosam nobis
-                                                qui similique sint magnam accusamus
-                                                distinctio voluptatem fuga in tempore
-                                                facere omnis e90s,
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-4 d-flex justify-content-center align-items-center"
-                                    style="max-height: 68vh"
-                                >
-                                    <div
-                                        class="card mb-1 card mx-auto"
-                                        style="max-height: 100%"
-                                    >
-                                        <img
-                                            src="https://via.placeholder.com/200x200"
-                                            class="card-img"
-                                            alt="..."
-                                            style="height: 13vh"
-                                        />
-                                        <div
-                                            class="card-body d-flex flex-column justify-content-around"
-                                            style="height: 40vh"
-                                        >
-                                            <h3 class="card-title">card title</h3>
-                                            <span class="card-subtitle text-small"
-                                                >card subtitle</span
-                                            >
-                                            <p class="card-text smaller-text">
-                                                Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Accusantium neque
-                                                corrupti asperiores sit laboriosam nobis
-                                                qui similique sint magnam accusamus
-                                                distinctio voluptatem fuga in tempore
-                                                facere omnis e90s,
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-4 d-flex justify-content-center align-items-center"
-                                    style="max-height: 68vh"
-                                >
-                                    <div
-                                        class="card mb-1 card mx-auto"
-                                        style="max-height: 100%"
-                                    >
-                                        <img
-                                            src="https://via.placeholder.com/200x200"
-                                            class="card-img"
-                                            alt="..."
-                                            style="height: 13vh"
-                                        />
-                                        <div
-                                            class="card-body d-flex flex-column justify-content-around"
-                                            style="height: 40vh"
-                                        >
-                                            <h3 class="card-title">card title</h3>
-                                            <span class="card-subtitle text-small"
-                                                >card subtitle</span
-                                            >
-                                            <p class="card-text smaller-text">
-                                                Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Accusantium neque
-                                                corrupti asperiores sit laboriosam nobis
-                                                qui similique sint magnam accusamus
-                                                distinctio voluptatem fuga in tempore
-                                                facere omnis eius,
+                                                Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Accusantium neque corrupti
+                                                asperiores sit laboriosam nobis
+                                                qui similique sint magnam
+                                                accusamus distinctio voluptatem
+                                                fuga in tempore facere omnis
+                                                e90s,
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div
+                                class="row d-flex align-content-center mx-5 my-2 scroll-icon"
+                            >
+                                <span
+                                    class="iconify fs-1"
+                                    data-icon="streamline:interface-arrows-horizonal-scroll-point-move-scroll-horizonal"
+                                ></span>
+                            </div>
                         </div>
+                        <!-- Experience end -->
+                        <!-- Projects -->
                         <div
                             class="col-12 content-section p-5 border-light border-top projects"
                             id="projects"
-                            style="max-height: 90%"
                         >
-                            <h3 class="text-center mask-custom width-auto rounded-2">Projects</h3>
+                            <h3
+                                class="text-center mask-custom width-auto rounded-2 py-2"
+                            >
+                                PROJECTS
+                            </h3>
                             <div
-                                class="d-flex justify-content-center align-items-center flex-row sec-content"
-                                style="height: 95%"
+                                class="d-flex justify-content-center align-items-center flex-row sec-content sec-content-projects pt-3" id="sec-content-projects"
                             >
                                 <div
-                                    class="col-5 d-flex justify-content-center align-items-center"
-                                    style="max-height: 80vh"
+                                    class="col-5 d-flex justify-content-center align-items-center proj-cards-container"
                                 >
                                     <div
-                                        class="card mb-1 card mx-auto"
-                                        style="max-height: 100%"
+                                        class="card mb-1 card mx-auto hover-zoom cs-card"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#modal"
                                     >
                                         <img
-                                            class="card-img-top"
+                                            class="card-img-top cs-img-bg"
                                             src="https://via.placeholder.com/300x400"
                                             alt=""
-                                            style="height: 55vh; width: 20vw"
+
                                         />
                                         <div
-                                            class="card-body d-flex flex-column justify-content-around card-img-overlay"
-                                            style="color: white; height: 50vh"
+                                            class="card-body d-flex flex-column justify-content-around card-img-overlay card-proj-body"
                                         >
-                                            <h2 class="card-title">card title</h2>
+                                            <h2 class="card-title">
+                                                card title
+                                            </h2>
                                             <span class="card-subtitle"
                                                 >card subtitle</span
                                             >
                                             <p class="card-text">card text</p>
                                         </div>
                                     </div>
+                                    <div
+                                        class="modal fade custom-modal"
+                                        id="modal"
+                                    >
+                                        <!-- change size -->
+                                        <div
+                                            class="modal-dialog modal-dialog-scrollable modal-fullscreen"
+                                        >
+                                            <!-- modal-dialog-scrollable mmodal-fullscreen-md-down -->
+                                            <div
+                                                class="modal-content mask-custom"
+                                            >
+                                                <div class="modal-header">
+                                                    <span class="modal-title">
+                                                        Modal Title
+                                                    </span>
+                                                    <button
+                                                        class="btn-close"
+                                                        data-bs-dismiss="modal"
+                                                        data-bs-target="#modal"
+                                                    ></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <!-- <div class="row">
+                                                        <div class="col-2">
+                                                            <div
+                                                                class="card mb-1 card mx-auto"
+                                                                style="
+                                                                    max-height: 100%;
+                                                                "
+                                                            >
+                                                                <img
+                                                                    class="card-img-top"
+                                                                    src="https://via.placeholder.com/300x400"
+                                                                    alt=""
+                                                                />
+                                                                <div
+                                                                    class="card-body d-flex flex-column justify-content-around card-img-overlay"
+                                                                    style="
+                                                                        color: white;
+                                                                    "
+                                                                >
+                                                                    <h2
+                                                                        class="card-title"
+                                                                    >
+                                                                        card
+                                                                        title
+                                                                    </h2>
+                                                                    <span
+                                                                        class="card-subtitle"
+                                                                        >card
+                                                                        subtitle</span
+                                                                    >
+                                                                    <p
+                                                                        class="card-text"
+                                                                    >
+                                                                        card
+                                                                        text
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <div
+                                                                class="card mb-1 card mx-auto"
+                                                                style="
+                                                                    max-height: 100%;
+                                                                "
+                                                            >
+                                                                <img
+                                                                    class="card-img-top"
+                                                                    src="https://via.placeholder.com/300x400"
+                                                                    alt=""
+                                                                />
+                                                                <div
+                                                                    class="card-body d-flex flex-column justify-content-around card-img-overlay"
+                                                                    style="
+                                                                        color: white;
+                                                                    "
+                                                                >
+                                                                    <h2
+                                                                        class="card-title"
+                                                                    >
+                                                                        card
+                                                                        title
+                                                                    </h2>
+                                                                    <span
+                                                                        class="card-subtitle"
+                                                                        >card
+                                                                        subtitle</span
+                                                                    >
+                                                                    <p
+                                                                        class="card-text"
+                                                                    >
+                                                                        card
+                                                                        text
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div
-                                    class="col-5 d-flex justify-content-center align-items-center"
-                                    style="max-height: 80vh"
+                                    class="col-5 d-flex justify-content-center align-items-center proj-cards-container"
                                 >
                                     <div
-                                        class="card mb-1 card mx-auto"
-                                        style="max-height: 100%"
+                                        class="card mb-1 card mx-auto hover-zoom im-card"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#modal"
                                     >
                                         <img
-                                            class="card-img-top"
+                                            class="card-img-top im-img-bg"
                                             src="https://via.placeholder.com/300x400"
                                             alt=""
-                                            style="height: 55vh; width: 20vw"
+                                            
                                         />
                                         <div
-                                            class="card-body d-flex flex-column justify-content-around card-img-overlay"
-                                            style="color: white; height: 50vh"
+                                            class="card-body d-flex flex-column justify-content-around card-img-overlay card-proj-body"
+
                                         >
-                                            <h2 class="card-title">card title</h2>
+                                            <h2 class="card-title">
+                                                card title
+                                            </h2>
                                             <span class="card-subtitle"
                                                 >card subtitle</span
                                             >
                                             <p class="card-text">card text</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="modal fade custom-modal"
+                                        id="modal"
+                                    >
+                                        <!-- change size -->
+                                        <div
+                                            class="modal-dialog modal-dialog-scrollable modal-fullscreen"
+                                        >
+                                            <!-- modal-dialog-scrollable mmodal-fullscreen-md-down -->
+                                            <div
+                                                class="modal-content mask-custom"
+                                            >
+                                                <div class="modal-header">
+                                                    <h2 class="modal-title">
+                                                        Modal Title
+                                                    </h2>
+                                                    <button
+                                                        class="btn-close"
+                                                        data-bs-dismiss="modal"
+                                                        data-bs-target="#modal"
+                                                    ></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <!-- <div class="row">
+                                                        <div class="col-2">
+                                                            <div
+                                                                class="card mb-1 card mx-auto"
+                                                                style="
+                                                                    max-height: 100%;
+                                                                "
+                                                            >
+                                                                <img
+                                                                    class="card-img-top"
+                                                                    src="https://via.placeholder.com/300x400"
+                                                                    alt=""
+                                                                />
+                                                                <div
+                                                                    class="card-body d-flex flex-column justify-content-around card-img-overlay"
+                                                                    style="
+                                                                        color: white;
+                                                                    "
+                                                                >
+                                                                    <h2
+                                                                        class="card-title"
+                                                                    >
+                                                                        card
+                                                                        title
+                                                                    </h2>
+                                                                    <span
+                                                                        class="card-subtitle"
+                                                                        >card
+                                                                        subtitle</span
+                                                                    >
+                                                                    <p
+                                                                        class="card-text"
+                                                                    >
+                                                                        card
+                                                                        text
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div> -->
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Projects end -->
+                        <!-- Thank you -->
                         <div
                             class="col-12 content-section p-5 border-light border-top done"
                             id="done"
-                            style="max-height: 90%"
                         >
-                            <h3 class="text-center mask-custom width-auto rounded-2">DONE</h3>
+                            <h3
+                                class="text-center mask-custom width-auto rounded-2 py-2"
+                            >
+                                DONE
+                            </h3>
                             <div
                                 class="d-flex justify-content-center align-items-center flex-column sec-content"
                                 style="height: 95%"
@@ -439,10 +756,12 @@
                                 </p>
                             </div>
                         </div>
+                        <!-- Thank you end -->
                     </div>
                 </div>
+                <!-- SideBar -->
                 <aside
-                    class="col-sm-3 col-12 order-sm-first order-first sticky-sm-top text-light text-center d-flex flex-column justify-content-around align-items-center mask-custom shadow-0"
+                    class="col-sm-3 col-12 order-sm-first order-first sticky-sm-top text-dark text-center d-flex flex-column justify-content-around align-items-center mask-custom shadow-0"
                     style="top: 56px"
                 >
                     <img
@@ -458,8 +777,10 @@
                         Quisquam, voluptatum.
                     </p>
                 </aside>
+                <!-- SideBar end -->
             </div>
         </main>
+        <!-- Main Content end -->
         <!-- MDB -->
         <script type="text/javascript" src="static/mdb.min.js"></script>
         <!-- Custom scripts -->
