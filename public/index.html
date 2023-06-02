@@ -13,6 +13,13 @@
         <!-- icons -->
         <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
+        <!-- other -->
+
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        />
+
         <!-- AOS -->
         <link
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
@@ -42,35 +49,37 @@
         />
 
         <!-- MDB -->
-        <link rel="stylesheet" href="css/mdb.min.css" />
+        <!-- <link rel="stylesheet" href="css/mdb.min.css" /> -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+        />
         <!-- cite: https://mdbootstrap.com/snippets/standard/mdbootstrap/4686783/ -->
     </head>
     <body>
         <header>
             <!-- Navbar -->
             <nav
-                class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0"
+                class="navbar navbar-expand-md navbar-light fixed-top mask-custom shadow-0"
+                id="navbar"
             >
                 <div class="container">
+                    <!-- navbar-brand me logo -->
                     <a class="navbar-brand" href="#">
                         <span style="color: #3e3960">Fatema</span>
                         <span style="color: #fff">Nassar</span>
                     </a>
+                    <!-- navbar-brand me logo end -->
                     <button
                         class="navbar-toggler"
-                        type="button"
-                        data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navContent"
+                        aria-controls="navContent"
+                        aria-label="Expand Navigation"
                     >
-                        <i class="fas fa-bars"></i>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbarSupportedContent"
-                    >
+                    <div class="collapse navbar-collapse" id="navContent">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
                                 <a
@@ -78,6 +87,14 @@
                                     style="font-size: 15"
                                     href="#about"
                                     >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#resume"
+                                    class="nav-link disabled"
+                                    aria-current="page"
+                                    >Resume</a
                                 >
                             </li>
                             <li class="nav-item">
@@ -107,32 +124,52 @@
                         </ul>
                         <ul class="navbar-nav d-flex flex-row">
                             <!-- navbar-nav me-auto mb-2 mb-lg-0  -->
-                            <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link fs-5 nav-mail1" id="nav-mail1" href="#">
+                            <li class="nav-item me-3 me-md-0">
+                                <a
+                                    class="nav-link fs-5 nav-mail1"
+                                    target="_blank"
+                                    id="nav-mail1"
+                                    href="#"
+                                >
                                     <span
                                         class="iconify"
                                         data-icon="material-symbols:mail-outline"
                                     ></span>
                                 </a>
                             </li>
-                            <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link fs-5 nav-mail2" id="nav-mail2" href="#">
+                            <li class="nav-item me-3 me-md-0">
+                                <a
+                                    class="nav-link fs-5 nav-mail2"
+                                    target="_blank"
+                                    id="nav-mail2"
+                                    href="#"
+                                >
                                     <span
                                         class="iconify"
                                         data-icon="mdi:email-edit-outline"
                                     ></span>
                                 </a>
                             </li>
-                            <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link fs-5 nav-linkedin" id="nav-linkedin" href="#">
+                            <li class="nav-item me-3 me-md-0">
+                                <a
+                                    class="nav-link fs-5 nav-linkedin"
+                                    target="_blank"
+                                    id="nav-linkedin"
+                                    href="#"
+                                >
                                     <span
                                         class="iconify"
                                         data-icon="bi:linkedin"
                                     ></span>
                                 </a>
                             </li>
-                            <li class="nav-item me-3 me-sm-0">
-                                <a class="nav-link fs-5 nav-github" id="nav-github" href="#">
+                            <li class="nav-item me-3 me-md-0">
+                                <a
+                                    class="nav-link fs-5 nav-github"
+                                    target="_blank"
+                                    id="nav-github"
+                                    href="#"
+                                >
                                     <span
                                         class="iconify"
                                         data-icon="bi:github"
@@ -143,9 +180,10 @@
                     </div>
                 </div>
             </nav>
+
             <!-- Navbar end -->
             <!--Section: Design Block-->
-            <section>
+            <section class="intro">
                 <!-- Intro -->
                 <div
                     class="mask"
@@ -158,7 +196,7 @@
         <!--Main Content-->
         <main class="container-fluid text-dark">
             <div class="row">
-                <div class="col-sm-9 col-12">
+                <div class="col-md-9 col-12">
                     <div class="row">
                         <!-- About -->
                         <div
@@ -207,79 +245,24 @@
                             <h3
                                 class="text-center mask-custom width-auto rounded-2 py-2"
                             >
-                                SKILLS
+                                SKILLS (fix style its ugly)
                             </h3>
                             <div
-                                class="d-flex justify-content-center align-items-start flex-column sec-content sec-content-skills" id="sec-content-skills"
+                                class="d-flex justify-content-center align-items-start flex-column sec-content sec-content-skills"
+                                id="sec-content-skills"
                             >
                                 <div
                                     class="prog py-2 w-100 d-flex align-items-start flex-column"
-                                    id="prog "
+                                    id="prog"
                                 >
                                     <h5 class="mask-custom rounded-3 px-2 py-1">
                                         Prog Lang
                                     </h5>
-                                    <div class="row w-100 mt-2 prog-skills" id="prog-skills">
-                                        <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-grey">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div> -->
+                                    <div
+                                        class="row w-100 mt-2 prog-skills"
+                                        id="prog-skills"
+                                    >
+                                        <!--  -->
                                     </div>
                                 </div>
                                 <div
@@ -289,67 +272,11 @@
                                     <h5 class="mask-custom rounded-3 px-2 py-1">
                                         Tools
                                     </h5>
-                                    <div class="row w-100 mt-2 tools-skills" id="tools-skills"">
-                                        <!-- <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div> -->
+                                    <div
+                                        class="row w-100 mt-2 tools-skills"
+                                        id="tools-skills"
+                                    >
+                                        <!--  -->
                                     </div>
                                     <!--  -->
                                 </div>
@@ -360,67 +287,11 @@
                                     <h5 class="mask-custom rounded-3 px-2 py-1">
                                         Other
                                     </h5>
-                                    <div class="row w-100 mt-2 other-skills" id="other-skills">
-                                        <!-- <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3 col-6">
-                                            <p
-                                                class=""
-                                                style="text-indent: 20px"
-                                            >
-                                                C/C++
-                                            </p>
-                                            <div class="progress bg-light">
-                                                <div
-                                                    class="progress-bar bg-dark"
-                                                    role="progressbar"
-                                                    style="width: 75%"
-                                                    aria-valuenow="75"
-                                                    aria-valuemin="0"
-                                                    aria-valuemax="100"
-                                                >
-                                                    75%
-                                                </div>
-                                            </div>
-                                        </div> -->
+                                    <div
+                                        class="row w-100 mt-2 other-skills"
+                                        id="other-skills"
+                                    >
+                                        <!--  -->
                                     </div>
                                     <!--  -->
                                 </div>
@@ -435,52 +306,16 @@
                             <h3
                                 class="text-center mask-custom width-auto rounded-2 py-2"
                             >
-                                EXPERIENCE
+                                EXPERIENCE(fix for phone buttons)(inc height/reduce font-size)(make body scrollable)
                             </h3>
                             <div
-                                class="row d-flex align-content-center flex-row flex-nowrap overflow-auto m-5 sec-content sec-content-experience" id="sec-content-experience"
+                                class="row d-flex align-content-center flex-row flex-nowrap overflow-auto m-5 sec-content sec-content-experience"
+                                id="sec-content-experience"
                             >
-                                <div
-                                    class="col-4 d-flex justify-content-center align-items-center"
+                                <!-- <div
+                                    class="col-4 d-flex justify-content-center align-items-center exp-edit" id="exp-edit"
                                 >
-                                    <div
-                                        class="card mb-1 card mx-auto mask-custom"
-                                        style="
-                                            max-height: 100%;
-                                            background-color: #fff3;
-                                            border: 0;
-                                        "
-                                    >
-                                        <img
-                                            src="https://via.placeholder.com/200x200"
-                                            class="card-img"
-                                            alt="..."
-                                            style="height: 15vh"
-                                        />
-                                        <div
-                                            class="card-body d-flex flex-column justify-content-around"
-                                            style="height: 40vh"
-                                        >
-                                            <h3 class="card-title">
-                                                card title
-                                            </h3>
-                                            <span
-                                                class="card-subtitle text-small"
-                                                >card subtitle</span
-                                            >
-                                            <p class="card-text smaller-text">
-                                                Lorem ipsum dolor sit amet
-                                                consectetur adipisicing elit.
-                                                Accusantium neque corrupti
-                                                asperiores sit laboriosam nobis
-                                                qui similique sint magnam
-                                                accusamus distinctio voluptatem
-                                                fuga in tempore facere omnis
-                                                e90s,
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div
                                 class="row d-flex align-content-center mx-5 my-2 scroll-icon"
@@ -500,13 +335,14 @@
                             <h3
                                 class="text-center mask-custom width-auto rounded-2 py-2"
                             >
-                                PROJECTS
+                                PROJECTS (fix style got ruined somehow)
                             </h3>
                             <div
-                                class="d-flex justify-content-center align-items-center flex-row sec-content sec-content-projects pt-3" id="sec-content-projects"
+                                class="d-flex justify-content-center align-items-center flex-row sec-content sec-content-projects pt-3 flex-wrap"
+                                id="sec-content-projects"
                             >
                                 <div
-                                    class="col-5 d-flex justify-content-center align-items-center proj-cards-container"
+                                    class="col-md-4 col-8 my-2 d-flex justify-content-center align-items-center proj-cards-container"
                                 >
                                     <div
                                         class="card mb-1 card mx-auto hover-zoom cs-card"
@@ -517,7 +353,6 @@
                                             class="card-img-top cs-img-bg"
                                             src="https://via.placeholder.com/300x400"
                                             alt=""
-
                                         />
                                         <div
                                             class="card-body d-flex flex-column justify-content-around card-img-overlay card-proj-body"
@@ -638,7 +473,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="col-5 d-flex justify-content-center align-items-center proj-cards-container"
+                                    class="col-md-4 col-8 my-2 d-flex justify-content-center align-items-center proj-cards-container"
                                 >
                                     <div
                                         class="card mb-1 card mx-auto hover-zoom im-card"
@@ -649,11 +484,9 @@
                                             class="card-img-top im-img-bg"
                                             src="https://via.placeholder.com/300x400"
                                             alt=""
-                                            
                                         />
                                         <div
                                             class="card-body d-flex flex-column justify-content-around card-img-overlay card-proj-body"
-
                                         >
                                             <h2 class="card-title">
                                                 card title
@@ -761,7 +594,7 @@
                 </div>
                 <!-- SideBar -->
                 <aside
-                    class="col-sm-3 col-12 order-sm-first order-first sticky-sm-top text-dark text-center d-flex flex-column justify-content-around align-items-center mask-custom shadow-0"
+                    class="col-md-3 col-12 order-md-first order-first sticky-md-top text-dark text-center d-flex flex-column justify-content-around align-items-center mask-custom shadow-0"
                     style="top: 56px"
                 >
                     <img
@@ -782,7 +615,10 @@
         </main>
         <!-- Main Content end -->
         <!-- MDB -->
-        <script type="text/javascript" src="static/mdb.min.js"></script>
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/mdbootstrap@4.20.0/js/mdb.min.js"
+        ></script>
         <!-- Custom scripts -->
         <script type="text/javascript" src="static/script.js"></script>
     </body>

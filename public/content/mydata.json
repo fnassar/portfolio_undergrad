@@ -1,0 +1,172 @@
+{
+    "about": "about text goes here <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nesciunt error recusandae iusto obcaecati ullam suscipit accusantium earum, corrupti nulla numquam quasi atque voluptas saepe ad tempora, repellat assumenda esse id quia rerum autem perspiciatis? Nostrum dolorum saepe cumque accusamus voluptatum delectus harum similique suscipit non! Facilis nesciunt ipsa vero perspiciatis beatae repudiandae ea eveniet harum alias veniam non ratione rem, eius tempora laudantium sit, eos autem dolore sed sunt impedit. Est commodi sequi repudiandae dolor vel quasi asperiores quod qui enim sunt nesciunt, tempora quaerat, adipisci doloribus laborum ullam perspiciatis velit iusto consequatur! Praesentium quas accusamus ut eius non.",
+    "contacts": {
+        "github": "https://github.com/fnassar/",
+        "linkedin": "https://www.linkedin.com/in/fatema-nassar-39a392209/   ",
+        "mail1": "fanassar2001@gmail.com",
+        "mail2": "fan6236@nyu.edu"
+    },
+    "skills": {
+        "data": "100 comfortable, 75 experienced, 50 used extensively but not often, 25 used once or twice",
+        "programming": [
+            {
+                "name": "C/C++",
+                "perc": 100
+            },
+            {
+                "name": "JavaScript",
+                "perc": 75
+            },
+            {
+                "name": "HTML/CSS",
+                "perc": 75
+            },
+            {
+                "name": "Python",
+                "perc": 75
+            },
+            {
+                "name": "Node.js",
+                "perc": 75
+            },
+            {
+                "name": "Socket.io",
+                "perc": 75
+            },
+            {
+                "name": "Express",
+                "perc": 75
+            },
+            {
+                "name": "Java",
+                "perc": 50
+            },
+            {
+                "name": "MongoDb",
+                "perc": 50
+            },
+            {
+                "name": "Flask",
+                "perc": 50
+            },
+            {
+                "name": "Bootstrap 5",
+                "perc": 50
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "perc": 100
+            },
+            {
+                "name": "WordPress",
+                "perc": 50
+            },
+            {
+                "name": "Docker",
+                "perc": 50
+            },
+            {
+                "name": "Wireshark",
+                "perc": 50
+            },
+            {
+                "name": "MS Active Dir",
+                "perc": 50
+            },
+            {
+                "name": "Digital Ocean",
+                "perc": 25
+            }
+        ],
+        "other": [
+            {
+                "name": "Illustrator",
+                "perc": 75
+            },
+            {
+                "name": "Photoshop",
+                "perc": 75
+            },
+            {
+                "name": "googleDocs",
+                "perc": 75
+            },
+            
+            {
+                "name": "MS Offic",
+                "perc": 75
+            },
+            {
+                "name": "Fusion 360",
+                "perc": 75
+            }
+        ]
+    },
+    "experience": [
+        {
+            "img":"https://via.placeholder.com/300x300",
+            "place": "Middle East Oil Refinery(MIDOR)",
+            "location": "Cairo, Egypt",
+            "title": "IT Dep. Training",
+            "date": "July 2022 - Aug 2022",
+            "description": "Learned and applied Basic Active Directory Operation and Internet Security Methods.",
+            "link":"google.com"
+        },
+        {
+            "img":"https://via.placeholder.com/300x300",
+            "place": "Interactive Media, Prof. Sherwood",
+            "location": "Abu Dhabi, UAE",
+            "title": "Student Research Assistant",
+            "date": "Jan 2022 - Jun 2022",
+            "description": "Wooden Mandala, Assisted Professor in finishing an Art Installation made using motors and micro-controllers to track user hand position creatively. \nMICRO, Assisted in adding sound, soldering, and assembling the project linked.",
+            "link":"google.com"
+        },
+        {
+            "img":"https://via.placeholder.com/300x300",
+            "place": "Interactive Media Lab",
+            "location": "Abu Dhabi, UAE",
+            "title": "Student Lab Assistant",
+            "date": "Sep 2021 - Dec 2021",
+            "description": "Organized and took care of the Interactive Media(IM) lab and lab equipment. \nHelped students in the lab with IM courses and other needs around the lab.",
+            "link":"google.com"
+        },
+        {
+            "img":"https://via.placeholder.com/300x300",
+            "place": "GTA Center",
+            "location": "Cairo, Egypt",
+            "title": "Physics Teacher Assistant (GCE A-LEVELS)",
+            "date": "Aug 2019 - Jan 2021",
+            "description": "Mentor High School Students for A-level and O-level Physics, providing feedback, answering questions, writing, and checking quizzes. (6 hours per week besides preparation time).",
+            "link":"google.com"
+        },
+        {
+            "img":"https://via.placeholder.com/300x300",
+            "place": "Mersal Foundation",
+            "location": "Cairo, Egypt",
+            "title": "Volunteer",
+            "date": "Oct 2019 - July 2020",
+            "description": "Event Organization and charitable events (including trips to areas that need help). \nSocial Media Management (During COVID Times). \nLeading Bazaar Sales (collecting money for charity events).",
+            "link":"google.com"
+        }
+    ],
+    "projects": {
+        "CS": [
+            {
+                "title": "project details",
+                "img": "https://via.placeholder.com/300x300",
+                "description": "describe project here",
+                "link": "documentation link here or open window thing with documentation details(would add here)"
+            }
+        ],
+        "IM": [
+            {
+                "title": "project details",
+                "img": "https://via.placeholder.com/300x300",
+                "description": "describe project here",
+                "link": "documentation link here or open window thing with documentation details(would add here)"
+            }
+        ]
+    }
+}

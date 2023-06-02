@@ -16,7 +16,6 @@ body {
 /* ================ nav bar ================ */
 /* ========================================= */
 
-/* Color of the links BEFORE scroll */
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
@@ -36,8 +35,13 @@ body {
     background-color: #cbbcb1;
 }
 
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 .navbar-brand {
-    font-size: large;
+    font-size: 1.75rem;
     letter-spacing: 3px;
 }
 
@@ -48,6 +52,11 @@ body {
     - nav-github
 
 */
+
+/* make hight same as nav-bar height */
+.intro {
+    height: 50px;
+}
 
 /* ========================================= */
 /* ================ sidebar ================ */
@@ -98,6 +107,13 @@ body {
 
 /* ============ skills section  ============ */
 
+.skill-name {
+    text-indent: 20px;
+    /* margin: 2 0 0 0 !important; */
+    margin-top: 0.2em !important;
+    margin-bottom: 0em !important;
+}
+
 /* 
 .sec-content-skills 
 .prog-skills -> progress bars programming skills
@@ -111,23 +127,36 @@ body {
     height: 55vh;
 }
 
+.card-exp {
+    max-height: 100%;
+    background-color: #fff3;
+    border: 0;
+}
+
+.card-img-exp {
+    height: 15vh;
+}
+.card-body-exp{
+    height: 40vh;
+}
 /* 
 .experience-cards-edit
 */
 
 /* =========== projects section  =========== */
 
-.cs-img-bg, .im-img-bg{
+.cs-img-bg,
+.im-img-bg {
     height: 55vh;
-    max-width: 20vw;
-
+    /* max-width: 20vw; */
 }
 
 .proj-cards-container {
     height: 55vh;
 }
 
-.cs-card, .im-card {
+.cs-card,
+.im-card {
     max-height: 100% !important;
 }
 
@@ -146,6 +175,9 @@ body {
 /* ========================================= */
 /* ============ general effects ============ */
 /* ========================================= */
+.hover-zoom {
+    transition: transform 0.5s ease;
+}
 
 .hover-zoom:hover {
     transform: scale(1.02);
