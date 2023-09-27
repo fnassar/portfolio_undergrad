@@ -1,0 +1,86 @@
+html,
+body {
+    background-color: hsl(245, 30%, 20%);
+    color: #fff;
+}
+
+.App {
+    text-align: center;
+    background-color: hsl(245, 30%, 20%);
+    color: #fff;
+    margin-top: 10vh;
+}
+
+.blue-bg {
+    background-color: hsl(245, 30%, 20%);
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: hsl(245, 30%, 20%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: hsl(245, 30%, 20%,  0.15);
+}
+.modal-content {
+    /* this has all content of modal content class with edits */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    /* background-color: var(--bs-modal-bg); */
+    background-clip: padding-box;
+    /* border: var(--bs-modal-border-width) solid var(--bs-modal-border-color); */
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+    backdrop-filter: blur(5px) !important;
+    background-color: hsl(245, 30%, 20%,  0.5) !important;
+}
+
+
+h1 {
+    font-size: calc(2rem + 2.5vw) !important;
+}
+
+h2 {
+    font-size: calc(1.5rem + 1.9vw) !important;
+}
