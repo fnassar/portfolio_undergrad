@@ -74,7 +74,8 @@ const Nav = () => {
                                 className="nav-link fs-5 text-light nav-mail1"
                                 target="_blank"
                                 id="nav-mail1"
-                                href="#details"
+                                rel="noreferrer"
+                                href="mailto:fanassar2001@gmail.com"
                             >
                                 <span
                                     className="iconify"
@@ -87,7 +88,8 @@ const Nav = () => {
                                 className="nav-link fs-5 text-light nav-mail2"
                                 target="_blank"
                                 id="nav-mail2"
-                                href="#details"
+                                rel="noreferrer"
+                                href="mailto:fan6236@nyu.edu"
                             >
                                 <span
                                     className="iconify"
@@ -100,7 +102,8 @@ const Nav = () => {
                                 className="nav-link fs-5 text-light nav-linkedin"
                                 target="_blank"
                                 id="nav-linkedin"
-                                href="#details"
+                                rel="noreferrer"
+                                href="https://www.linkedin.com/in/fatema-nassar-39a392209/"
                             >
                                 <span
                                     className="iconify"
@@ -113,7 +116,8 @@ const Nav = () => {
                                 className="nav-link fs-5 text-light nav-github"
                                 target="_blank"
                                 id="nav-github"
-                                href="#details"
+                                rel="noreferrer"
+                                href="https://github.com/fnassar/"
                             >
                                 <span
                                     className="iconify"
