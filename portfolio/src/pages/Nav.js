@@ -35,8 +35,8 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link disabled"
-                                href="#resume"
+                                className="nav-link font-weight-bolder"
+                                href="./../blogs/Fatema_Nassar_s_Resume.pdf"
                                 aria-current="page"
                             >
                                 Resume
