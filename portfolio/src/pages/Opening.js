@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Openings = () => {
     return (
         <div className="App">
-            <h1>Portfolio</h1>
+            {/* <h1>Portfolio</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
@@ -32,7 +32,7 @@ const Openings = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
