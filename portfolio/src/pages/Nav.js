@@ -10,8 +10,8 @@ const Nav = () => {
         >
             <div className="container">
                 <a className="navbar-brand" href="#h">
-                    <span style={{ color: "#3e3960" }}>Fatema</span>
-                    <span style={{ color: "#fff" }}>Nassar</span>
+                    <span style={{ color: "hsl(245, 30%, 90%)" }}>Fatema</span>
+                    <span style={{ color: "hsl(245, 50%, 70%)" }}>Nassar</span>
                 </a>
                 <button
                     className="navbar-toggler"
@@ -26,7 +26,7 @@ const Nav = () => {
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
                             <a
-                                className="nav-link font-weight-bolder"
+                                className="nav-link text-secondary disabled"
                                 style={{ fontSize: 15 }}
                                 href="#about"
                             >
@@ -35,16 +35,17 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link font-weight-bolder"
+                                className="nav-link text-light font-weight-bolder"
                                 href="./../blogs/Fatema_Nassar_s_Resume.pdf"
-                                aria-current="page"
+                                // aria-current="page"
+                                download
                             >
                                 Resume
                             </a>
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link font-weight-bolder"
+                                className="nav-link text-secondary disabled"
                                 href="#skills"
                             >
                                 Skills
@@ -52,7 +53,7 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link font-weight-bolder"
+                                className="nav-link text-secondary disabled"
                                 href="#experience"
                             >
                                 Experience
@@ -60,7 +61,7 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link font-weight-bolder"
+                                className="nav-link text-light font-weight-bolder"
                                 style={{ fontSize: 15 }}
                                 href="#projects"
                             >
