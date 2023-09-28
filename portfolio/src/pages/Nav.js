@@ -9,7 +9,7 @@ const Nav = () => {
             id="navbar"
         >
             <div className="container">
-                <a className="navbar-brand" href="#h">
+                <a className="navbar-brand" href="#home">
                     <span style={{ color: "hsl(245, 30%, 90%)" }}>Fatema</span>
                     <span style={{ color: "hsl(245, 50%, 70%)" }}>Nassar</span>
                 </a>
@@ -26,7 +26,7 @@ const Nav = () => {
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
                             <a
-                                className="nav-link text-secondary disabled"
+                                className="nav-link text-light hover-zoom"
                                 style={{ fontSize: 15 }}
                                 href="#about"
                             >
@@ -35,7 +35,7 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link text-light font-weight-bolder"
+                                className="nav-link text-light font-weight-bolder hover-zoom"
                                 href="./../blogs/Fatema_Nassar_s_Resume.pdf"
                                 // aria-current="page"
                                 download
@@ -45,7 +45,16 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link text-secondary disabled"
+                                className="nav-link text-light font-weight-bolder hover-zoom"
+                                style={{ fontSize: 15 }}
+                                href="#projects"
+                            >
+                                Projects
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a
+                                className="nav-link text-secondary disabled" //hover-zoom
                                 href="#skills"
                             >
                                 Skills
@@ -53,19 +62,10 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <a
-                                className="nav-link text-secondary disabled"
+                                className="nav-link text-secondary disabled" //hover-zoom
                                 href="#experience"
                             >
                                 Experience
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a
-                                className="nav-link text-light font-weight-bolder"
-                                style={{ fontSize: 15 }}
-                                href="#projects"
-                            >
-                                Projects
                             </a>
                         </li>
                     </ul>

@@ -17,7 +17,7 @@ const Projects = () => {
     };
 
     return (
-        <div className="App">
+        <div className="App" id="projects">
             <div className="container mt-5" style={{ minHeight: "90vh" }}>
                 <div className="row mb-5">
                     <div className="col-12">
