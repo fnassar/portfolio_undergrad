@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
     return (
-        <div className="App mt-5" id="home">
+        <div className="App mt-5 zIndex-2" id="home">
             <div
                 className="container-fluid d-flex justify-content-center align-items-center mt-5"
                 style={{ minHeight: "90vh" }}

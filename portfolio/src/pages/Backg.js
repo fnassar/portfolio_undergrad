@@ -13,7 +13,7 @@ const Backg = () => {
           }
         },
         color: {
-          value: ["#2E067D", "#0C022E", "#001E5B", "#3605F0"]
+          value: ["#2e426b80", "#2e336b80", "#332e6b80", "#422e6b80"]
         },
         shape: {
           type: "circle"
@@ -70,7 +70,7 @@ const Backg = () => {
     }, []);
   
     return (
-      <div className="App">
+      <div className="App zIndex1">
         <Particles options={options} init={particlesInit} />
       </div>
     );

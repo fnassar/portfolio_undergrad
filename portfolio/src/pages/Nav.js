@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Nav = () => {
     return (
         <nav
-            className="navbar navbar-expand-md navbar-light fixed-top mask-custom shadow-0"
+            className="navbar navbar-expand-md navbar-light fixed-top mask-custom shadow-0 zIndex3"
             id="navbar"
         >
             <div className="container">

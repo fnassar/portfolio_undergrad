@@ -15,7 +15,7 @@ import About from "./pages/About.js";
 const App = () => {
     return (
         <div className="blue-bg">
-            <Cursor isGelly={true} cursorBackgrounColor={"hsl(245, 30%, 90%)"}/>
+            <Cursor isGelly={true} cursorBackgrounColor={"hsla(245, 30%, 90%, 50%)"}/>
             <Backg key="x1" />
             <Nav key="x0"/>
             {/* <Opening key="x1" /> */}
