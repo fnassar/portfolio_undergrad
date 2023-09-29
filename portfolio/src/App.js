@@ -9,7 +9,7 @@ import "./App.css";
 // import Opening from "./pages/Opening.js";
 import Backg from "./pages/Backg.js";
 import Home from "./pages/Home.js";
-import Projects from "./pages/Projects.js";
+import Projects from "./pages/Projectss.js";
 import Nav from "./pages/Nav.js";
 import About from "./pages/About.js";
 const App = () => {
