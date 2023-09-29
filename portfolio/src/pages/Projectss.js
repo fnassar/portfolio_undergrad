@@ -33,8 +33,8 @@ const Projects = () => {
                                 {/* d-flex justify-content-center */}
                                 <Card
                                     className="mb-1 card mx-auto hover-zoom"
-                                    // height = width*1.5
-                                    style={{ width: "18rem", maxWidth: "100%", height:"calc(100%*1.5)" }}
+                                    // height = card width * 1.5
+                                    style={{ width: "18rem", maxWidth: "100%", height:"27rem", maxheight: "100%"}}
                                     onClick={() => handleCardClick(card.id)}
                                 >
                                     <Card.Img variant="top" src={card.image} />
