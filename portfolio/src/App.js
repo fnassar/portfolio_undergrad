@@ -6,7 +6,8 @@ import 'react-creative-cursor/dist/styles.css';
 import "./App.css";
 
 
-import Opening from "./pages/Opening.js";
+// import Opening from "./pages/Opening.js";
+import Backg from "./pages/Backg.js";
 import Home from "./pages/Home.js";
 import Projects from "./pages/Projects.js";
 import Nav from "./pages/Nav.js";
@@ -15,8 +16,9 @@ const App = () => {
     return (
         <div className="blue-bg">
             <Cursor isGelly={true} cursorBackgrounColor={"hsl(245, 30%, 90%)"}/>
+            <Backg key="x1" />
             <Nav key="x0"/>
-            <Opening key="x1" />
+            {/* <Opening key="x1" /> */}
             <Home key="x2" />
             <About key="x3" />
             <Projects key="x4" />
