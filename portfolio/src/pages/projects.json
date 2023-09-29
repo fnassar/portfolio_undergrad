@@ -2,8 +2,8 @@
     {
         "id": "CS",
         "title": "Computer Science",
-        "subtitle": "subtitle",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "subtitle": "(click to view)",
+        "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited creativity",
         "image": "https://picsum.photos/seed/picsum/200/300",
         "projects": [
             {
@@ -53,8 +53,8 @@
     {
         "id": "IM",
         "title": "Interactive Media",
-        "subtitle": "subtitle",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "subtitle": "(click to view)",
+        "description": "Interactive Media Projects have Front end, Back end, and Fullstack projects that are more creative and have more design elements. It also Has Interactive Art projects, some technical and some not.",
         "image": "https://picsum.photos/seed/picsum/200/300",
         "projects": [
             {
@@ -83,8 +83,8 @@
     {
         "id": "O",
         "title": "Other",
-        "subtitle": "subtitle",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "subtitle": "(click to view)",
+        "description": "This mostly includes projects that are not technical or interactive, such as design, photography and more. This is mostly personal projects.",
         "image": "https://picsum.photos/seed/picsum/200/300",
         "projects": [
             {
