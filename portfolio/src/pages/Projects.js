@@ -57,7 +57,7 @@ const Projects = () => {
                                         <Modal.Title>{card.title}</Modal.Title>
                                     </Modal.Header>
                                     <Modal.Body>
-                                        <div className="d-flex flex-column justify-content-center align-items-center text-light">
+                                        <div className="d-flex flex-column justify-content-center align-items-center text-light mask-costume">
                                             {card.projects.map((project) => (
                                                 <div className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom">
                                                     <div
