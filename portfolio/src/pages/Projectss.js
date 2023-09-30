@@ -34,7 +34,12 @@ const Projects = () => {
                                 <Card
                                     className="mb-1 card mx-auto hover-zoom"
                                     // height = card width * 1.5
-                                    style={{ width: "18rem", maxWidth: "100%", height:"27rem", maxheight: "100%"}}
+                                    style={{
+                                        width: "18rem",
+                                        maxWidth: "100%",
+                                        height: "27rem",
+                                        maxheight: "100%",
+                                    }}
                                     onClick={() => handleCardClick(card.id)}
                                 >
                                     <Card.Img variant="top" src={card.image} />
@@ -55,10 +60,12 @@ const Projects = () => {
                                 >
                                     {/* make header centered */}
                                     <Modal.Header closeButton>
-                                        <Modal.Title>{card.title}</Modal.Title>
+                                        <Modal.Title className="text-light">
+                                            <h2>{card.title}</h2>
+                                        </Modal.Title>
                                     </Modal.Header>
                                     <Modal.Body>
-                                        <div className="d-flex flex-column justify-content-center align-items-center text-light mask-costume">
+                                        <div className="d-flex flex-column justify-content-center align-items-center text-light mask-costume text-light">
                                             {card.projects.map((project) => (
                                                 <div className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom">
                                                     <div
@@ -67,7 +74,7 @@ const Projects = () => {
                                                     >
                                                         <h2>
                                                             <a
-                                                                className="link-hover-decoration text-decoration-none"
+                                                                className="link-hover-decoration text-decoration-none text-light"
                                                                 href="{project.url}"
                                                             >
                                                                 {project.title}

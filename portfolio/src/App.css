@@ -7,6 +7,11 @@ body {
     /* change cursor outline */
 }
 
+.modal-header .close {
+    color: #fff;
+    opacity: 1;
+}
+
 .App {
     text-align: center;
     background-color: hsl(245, 30%, 20%);
@@ -60,7 +65,7 @@ body {
 
 .mask-custom {
     backdrop-filter: blur(5px);
-    background-color: hsl(245, 30%, 20%,  0.15);
+    background-color: hsl(245, 30%, 20%, 0.15);
 }
 .modal-content {
     /* this has all content of modal content class with edits */
@@ -76,9 +81,8 @@ body {
     border-radius: var(--bs-modal-border-radius);
     outline: 0;
     backdrop-filter: blur(5px) !important;
-    background-color: hsl(245, 30%, 20%,  0.5) !important;
+    background-color: hsl(245, 30%, 20%, 0.5) !important;
 }
-
 
 h1 {
     font-size: calc(2rem + 2.5vw) !important;
@@ -88,15 +92,13 @@ h2 {
     font-size: calc(1.5rem + 1.9vw) !important;
 }
 
-.zIndex1{
+.zIndex1 {
     z-index: -30 !important;
 }
-.zIndex2{
+.zIndex2 {
     z-index: 4 !important;
 }
-.zIndex3{
+.zIndex3 {
     z-index: 5 !important;
     /* color:"#2e426b80", "#2e336b80", "#332e6b80", "#422e6b80"; */
 }
-
-
