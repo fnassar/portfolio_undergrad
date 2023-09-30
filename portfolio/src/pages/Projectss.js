@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./../App.css";
 import cards from "./projects.json";
 
-const Projects = () => {
+const Projectss = () => {
     const [activeCard, setActiveCard] = useState(null);
 
     const handleCardClick = (cardId) => {
@@ -113,4 +113,4 @@ const Projects = () => {
         </div>
     );
 };
-export default Projects;
+export default Projectss;

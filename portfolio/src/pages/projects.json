@@ -4,7 +4,7 @@
         "title": "Computer Science",
         "subtitle": "(click to view)",
         "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited creativity",
-        "image": "https://picsum.photos/seed/picsum/200/300",
+        "image": "~/src/pages/images/css.jpg",
         "projects": [
             {
                 "id": "CS1",
@@ -21,29 +21,29 @@
                 "image": "https://placehold.it/500x500"
             },
             {
-                "id:": "CS2",
+                "id:": "CS3",
                 "title": "title 3",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "image": "https://placehold.it/500x500"
             },
             {
-                "id": "CS1",
-                "title": "title 1",
+                "id": "CS4",
+                "title": "title 6",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "image": "https://placehold.it/500x500"
             },
             {
-                "id:": "CS2",
-                "title": "title 2",
+                "id:": "CS5",
+                "title": "title 4",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "image": "https://placehold.it/500x500"
             },
             {
-                "id:": "CS2",
-                "title": "title 3",
+                "id:": "CS6",
+                "title": "title 5",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "image": "https://placehold.it/500x500"
@@ -72,7 +72,7 @@
                 "image": "https://placehold.it/500x500"
             },
             {
-                "id:": "IM2",
+                "id:": "IM3",
                 "title": "Interactive Media",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -102,7 +102,7 @@
                 "image": "https://placehold.it/500x500"
             },
             {
-                "id:": "O2",
+                "id:": "O3",
                 "title": "Other",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",

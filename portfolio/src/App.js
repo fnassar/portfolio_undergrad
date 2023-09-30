@@ -9,7 +9,7 @@ import "./App.css";
 // import Opening from "./pages/Opening.js";
 import Backg from "./pages/Backg.js";
 import Home from "./pages/Home.js";
-import Projects from "./pages/Projectss.js";
+import Projectss from "./pages/Projectss.js";
 import Nav from "./pages/Nav.js";
 import About from "./pages/About.js";
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
             {/* <Opening key="x1" /> */}
             <Home key="x3" />
             <About key="x4" />
-            <Projects key="x5" />
+            <Projectss key="x5" />
         </div>
     );
 };
