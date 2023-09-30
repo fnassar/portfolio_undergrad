@@ -2,7 +2,9 @@ html,
 body {
     background-color: hsl(245, 30%, 20%);
     color: #fff;
-    cursor: url('cursor.png'), auto !important;
+    /* cursor: none !important; */
+    cursor: url(./pages/images/cursor.svg), auto !important;
+    /* change cursor outline */
 }
 
 .App {

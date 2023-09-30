@@ -16,12 +16,13 @@ const App = () => {
     return (
         <div className="blue-bg">
             <Cursor isGelly={true} cursorBackgrounColor={"hsla(245, 30%, 90%, 50%)"}/>
+            {/* <CostumeCursor key="x0" /> */}
             <Backg key="x1" />
-            <Nav key="x0"/>
+            <Nav key="x2"/>
             {/* <Opening key="x1" /> */}
-            <Home key="x2" />
-            <About key="x3" />
-            <Projects key="x4" />
+            <Home key="x3" />
+            <About key="x4" />
+            <Projects key="x5" />
         </div>
     );
 };
