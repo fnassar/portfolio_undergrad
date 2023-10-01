@@ -42,7 +42,8 @@ const Projectss = () => {
                                     }}
                                     onClick={() => handleCardClick(card.id)}
                                 >
-                                    <Card.Img variant="top" src={card.image} />
+                                    <Card.Img variant="top" src="http://localhost:3000/static/media/cs_card.17d4ab4b1f49fb3716e9.jpg"
+                                    />
                                     <Card.ImgOverlay className="d-flex flex-column justify-content-center">
                                         <Card.Title>{card.title}</Card.Title>
                                         <Card.Subtitle className="mb-2 text-muted">
@@ -67,15 +68,12 @@ const Projectss = () => {
                                     <Modal.Body>
                                         <div className="d-flex flex-column justify-content-center align-items-center text-light mask-costume text-light">
                                             {card.projects.map((project) => (
-                                                <div className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom">
-                                                    <div
-                                                        className="col-5"
-                                                        key={project.id}
-                                                    >
+                                                <div key={project.key} className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom">
+                                                    <div className="col-5" key={project.key}>
                                                         <h2>
                                                             <a
                                                                 className="link-hover-decoration text-decoration-none text-light"
-                                                                href="{project.url}"
+                                                                href={project.url}
                                                             >
                                                                 {project.title}
                                                             </a>
