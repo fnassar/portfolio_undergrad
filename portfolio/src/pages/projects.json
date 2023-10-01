@@ -4,7 +4,7 @@
         "title": "Computer Science",
         "subtitle": "(click to view)",
         "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited creativity",
-        "image": "https://www.fnassar.com/static/media/cs_card.17d4ab4b1f49fb3716e9.jpg",
+        "image": "images/cs_card.jpg",
         "projects": [
             {
                 "key": "cs1",
@@ -55,7 +55,7 @@
         "title": "Interactive Media",
         "subtitle": "(click to view)",
         "description": "Interactive Media Projects have Front end, Back end, and Fullstack projects that are more creative and have more design elements. It also Has Interactive Art projects, some technical and some not.",
-        "image": "https://www.fnassar.com/static/media/im_card.fb396c2608a09fc8d505.jpeg",
+        "image": "images/im_card.jpeg",
         "projects": [
             {
                 "key": "IM1",

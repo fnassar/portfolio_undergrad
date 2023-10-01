@@ -4,12 +4,20 @@ import { Modal } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./../App.css";
 import cards from "./projects.json";
+// import logo from './logo.png';
+// import logo from './logo.png';
+// import logo from './logo.png';
+
 
 const Projectss = () => {
     const [activeCard, setActiveCard] = useState(null);
 
     const handleCardClick = (cardId) => {
         setActiveCard(cardId);
+        // console.log current path
+        console.log(window.location.pathname);
+        // log current file content
+        console.log(window.location.href)
     };
 
     const handleClose = () => {
@@ -34,7 +42,7 @@ const Projectss = () => {
                                     className="container_foto rounded"
                                     onClick={() => handleCardClick(card.id)}
                                 >
-                                    <div className="ver_mas text-center p-2">
+                                    <div className="ver_mas text-center px-2 pt-3 pb-5 d-flex justify-content-center align-items-center">
                                         <span>{card.description}</span>
                                     </div>
                                     <article className="text-center p-2 d-flex justify-content-center flex-column">

@@ -148,9 +148,10 @@ h2 {
 
     .container_foto img {
         width: 100%;
-        top: 0;
-        left: 0;
-        opacity: 0.4;
+        height: 100%;
+        /* top: 0;
+        left: 0; */
+        opacity: 0.5;
         -webkit-transition: all 4s ease;
         -moz-transition: all 4s ease;
         -o-transition: all 4s ease;
