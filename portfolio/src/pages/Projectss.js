@@ -1,6 +1,6 @@
 // frontend/src/components/UserPost.js
 import React, { useState } from "react";
-import { Modal, Card } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./../App.css";
 import cards from "./projects.json";
@@ -29,7 +29,7 @@ const Projectss = () => {
                     <div className="row">
                         {/* cards */}
                         {cards.map((card) => (
-                            <div className="col-12 col-md-4" key={card.id}>
+                            <div className="col-12 col-md-4 d-flex justify-content-center " key={card.id}>
                                 <div
                                     className="container_foto rounded"
                                     onClick={() => handleCardClick(card.id)}
