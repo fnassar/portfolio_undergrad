@@ -3,7 +3,7 @@ body {
     background-color: hsl(245, 30%, 20%);
     color: #fff;
     /* cursor: none !important; */
-    cursor: url(./pages/images/cursor.svg), auto !important;
+    cursor: url(./pages/images/cursor.svg) 7 7, auto !important;
     /* change cursor outline */
 }
 
@@ -64,6 +64,10 @@ body {
     /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06); */
 }
 
+.hover-shadow:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
 .mask-custom {
     backdrop-filter: blur(5px);
     background-color: hsl(245, 30%, 20%, 0.15);
@@ -106,6 +110,13 @@ h2 {
 
 /* screen size ipad */
 @media screen and (min-width: 768px) {
+    .precious-img {
+        height: 20vh !important;
+        width: 20vh !important;
+    }
+
+    /* bg */
+
     .container_foto {
         background-color: rgba(57, 62, 93, 0.7);
         padding: 0;
@@ -227,6 +238,13 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+    .precious-img{
+        height: 15vh !important;
+        width: 15vh !important;
+    }
+
+    /* bg */
+
     .container_foto {
         background-color: rgba(57, 62, 93, 0.7);
         padding: 0;

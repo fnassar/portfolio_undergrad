@@ -37,9 +37,9 @@ const Projectss = () => {
                     <div className="row">
                         {/* cards */}
                         {cards.map((card) => (
-                            <div className="col-12 col-md-4 d-flex justify-content-center " key={card.id}>
+                            <div className="col-12 col-md-4 my-2 my-md-0 d-flex justify-content-center " key={card.id}>
                                 <div
-                                    className="container_foto rounded"
+                                    className="container_foto rounded hover-shadow"
                                     onClick={() => handleCardClick(card.id)}
                                 >
                                     <div className="ver_mas text-center px-2 pt-3 pb-5 d-flex justify-content-center align-items-center">
@@ -73,7 +73,7 @@ const Projectss = () => {
                                                     className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom"
                                                 >
                                                     <div
-                                                        className="col-5"
+                                                        className="col-5 g-col-2"
                                                         key={project.key}
                                                     >
                                                         <h2>
@@ -93,10 +93,11 @@ const Projectss = () => {
                                                         </span>
                                                     </div>
                                                     <img
-                                                        className="col-2 rounded-circle p-2"
+                                                        className="col-2 rounded-circle p-2 precious-img"
                                                         src={project.image}
                                                         alt=""
-                                                        style={{ width: "10%" }}
+                                                        // width for md screen
+                                                        // style={ {height: "20vh", width: "20vh"} }
                                                     />
                                                 </div>
                                             ))}
