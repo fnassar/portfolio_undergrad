@@ -3,7 +3,7 @@ body {
     background-color: hsl(245, 30%, 20%);
     color: #fff;
     /* cursor: none !important; */
-    cursor: url(./pages/images/cursor.svg) 7 7, auto !important;
+    cursor: url(./pages/images/cursor.svg) 6 6, auto !important;
     /* change cursor outline */
 }
 
