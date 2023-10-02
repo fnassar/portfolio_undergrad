@@ -79,9 +79,7 @@ const Projectss = () => {
                                                         <h3>
                                                             <a
                                                                 className="link-hover-decoration text-decoration-none text-light"
-                                                                href={
-                                                                    project.url
-                                                                }
+                                                                href={project.link}
                                                             >
                                                                 {project.title}
                                                             </a>
