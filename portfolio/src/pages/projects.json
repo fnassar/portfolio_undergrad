@@ -72,11 +72,32 @@
                 "image": "https://placehold.it/500x500"
             },
             {
-                "key": "IM3",
+                "key":"IM7",
                 "title": "Interactive Media 3",
                 "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "description": "A simple interactive website that allows users to create their own art using a variety of tools",
                 "image": "https://placehold.it/500x500"
+            },
+            {
+                "key": "IM8",
+                "title": "Lost, Found & Reborn",
+                "link": "https://fnassar.github.io/ArtGallary/",
+                "description": "A proposed virtual gallery for the environment",
+                "image": "https://raw.githubusercontent.com/fnassar/ArtGallary/master/tunnel.jpg"
+            },
+            {
+                "key": "IM9",
+                "title": "Find your destination",
+                "link": "https://fnassar.github.io/UIMP5/",
+                "description": "With an aim to address the issue of passport hierarchy, this website allows users to find their destination based on their passport and see what kind of visa they need, if they are allowed to be there.",
+                "image": "https://fnassar.github.io/UIMP5/assets/images/maldives.jpg"
+            },
+            {
+                "key": "IM10",
+                "title": "OpenFrameWorks simple animation",
+                "link": "https://github.com/fnassar/SoftwareArt/tree/main/assignment3",
+                "description": "link will take you to a documentation of the project",
+                "image": "https://raw.githubusercontent.com/fnassar/SoftwareArt/main/assignment3/bin/data/myPic6.jpg"
             }
         ]
     },
@@ -103,9 +124,9 @@
             },
             {
                 "key": "O3",
-                "title": "Other 3",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "title": "Middle Class Egyptian Women",
+                "link": "https://fnassar.github.io/MiddleClassEgyptianWomen/",
+                "description": "Research presentation into the rights of egyptian women in the workplace",
                 "image": "https://placehold.it/500x500"
             }
         ]

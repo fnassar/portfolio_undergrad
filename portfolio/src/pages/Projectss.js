@@ -65,27 +65,27 @@ const Projectss = () => {
                                             <h2>{card.title}</h2>
                                         </Modal.Title>
                                     </Modal.Header>
-                                    <Modal.Body>
-                                        <div className="d-flex flex-column justify-content-center align-items-center text-light mask-costume text-light">
+                                    <Modal.Body className="d-flex flex-column justify-content-start align-items-center">
+                                        <div className="d-flex flex-column justify-content-center align-items-center text-light mask-costume text-light w-75">
                                             {card.projects.map((project) => (
                                                 <div
                                                     key={project.key}
-                                                    className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom"
+                                                    className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom w-100"
                                                 >
                                                     <div
-                                                        className="col-5 g-col-2"
+                                                        className="col-9 g-col-2"
                                                         key={project.key}
                                                     >
-                                                        <h2>
+                                                        <h3>
                                                             <a
-                                                                className="link-hover-decoration text-decoration-none text-light"
+                                                                className="modal-css link-hover-decoration text-decoration-none text-light"
                                                                 href={
                                                                     project.url
                                                                 }
                                                             >
                                                                 {project.title}
                                                             </a>
-                                                        </h2>
+                                                        </h3>
                                                         <span>
                                                             {
                                                                 project.description
