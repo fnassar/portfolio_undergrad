@@ -73,12 +73,12 @@ const Projectss = () => {
                                                     className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom w-100"
                                                 >
                                                     <div
-                                                        className="col-9 g-col-2"
+                                                        className="modal-css col-9 g-col-2"
                                                         key={project.key}
                                                     >
                                                         <h3>
                                                             <a
-                                                                className="modal-css link-hover-decoration text-decoration-none text-light"
+                                                                className="link-hover-decoration text-decoration-none text-light"
                                                                 href={
                                                                     project.url
                                                                 }
