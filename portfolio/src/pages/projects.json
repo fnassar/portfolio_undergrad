@@ -60,23 +60,30 @@
             {
                 "key": "IM1",
                 "title": "Interactive Media 1",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "link": "https://github.com/fnassar/Intro_to_IM/blob/main/Digital%20Doodle.md",
+                "description": "Digital Doodle is an interactive project usng processing and arduino to control a generative drawing brush",
+                "image": "images/IM-1.jpg"
             },
             {
                 "key": "IM2",
-                "title": "Interactive Media 2",
-                "link": "http://www.link.com",
+                "title": "Slenderman’s Scavenger Hunt",
+                "link": "https://github.com/fnassar/Slenderman/blob/main/README.md",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "image": "images/IM-2.png"
             },
             {
-                "key":"IM7",
-                "title": "Interactive Media 3",
-                "link": "http://www.link.com",
-                "description": "A simple interactive website that allows users to create their own art using a variety of tools",
-                "image": "https://placehold.it/500x500"
+                "key": "IM3",
+                "title": "World Map Search",
+                "link": "https://github.com/fnassar/connectionslab/blob/main/Project1/README.md",
+                "description": "A website that allows users to search for countries and see their location on the map, as well as some information about them.",
+                "image": "images/IM-3.jpg"
+            },
+            {
+                "key": "IM4",
+                "title": "Howl Are You, Mr. Rabbit?",
+                "link": "https://github.com/fnassar/Howl-are-you-Mr-Rabbit-/blob/main/README.md",
+                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "image": "images/IM-4.jpg"
             },
             {
                 "key": "IM8",
