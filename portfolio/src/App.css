@@ -110,13 +110,10 @@ h2 {
     /* color:"#2e426b80", "#2e336b80", "#332e6b80", "#422e6b80"; */
 }
 
-
-.modal-css h3{
+.modal-css h3 {
     font-size: calc(1.5rem + 1.7vw) !important;
     font-weight: 800 !important;
 }
-
-
 
 /* screen size ipad */
 @media screen and (min-width: 768px) {
@@ -248,7 +245,7 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    .precious-img{
+    .precious-img {
         height: 15vh !important;
         width: 15vh !important;
     }

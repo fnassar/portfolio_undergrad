@@ -30,21 +30,7 @@ const Contact = () => {
                         <h1 className="f-1">Contact me</h1>
                     </div>
                     <div className="col-9 m-5 p-5">
-                        <form onSubmit={handleSubmit}>
-                            <div>
-                                <label htmlFor="name">Name:</label>
-                                <input type="text" id="name" required />
-                            </div>
-                            <div>
-                                <label htmlFor="email">Email:</label>
-                                <input type="email" id="email" required />
-                            </div>
-                            <div>
-                                <label htmlFor="message">Message:</label>
-                                <textarea id="message" required />
-                            </div>
-                            <button type="submit">{status}</button>
-                        </form>
+                        <div className="elfsight-app-3b8a99eb-dfd5-499d-ae3d-7b8fdeb18a3b"></div>
                     </div>
                 </div>
             </div>
