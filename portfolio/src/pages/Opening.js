@@ -1,7 +1,7 @@
 // frontend/src/components/UserPost.js
-import React, { useState } from "react";
+import React from "react";
 // import { Modal } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Openings = () => {
     return (
