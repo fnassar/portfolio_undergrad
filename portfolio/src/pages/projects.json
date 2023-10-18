@@ -59,7 +59,7 @@
         "projects": [
             {
                 "key": "IM1",
-                "title": "Interactive Media 1",
+                "title": "Digital Doodle",
                 "link": "https://github.com/fnassar/Intro_to_IM/blob/main/Digital%20Doodle.md",
                 "description": "Digital Doodle is an interactive project usng processing and arduino to control a generative drawing brush",
                 "image": "images/IM-1.jpg"
