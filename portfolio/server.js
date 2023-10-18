@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 
 const app = express();
 
-const emailPass = process.env.EMAIL_PASSWORD;
+const emailPass = process.env.email_pass;
 
 app.use(cors());
 app.use(express.json());
