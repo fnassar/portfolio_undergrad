@@ -7,6 +7,14 @@ body {
     /* change cursor outline */
 }
 
+.text-align-left {
+    text-align: left !important;
+}
+
+.text-align-right {
+    text-align: right !important;
+}
+
 .modal-header .close {
     color: #fff;
     opacity: 1;
