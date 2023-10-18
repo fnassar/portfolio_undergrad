@@ -24,7 +24,14 @@ const Contact = () => {
     };
     return (
         <div className="App" id="about">
-            <div className="container mt-5" style={{ minHeight: "90vh" }}>
+            <div
+                className="container mt-5"
+                style={{
+                    minHeight: "90vh",
+                    maxHeight: "90vh",
+                    overflow: "hidden",
+                }}
+            >
                 <div className="row mb-5 d-flex justify-content-center">
                     <div className="col-12">
                         <h1 className="f-1">Contact me</h1>
