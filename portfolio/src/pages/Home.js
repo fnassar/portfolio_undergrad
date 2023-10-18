@@ -58,9 +58,9 @@ const Home = () => {
                             </span>
                         </h1>
                     </div>
-                    <div className="col-12">
+                    <div className="col-md-12 col-12 d-flex flex-wrap justify-content-center justify-content-md-start">
                         {/* <h3 className="mb-0 d-flex flex-wrap justify-content-center col-10 col-md-10"> */}
-                        <h3 className="mb-0 d-flex flex-wrap justify-content-center col-9 col-md-10">
+                        <h3 className="mb-5 d-flex flex-wrap justify-content-start justify-content-md-center text-align-left text-light col-10 col-md-10">
                             <span
                                 className="text-align-left"
                                 style={{
