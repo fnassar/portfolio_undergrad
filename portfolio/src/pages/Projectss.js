@@ -41,7 +41,7 @@ const Projectss = () => {
                                 key={card.id}
                             >
                                 <div
-                                    className="container_foto rounded hover-shadow"
+                                    className="container_foto rounded-4 hover-shadow"
                                     onClick={() => handleCardClick(card.id)}
                                 >
                                     <div className="ver_mas text-center px-2 pt-3 pb-5 d-flex justify-content-center align-items-center">
