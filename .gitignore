@@ -2,5 +2,5 @@ AAOOOO
 HHHHHHH
 node_modules
 package-lock.json
-
+.env
 # // "nodemon": "^2.0.22",

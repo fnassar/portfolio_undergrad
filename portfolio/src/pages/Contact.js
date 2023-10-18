@@ -23,29 +23,6 @@ const Contact = () => {
         alert(result.status);
     };
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" id="name" required />
-            </div>
-            <div>
-                <label htmlFor="email">Email:</label>
-                <input type="email" id="email" required />
-            </div>
-            <div>
-                <label htmlFor="message">Message:</label>
-                <textarea id="message" required />
-            </div>
-            <button type="submit">{status}</button>
-        </form>
-    );
-};
-
-export default Contact;
-
-{
-    /* const Contact = () => {
-    return (
         <div className="App" id="about">
             <div className="container mt-5" style={{ minHeight: "90vh" }}>
                 <div className="row mb-5 d-flex justify-content-center">
@@ -53,35 +30,20 @@ export default Contact;
                         <h1 className="f-1">Contact me</h1>
                     </div>
                     <div className="col-9 m-5 p-5">
-                        <form
-                            id="contact-form"
-                            onSubmit={this.handleSubmit.bind(this)}
-                            method="POST"
-                        >
-                            <div className="form-group">
-                                <label htmlFor="name">Name</label>
-                                <input type="text" className="form-control" />
+                        <form onSubmit={handleSubmit}>
+                            <div>
+                                <label htmlFor="name">Name:</label>
+                                <input type="text" id="name" required />
                             </div>
-                            <div className="form-group">
-                                <label htmlFor="exampleInputEmail1">
-                                    Email address
-                                </label>
-                                <input
-                                    type="email"
-                                    className="form-control"
-                                    aria-describedby="emailHelp"
-                                />
+                            <div>
+                                <label htmlFor="email">Email:</label>
+                                <input type="email" id="email" required />
                             </div>
-                            <div className="form-group">
-                                <label htmlFor="message">Message</label>
-                                <textarea
-                                    className="form-control"
-                                    rows="5"
-                                ></textarea>
+                            <div>
+                                <label htmlFor="message">Message:</label>
+                                <textarea id="message" required />
                             </div>
-                            <button type="submit" className="btn btn-primary">
-                                Submit
-                            </button>
+                            <button type="submit">{status}</button>
                         </form>
                     </div>
                 </div>
@@ -89,5 +51,5 @@ export default Contact;
         </div>
     );
 };
-export default Contact; */
-}
+
+export default Contact;

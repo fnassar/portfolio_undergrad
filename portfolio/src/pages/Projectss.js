@@ -8,7 +8,6 @@ import cards from "./projects.json";
 // import logo from './logo.png';
 // import logo from './logo.png';
 
-
 const Projectss = () => {
     const [activeCard, setActiveCard] = useState(null);
 
@@ -17,7 +16,7 @@ const Projectss = () => {
         // console.log current path
         console.log(window.location.pathname);
         // log current file content
-        console.log(window.location.href)
+        console.log(window.location.href);
     };
 
     const handleClose = () => {
@@ -37,7 +36,10 @@ const Projectss = () => {
                     <div className="row">
                         {/* cards */}
                         {cards.map((card) => (
-                            <div className="col-12 col-md-4 my-2 my-md-0 d-flex justify-content-center " key={card.id}>
+                            <div
+                                className="col-12 col-md-4 my-2 my-md-0 d-flex justify-content-center "
+                                key={card.id}
+                            >
                                 <div
                                     className="container_foto rounded hover-shadow"
                                     onClick={() => handleCardClick(card.id)}
@@ -79,7 +81,9 @@ const Projectss = () => {
                                                         <h3>
                                                             <a
                                                                 className="link-hover-decoration text-decoration-none text-light"
-                                                                href={project.link}
+                                                                href={
+                                                                    project.link
+                                                                }
                                                             >
                                                                 {project.title}
                                                             </a>
@@ -119,37 +123,3 @@ const Projectss = () => {
     );
 };
 export default Projectss;
-
-{
-    /* d-flex justify-content-center */
-}
-{
-    /* <Card
-                                    className="mb-1 card mx-auto hover-zoom"
-                                    // height = card width * 1.5
-                                    style={{
-                                        width: "18rem",
-                                        maxWidth: "100%",
-                                        height: "27rem",
-                                        maxheight: "100%",
-                                    }}
-                                    onClick={() => handleCardClick(card.id)}
-                                >
-                                    <Card.Img variant="top" src={card.image} />
-                                    <Card.ImgOverlay className="d-flex flex-column justify-content-center">
-                                        <Card.Title className="text-light">{card.title}</Card.Title>
-                                        <Card.Subtitle className="mb-2 text-secondary">
-                                            {card.subtitle}
-                                        </Card.Subtitle>
-                                        <Card.Text className="text-light">
-                                            {card.description}
-                                        </Card.Text>
-                                    </Card.ImgOverlay>
-                                </Card> */
-}
-{
-    /* <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto "> */
-}
-{
-    /* <div class=" container text-center"> */
-}
