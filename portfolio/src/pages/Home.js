@@ -60,9 +60,9 @@ const Home = () => {
                     </div>
                     <div className="col-12">
                         {/* <h3 className="mb-0 d-flex flex-wrap justify-content-center col-10 col-md-10"> */}
-                        <h3 className="mb-0 d-flex flex-wrap justify-content-center col-9 col-md-10 px-5 px-md-0">
+                        <h3 className="mb-0 d-flex flex-wrap justify-content-center col-9 col-md-10">
                             <span
-                                className="text-align-left pr-4 pr-md-2"
+                                className="text-align-left"
                                 style={{
                                     fontSize: "calc(1.2rem + 1vw)",
                                 }}
