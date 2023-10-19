@@ -110,10 +110,10 @@
     },
     {
         "id": "O",
-        "title": "Other",
+        "title": "Other Projects",
         "subtitle": "(click to view)",
         "description": "This mostly includes projects that are not technical or interactive, such as design, photography and more. This is mostly personal projects.",
-        "image": "https://picsum.photos/seed/picsum/200/300",
+        "image": "images/other_card.jpeg",
         "projects": [
             {
                 "key": "O1",
