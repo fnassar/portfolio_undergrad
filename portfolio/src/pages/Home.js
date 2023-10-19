@@ -18,7 +18,7 @@ const Home = () => {
                                 className="text-left"
                                 style={{
                                     color: "hsl(245, 30%, 90%)",
-                                    fontSize: "calc(3rem + 4vw)",
+                                    fontSize: "calc(3rem + 3vw)",
                                     lineHeight: "1",
                                 }}
                             >
@@ -28,7 +28,7 @@ const Home = () => {
                                 className="text-left"
                                 style={{
                                     color: "hsl(245, 50%, 70%)",
-                                    fontSize: "calc(3rem + 4vw)",
+                                    fontSize: "calc(3rem + 3vw)",
                                     lineHeight: "1",
                                 }}
                             >
@@ -41,7 +41,7 @@ const Home = () => {
                             <span
                                 style={{
                                     color: "hsl(245, 30%, 90%)",
-                                    fontSize: "calc(3rem + 4vw)",
+                                    fontSize: "calc(3rem + 3vw)",
                                     lineHeight: "1",
                                 }}
                             >
@@ -50,7 +50,7 @@ const Home = () => {
                             <span
                                 style={{
                                     color: "hsl(245, 50%, 70%)",
-                                    fontSize: "calc(3rem + 4vw)",
+                                    fontSize: "calc(3rem + 3vw)",
                                     lineHeight: "1",
                                 }}
                             >
@@ -64,19 +64,21 @@ const Home = () => {
                             <span
                                 className="text-align-left"
                                 style={{
-                                    fontSize: "calc(1.2rem + 1vw)",
+                                    fontSize: "calc(1.2rem + 0.8vw)",
+                                    lineHeight: "0.5",
                                 }}
                             >
                                 Computer Science & Interactive Media Student
                             </span>
                         </h3>
                     </div>
-                    <div className="col-10">
+                    <div className="col-12">
                         <h3 className="mb-5 d-flex flex-wrap justify-content-end text-align-right text-light col-12 col-md-10">
                             <span
                                 className="text-align-right"
                                 style={{
-                                    fontSize: "calc(1.2rem + 1vw)",
+                                    fontSize: "calc(1.2rem + 0.8vw)",
+                                    lineHeight: "0.5",
                                 }}
                             >
                                 طالبة حاسبات و معلومات و فنون تفاعلية
