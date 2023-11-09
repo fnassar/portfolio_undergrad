@@ -19,8 +19,30 @@ const About = () => {
                                     fontSize: "calc(0.8rem + 0.8vw)",
                                 }}
                             >
-                                I am a current student at NYU AD studying computer Science and Interactive Media. </br>
-                                For a student still in undergrad, I am always on path to look for my interests and passion. Always wondering and switching between both majors, wondering which path to take, I have found I have most interest in the intersection of both majors. </br> From my computer science background I have found most interest in NLP and fullstack development. For Interactive media, I find the love I have for creativity taking shape through the years. From robotics to many different froms of reaching out to people and sending a message through interactive art projects, I knew which fields in the major I took most interest in. </br> I am always looking for new opportunities to learn and grow, while trying to expres my creativity in one way or another. </br> I am currently looking for a full time position after graduation in May 2024 in the fields I talked about above. </br> Feel free to reach out to me for any opportunities or just to say hi!</br>
+                                I am a current student at NYU AD studying
+                                computer Science and Interactive Media.{" "}
+                                <br></br>
+                                For a student still in undergrad, I am always on
+                                path to look for my interests and passion.
+                                Always wondering and switching between both
+                                majors, wondering which path to take, I have
+                                found I have most interest in the intersection
+                                of both majors. <br></br> From my computer
+                                science background I have found most interest in
+                                NLP and fullstack development. For Interactive
+                                media, I find the love I have for creativity
+                                taking shape through the years. From robotics to
+                                many different froms of reaching out to people
+                                and sending a message through interactive art
+                                projects, I knew which fields in the major I
+                                took most interest in. <br></br> I am always
+                                looking for new opportunities to learn and grow,
+                                while trying to expres my creativity in one way
+                                or another. <br></br> I am currently looking for
+                                a full time position after graduation in May
+                                2024 in the fields I talked about above.{" "}
+                                <br></br> Feel free to reach out to me for any
+                                opportunities or just to say hi!<br></br>
                                 {/* I am a software engineer with a background in
                                 mathematics and education. I am passionate about
                                 creating beautiful and functional software that
