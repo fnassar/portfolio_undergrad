@@ -16,7 +16,7 @@ const About = () => {
                             <span
                                 style={{
                                     color: "hsl(245, 30%, 90%)",
-                                    fontSize: "calc(0.8rem + 0.8vw)",
+                                    fontSize: "calc(0.6rem + 0.6vw)",
                                 }}
                             >
                                 I am a current student at NYU AD studying
