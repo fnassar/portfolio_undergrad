@@ -36,7 +36,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <a
                                 className="nav-link text-light font-weight-bolder hover-zoom"
-                                href="./../blogs/Fatema_Nassar_s_Resume.pdf"
+                                href="https://drive.google.com/file/d/1ckbqMKxZX5Nr0TSRWnV5z6MT6K6-gLFd/view?usp=sharing"
                                 // aria-current="page"
                                 download
                             >
