@@ -8,24 +8,24 @@
         "projects": [
             {
                 "key": "cs1",
-                "title": "title 1",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "title": "Arabic (CODA) Spelling Correction and Dialect ID",
+                "link": "#",
+                "description": "Working on a project with Camel Lab at new York University to generate a multi-task model that takes in a sentence and outputs the correct dialectal spelling and dialect of the sentence provided.",
+                "image": "/images/CS-1.png"
             },
             {
                 "key": "cs2",
-                "title": "title 2",
+                "title": "Title 2",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "image": "https://placehold.it/500x500"
             },
             {
                 "key": "cs3",
-                "title": "title 3",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "title": "Feeding Nemo",
+                "link": "https://github.com/fnassar/feeding-nemo-fork",
+                "description": "This is a Game Created Using P5js python library. This game is inspied by the game <i>Feeding Frenzy</i>. The game is a simple game where you control a fish and try to eat as many fish as you can without getting eaten by the bigger fish.",
+                "image": "/images/CS-3.png"
             },
             {
                 "key": "cs4",
