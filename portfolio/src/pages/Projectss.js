@@ -63,8 +63,10 @@ const Projectss = () => {
                                 >
                                     {/* make header centered */}
                                     <Modal.Header closeButton>
-                                        <Modal.Title className="text-light">
-                                            <h2>{card.title}</h2>
+                                        <Modal.Title className="text-light px-2">
+                                            <h2
+                                                style={{ fontSize: "1.7rem" }}
+                                            >{card.title}</h2>
                                         </Modal.Title>
                                     </Modal.Header>
                                     <Modal.Body className="d-flex flex-column justify-content-start align-items-center">
@@ -78,7 +80,9 @@ const Projectss = () => {
                                                         className="modal-css col-9 g-col-2"
                                                         key={project.key}
                                                     >
-                                                        <h3>
+                                                        <h3
+                                                            style={{ fontSize: "1.1rem" }}
+                                                        >
                                                             <a
                                                                 className="link-hover-decoration text-decoration-none text-light"
                                                                 href={
@@ -98,8 +102,8 @@ const Projectss = () => {
                                                         className="col-2 rounded-circle p-2 precious-img"
                                                         src={project.image}
                                                         alt=""
-                                                        // width for md screen
-                                                        // style={ {height: "20vh", width: "20vh"} }
+                                                    // width for md screen
+                                                    // style={ {height: "20vh", width: "20vh"} }
                                                     />
                                                 </div>
                                             ))}
@@ -119,7 +123,7 @@ const Projectss = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 export default Projectss;

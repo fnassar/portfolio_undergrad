@@ -1,6 +1,8 @@
 // frontend/src/components/UserPost.js
 import React from "react";
+// import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Nav = () => {
     return (
@@ -9,7 +11,7 @@ const Nav = () => {
             id="navbar"
         >
             <div className="container">
-                <a className="navbar-brand" href="#home">
+                <a className="navbar-brand" href="/">
                     <span style={{ color: "hsl(245, 30%, 90%)" }}>Fatema</span>
                     <span style={{ color: "hsl(245, 50%, 70%)" }}>Nassar</span>
                 </a>
@@ -19,8 +21,12 @@ const Nav = () => {
                     data-bs-target="#navContent"
                     aria-controls="navContent"
                     aria-label="Expand Navigation"
+                    style={{
+                        border: "3px",
+                    }}
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon navbar-dark"
+                    ></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navContent">
                     <ul className="navbar-nav me-auto">
@@ -28,7 +34,7 @@ const Nav = () => {
                             <a
                                 className="nav-link text-light hover-zoom"
                                 style={{ fontSize: 15 }}
-                                href="#about"
+                                href="/#about"
                             >
                                 About
                             </a>
@@ -36,7 +42,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <a
                                 className="nav-link text-light font-weight-bolder hover-zoom"
-                                href="https://drive.google.com/file/d/1ckbqMKxZX5Nr0TSRWnV5z6MT6K6-gLFd/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1xHfNg9fWyyQhj1f1acoL-s7qgcIOVeto/view?usp=sharing"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -47,7 +53,7 @@ const Nav = () => {
                             <a
                                 className="nav-link text-light font-weight-bolder hover-zoom"
                                 style={{ fontSize: 15 }}
-                                href="#projects"
+                                href="/#projects"
                             >
                                 Projects
                             </a>
@@ -55,7 +61,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <a
                                 className="nav-link text-secondary disabled" //hover-zoom
-                                href="#skills"
+                                href="/#skills"
                             >
                                 Skills
                             </a>
@@ -63,7 +69,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <a
                                 className="nav-link text-secondary disabled" //hover-zoom
-                                href="#experience"
+                                href="/#experience"
                             >
                                 Experience
                             </a>

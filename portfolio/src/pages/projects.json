@@ -14,11 +14,11 @@
                 "image": "/images/CS-1.png"
             },
             {
-                "key": "cs2",
-                "title": "Title 2",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "key": "cs6",
+                "title": "Draw the word",
+                "link": "https://github.com/fnassar/Guess-drawing-ml",
+                "description": "Drawing game. Using a docker image, we created a game that uses a portion of the data from thw quickdraw dataset, to test if a person will draw what word comes up correctly.",
+                "image": "/images/CS-6.jpg"
             },
             {
                 "key": "cs3",
@@ -28,25 +28,25 @@
                 "image": "/images/CS-3.png"
             },
             {
-                "key": "cs4",
-                "title": "title 4",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
-            },
-            {
                 "key": "cs5",
-                "title": "title 5",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "title": "SWE Prototyping",
+                "link": "https://github.com/fnassar/Prototyping_figma",
+                "description": "We collected data from a startup in new york, and worked on a prototype to expand their business by creating an app that helps them stay in touch with their users after purchase. The startup, previously \"Rise New York\", now \"Solstice\", is a company that sells caffeine vapes as nicotine replacments. <a href=\"https://usesolstice.com/\">Their Website</a>",
+                "image": "/images/CS-5.png"
             },
             {
-                "key": "cs6",
-                "title": "title 6",
-                "link": "http://www.link.com",
+                "key": "cs4",
+                "title": "Metric Calculator",
+                "link": "https://github.com/fnassar/python-fun-calc-package",
+                "description": "We created a python package that converts age(day,second, and etc...), time-zones, number systems and distance measures.",
+                "image": "/images/CS-4.jpeg"
+            },
+            {
+                "key": "cs2",
+                "title": "Cookbook",
+                "link": "https://github.com/fnassar/Cookbook-Docker/tree/main",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
+                "image": "CS-2.gif"
             }
         ]
     },
@@ -57,6 +57,13 @@
         "description": "Interactive Media Projects have Front end, Back end, and Fullstack projects that are more creative and have more design elements. It also Has Interactive Art projects, some technical and some not.",
         "image": "images/im_card.jpeg",
         "projects": [
+            {
+                "key": "IM5",
+                "title": "Love is the Universal Language",
+                "link": "https://github.com/fnassar/morseCode/",
+                "description": "With a journey through love, poetry and a century old small pottery bowl, a first of its kind, we take a user love story and get a morse code, secret, animation. A love story to share where the latin text is forever deleted, and the morse code is forever remembered.",
+                "image": "images/IM-5.png"
+            },
             {
                 "key": "IM1",
                 "title": "Digital Doodle",
@@ -117,7 +124,7 @@
         "projects": [
             {
                 "key": "O1",
-                "title": "Other 1",
+                "title": "Adobe",
                 "link": "http://www.link.com",
                 "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
                 "image": "https://placehold.it/500x500"
