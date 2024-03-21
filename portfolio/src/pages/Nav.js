@@ -42,7 +42,7 @@ const Nav = () => {
                         <li className="nav-item">
                             <a
                                 className="nav-link text-light font-weight-bolder hover-zoom"
-                                href="https://drive.google.com/file/d/1xHfNg9fWyyQhj1f1acoL-s7qgcIOVeto/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1W1hvwFsW_kwleNBmApUTD64d-xaQDieV/view?usp=sharing"
                                 target="_blank"
                                 rel="noreferrer"
                             >
