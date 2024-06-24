@@ -110,7 +110,7 @@ const Nav = () => {
                                 target="_blank"
                                 id="nav-linkedin"
                                 rel="noreferrer"
-                                href="https://www.linkedin.com/in/fatema-nassar-39a392209/"
+                                href="https://www.linkedin.com/in/fatema-nassar/"
                             >
                                 <span
                                     className="iconify"
