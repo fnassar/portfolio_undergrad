@@ -68,7 +68,7 @@ const Home = () => {
                                     lineHeight: "0.5",
                                 }}
                             >
-                                Computer Science & Interactive Media Student
+                                Software Developer & Interactive Media Artist
                             </span>
                         </h3>
                     </div>
@@ -81,7 +81,7 @@ const Home = () => {
                                     lineHeight: "0.5",
                                 }}
                             >
-                                طالبة حاسبات و معلومات و فنون تفاعلية
+                                مهندسة برمجيات وفنانة تفاعلية
                             </span>
                         </h3>
                     </div>
