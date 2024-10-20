@@ -45,7 +45,7 @@ const Home = () => {
                                     lineHeight: "1",
                                 }}
                             >
-                                فاطمة&nbsp
+                                نصار
                             </span>
                             <span
                                 style={{
@@ -54,7 +54,7 @@ const Home = () => {
                                     lineHeight: "1",
                                 }}
                             >
-                                نصار
+                                فاطمة
                             </span>
                         </h1>
                     </div>
