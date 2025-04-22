@@ -1,155 +1,162 @@
 [
-    {
-        "id": "CS",
-        "title": "Tech Projects",
-        "subtitle": "(click to view)",
-        "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited creativity",
-        "image": "images/cs_card.jpg",
-        "projects": [
-            {
-                "key": "cs1",
-                "title": "Arabic (CODA) Spelling Correction and Dialect ID",
-                "link": "#",
-                "description": "Working on a project with Camel Lab at new York University to generate a multi-task model that takes in a sentence and outputs the correct dialectal spelling and dialect of the sentence provided.",
-                "image": "/images/CS-1.png"
-            },
-            {
-                "key": "cs6",
-                "title": "Draw the word",
-                "link": "https://github.com/fnassar/Guess-drawing-ml",
-                "description": "Drawing game. Using a docker image, we created a game that uses a portion of the data from thw quickdraw dataset, to test if a person will draw what word comes up correctly.",
-                "image": "/images/CS-6.jpg"
-            },
-            {
-                "key": "cs3",
-                "title": "Feeding Nemo",
-                "link": "https://github.com/fnassar/feeding-nemo-fork",
-                "description": "This is a Game Created Using P5js python library. This game is inspied by the game <i>Feeding Frenzy</i>. The game is a simple game where you control a fish and try to eat as many fish as you can without getting eaten by the bigger fish.",
-                "image": "/images/CS-3.png"
-            },
-            {
-                "key": "cs5",
-                "title": "SWE Prototyping",
-                "link": "https://github.com/fnassar/Prototyping_figma",
-                "description": "We collected data from a startup in new york, and worked on a prototype to expand their business by creating an app that helps them stay in touch with their users after purchase. The startup, previously \"Rise New York\", now \"Solstice\", is a company that sells caffeine vapes as nicotine replacments. <a href=\"https://usesolstice.com/\">Their Website</a>",
-                "image": "/images/CS-5.png"
-            },
-            {
-                "key": "cs4",
-                "title": "Metric Calculator",
-                "link": "https://github.com/fnassar/python-fun-calc-package",
-                "description": "We created a python package that converts age(day,second, and etc...), time-zones, number systems and distance measures.",
-                "image": "/images/CS-4.jpeg"
-            },
-            {
-                "key": "cs2",
-                "title": "Cookbook",
-                "link": "https://github.com/fnassar/Cookbook-Docker/tree/main",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "CS-2.gif"
-            }
-        ]
-    },
-    {
-        "id": "IM",
-        "title": "Interactive Media Arts",
-        "subtitle": "(click to view)",
-        "description": "Interactive Media Projects have Front end, Back end, and Fullstack projects that are more creative and have more design elements. It also Has Interactive Art projects, some technical and some not.",
-        "image": "images/im_card.jpeg",
-        "projects": [
-            {
-                "key": "IM5",
-                "title": "Love is the Universal Language",
-                "link": "https://github.com/fnassar/morseCode/",
-                "description": "With a journey through love, poetry and a century old small pottery bowl, a first of its kind, we take a user love story and get a morse code, secret, animation. A love story to share where the latin text is forever deleted, and the morse code is forever remembered.",
-                "image": "images/IM-5.png"
-            },
-            {
-                "key": "IM1",
-                "title": "Digital Doodle",
-                "link": "https://github.com/fnassar/Intro_to_IM/blob/main/Digital%20Doodle.md",
-                "description": "Digital Doodle is an interactive project usng processing and arduino to control a generative drawing brush",
-                "image": "images/IM-1.jpg"
-            },
-            {
-                "key": "IM2",
-                "title": "Slenderman’s Scavenger Hunt",
-                "link": "https://github.com/fnassar/Slenderman/blob/main/README.md",
-                "description": "This is a multiplayer scavenger hunt. I created this game with my teammate as a way of reminiscing the places around campus, reviving memories, and introducing people to our cherished locations on campus, all by using a phone, a camera, and finding as many partners as you wish.",
-                "image": "images/IM-2.png"
-            },
-            {
-                "key": "IM11",
-                "title": "Performing Robot",
-                "link": "https://github.com/fnassar/Preforming_Robots/blob/main/README.md",
-                "description": "As a part of a class project, me and a classmate made our own dancing robot using a collection of identies and memorbal ideas.",
-                "image": "images/IM-11.jpg"
-            },
-            {
-                "key": "IM3",
-                "title": "World Map Search",
-                "link": "https://github.com/fnassar/connectionslab/blob/main/Project1/README.md",
-                "description": "A website that allows users to search for countries and see their location on the map, as well as some information about them.",
-                "image": "images/IM-3.jpg"
-            },
-            {
-                "key": "IM4",
-                "title": "Howl Are You, Mr. Rabbit?",
-                "link": "https://github.com/fnassar/Howl-are-you-Mr-Rabbit-/blob/main/README.md",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "images/IM-4.jpg"
-            },
-            {
-                "key": "IM8",
-                "title": "Lost, Found & Reborn",
-                "link": "https://fnassar.github.io/ArtGallary/",
-                "description": "A proposed virtual gallery for the environment",
-                "image": "https://raw.githubusercontent.com/fnassar/ArtGallary/master/tunnel.jpg"
-            },
-            {
-                "key": "IM9",
-                "title": "Find your destination",
-                "link": "https://fnassar.github.io/UIMP5/",
-                "description": "With an aim to address the issue of passport hierarchy, this website allows users to find their destination based on their passport and see what kind of visa they need, if they are allowed to be there.",
-                "image": "https://fnassar.github.io/UIMP5/assets/images/maldives.jpg"
-            },
-            {
-                "key": "IM10",
-                "title": "OpenFrameWorks simple animation",
-                "link": "https://github.com/fnassar/SoftwareArt/tree/main/assignment3",
-                "description": "link will take you to a documentation of the project",
-                "image": "https://raw.githubusercontent.com/fnassar/SoftwareArt/main/assignment3/bin/data/myPic6.jpg"
-            }
-        ]
-    },
-    {
-        "id": "O",
-        "title": "Other Projects",
-        "subtitle": "(click to view)",
-        "description": "This mostly includes projects that are not technical or interactive, such as design, photography and more. This is mostly personal projects.",
-        "image": "images/other_card.jpeg",
-        "projects": [
-            {
-                "key": "O1",
-                "title": "Adobe",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
-            },
-            {
-                "key": "O2",
-                "title": "Other 2",
-                "link": "http://www.link.com",
-                "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-                "image": "https://placehold.it/500x500"
-            },
-            {
-                "key": "O3",
-                "title": "Middle Class Egyptian Women",
-                "link": "https://fnassar.github.io/MiddleClassEgyptianWomen/",
-                "description": "Research presentation into the rights of egyptian women in the workplace",
-                "image": "https://placehold.it/500x500"
-            }
-        ]
-    }
+  {
+    "id": "CS",
+    "title": "Tech Projects",
+    "subtitle": "(click to view)",
+    "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited creativity",
+    "image": "images/cards/cs_card.jpg",
+    "projects": [
+      {
+        "key": "cs1",
+        "title": "Arabic (CODA) Spelling Correction and Dialect ID",
+        "link": "#",
+        "description": "Working on a project with Camel Lab at new York University to generate a multi-task model that takes in a sentence and outputs the correct dialectal spelling and dialect of the sentence provided.",
+        "image": "/images/CS/CS-1.png"
+      },
+      {
+        "key": "cs6",
+        "title": "Draw the word",
+        "link": "https://github.com/fnassar/Guess-drawing-ml",
+        "description": "Drawing game. Using a docker image, we created a game that uses a portion of the data from thw quickdraw dataset, to test if a person will draw what word comes up correctly.",
+        "image": "/images/CS/CS-6.jpg"
+      },
+      {
+        "key": "cs3",
+        "title": "Feeding Nemo",
+        "link": "https://github.com/fnassar/feeding-nemo-fork",
+        "description": "This is a Game Created Using P5js python library. This game is inspied by the game <i>Feeding Frenzy</i>. The game is a simple game where you control a fish and try to eat as many fish as you can without getting eaten by the bigger fish.",
+        "image": "/images/CS/CS-3.png"
+      },
+      {
+        "key": "cs5",
+        "title": "SWE Prototyping",
+        "link": "https://github.com/fnassar/Prototyping_figma",
+        "description": "We collected data from a startup in new york, and worked on a prototype to expand their business by creating an app that helps them stay in touch with their users after purchase. The startup, previously \"Rise New York\", now \"Solstice\", is a company that sells caffeine vapes as nicotine replacments. <a href=\"https://usesolstice.com/\">Their Website</a>",
+        "image": "/images/CS/CS-5.png"
+      },
+      {
+        "key": "cs4",
+        "title": "Metric Calculator",
+        "link": "https://github.com/fnassar/python-fun-calc-package",
+        "description": "We created a python package that converts age(day,second, and etc...), time-zones, number systems and distance measures.",
+        "image": "/images/CS/CS-4.jpeg"
+      },
+      {
+        "key": "cs2",
+        "title": "Cookbook",
+        "link": "https://github.com/fnassar/Cookbook-Docker/tree/main",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "CS-2.gif"
+      }
+    ]
+  },
+  {
+    "id": "IM",
+    "title": "Interactive Media Arts",
+    "subtitle": "(click to view)",
+    "description": "Interactive Media Projects have Front end, Back end, and Fullstack projects that are more creative and have more design elements. It also Has Interactive Art projects, some technical and some not.",
+    "image": "images/cards/im_card.jpeg",
+    "projects": [
+      {
+        "key": "IM5",
+        "title": "Love is the Universal Language",
+        "link": "/morseCode",
+        "description": "With a journey through love, poetry and a century old small pottery bowl, a first of its kind, we take a user love story and get a morse code, secret, animation. A love story to share where the latin text is forever deleted, and the morse code is forever remembered.",
+        "image": "images/IM/display/IM-5.png"
+      },
+      {
+        "key": "IM1",
+        "title": "Digital Doodle",
+        "link": "/DigitalDoodle",
+        "description": "Digital Doodle is an interactive project usng processing and arduino to control a generative drawing brush",
+        "image": "images/IM/display/IM-1.jpg"
+      },
+      {
+        "key": "IM6",
+        "title": "LiveCoding - Blur!",
+        "link": "/BlurDocs",
+        "description": "This is a live coding project that uses Ojack's Hydra library along with tidal cycles on flok to have an interactive live performance. The project is a series of blur effects that can be controlled by the user live.",
+        "image": "images/IM/display/IM-6.png"
+      },
+      {
+        "key": "IM2",
+        "title": "Slenderman’s Scavenger Hunt",
+        "link": "/slenderman",
+        "description": "This is a multiplayer scavenger hunt. I created this game with my teammate as a way of reminiscing the places around campus, reviving memories, and introducing people to our cherished locations on campus, all by using a phone, a camera, and finding as many partners as you wish.",
+        "image": "images/IM/display/IM-2.png"
+      },
+      {
+        "key": "IM11",
+        "title": "Performing Robot",
+        "link": "https://github.com/fnassar/Preforming_Robots/blob/main/README.md",
+        "description": "As a part of a class project, me and a classmate made our own dancing robot using a collection of identies and memorbal ideas.",
+        "image": "images/IM/display/IM-11.jpg"
+      },
+      {
+        "key": "IM3",
+        "title": "World Map Search",
+        "link": "https://github.com/fnassar/connectionslab/blob/main/Project1/README.md",
+        "description": "A website that allows users to search for countries and see their location on the map, as well as some information about them.",
+        "image": "images/IM/display/IM-3.jpg"
+      },
+      {
+        "key": "IM4",
+        "title": "Howl Are You, Mr. Rabbit?",
+        "link": "https://github.com/fnassar/Howl-are-you-Mr-Rabbit-/blob/main/README.md",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "images/IM/display/IM-4.jpg"
+      },
+      {
+        "key": "IM8",
+        "title": "Lost, Found & Reborn",
+        "link": "https://fnassar.github.io/ArtGallary/",
+        "description": "A proposed virtual gallery for the environment",
+        "image": "https://raw.githubusercontent.com/fnassar/ArtGallary/master/tunnel.jpg"
+      },
+      {
+        "key": "IM9",
+        "title": "Find your destination",
+        "link": "https://fnassar.github.io/UIMP5/",
+        "description": "With an aim to address the issue of passport hierarchy, this website allows users to find their destination based on their passport and see what kind of visa they need, if they are allowed to be there.",
+        "image": "https://fnassar.github.io/UIMP5/assets/images/maldives.jpg"
+      },
+      {
+        "key": "IM10",
+        "title": "OpenFrameWorks simple animation",
+        "link": "https://github.com/fnassar/SoftwareArt/tree/main/assignment3",
+        "description": "link will take you to a documentation of the project",
+        "image": "https://raw.githubusercontent.com/fnassar/SoftwareArt/main/assignment3/bin/data/myPic6.jpg"
+      }
+    ]
+  },
+  {
+    "id": "O",
+    "title": "Other Projects",
+    "subtitle": "(click to view)",
+    "description": "This mostly includes projects that are not technical or interactive, such as design, photography and more. This is mostly personal projects.",
+    "image": "images/cards/other_card.jpeg",
+    "projects": [
+      {
+        "key": "O3",
+        "title": "Assisted Work 1 - Manadalla with Prof. Aaron Sherwood",
+        "link": "https://aaron-sherwood.com/works/mandala/",
+        "description": "Assisted on Building, the physical structure of the mandala.",
+        "image": "images/other/O-3.png"
+      },
+      {
+        "key": "O4",
+        "title": "Assisted Work 2 - MICRO - Pollen with Prof. Aaron Sherwood",
+        "link": "https://aaron-sherwood.com/works/micropollen/",
+        "description": "Assisted on Building, the physical structure of the mandala.",
+        "image": "images/other/O-4.jpeg"
+      },
+      {
+        "key": "O2",
+        "title": "Adobe",
+        "link": "/Other2",
+        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "image": "https://placehold.it/500x500"
+      }
+    ]
+  }
 ]
