@@ -406,14 +406,14 @@ const SlenderMan = () => {
           <h3 className="mb-3">Page Designs</h3>
           <div className="row g-2">
             {[
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/alone.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/cant_run.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/dont_look.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/follows.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/forest.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/help_me.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/no_eyes.JPEG",
-              "https://github.com/fnassar/Slenderman/blob/main/public/img/pages/nonono.JPEG",
+              "/images/IM/docs/slenderman/pages/alone.JPEG",
+              "/images/IM/docs/slenderman/pages/cant_run.JPEG",
+              "/images/IM/docs/slenderman/pages/dont_look.JPEG",
+              "/images/IM/docs/slenderman/pages/follows.JPEG",
+              "/images/IM/docs/slenderman/pages/forest.JPEG",
+              "/images/IM/docs/slenderman/pages/help_me.JPEG",
+              "/images/IM/docs/slenderman/pages/no_eyes.JPEG",
+              "/images/IM/docs/slenderman/pages/nonono.JPEG",
             ].map((img, index) => (
               <div className="col-3 col-md-2" key={index}>
                 <img
