@@ -7,7 +7,7 @@ import "./../../../App.css";
 // import Opening from "./pages/Opening.js";
 const FifiRobot = () => {
   return (
-    <div className="container-fluid bg-dark text-light py-5">
+    <div className="container-fluid blue-bg text-light py-5">
       <div className="container">
         {/* Header Section */}
         <header className="text-center mb-5">
