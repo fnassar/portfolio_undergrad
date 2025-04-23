@@ -356,10 +356,10 @@ else stop();`}
                       Talking mouth mechanism
                     </li>
                   </ul>
-                  <p className="mt-3">
+                  {/* <p className="mt-3">
                     Solved audio file issues by shortening filenames to 8
                     characters.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
