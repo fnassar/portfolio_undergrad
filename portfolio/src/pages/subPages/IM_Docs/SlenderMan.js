@@ -45,10 +45,10 @@ const SlenderMan = () => {
 
         {/* Description Section */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary text-warning pb-2 mb-4">
             I. Description
           </h2>
-          <div className="card bg-transparent text-light border-warning">
+          <div className="card bg-transparent text-light border-secondary">
             <div className="card-body">
               <p className="lead">
                 <em>"Slenderman's Scavenger Hunt"</em> is a multiplayer online
@@ -87,13 +87,13 @@ const SlenderMan = () => {
 
         {/* Design Evolution Section */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary text-warning pb-2 mb-4">
             II. Design & Evolution
           </h2>
 
           <div className="row g-4 mb-4">
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">
                     Wireframe & Mobile-First Approach
@@ -111,7 +111,7 @@ const SlenderMan = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <img
                   src="/images/IM/docs/slenderman/wireframe.png"
                   className="card-img-top p-2"
@@ -175,7 +175,7 @@ const SlenderMan = () => {
 
           <div className="row mt-3 g-3">
             <div className="col-md-4">
-              <div className="card bg-transparent text-light border-warning">
+              <div className="card bg-transparent text-light border-secondary">
                 <img
                   src="/images/IM/docs/slenderman/six.png"
                   className="card-img-top"
@@ -190,7 +190,7 @@ const SlenderMan = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card bg-transparent text-light border-warning">
+              <div className="card bg-transparent text-light border-secondary">
                 <img
                   src="/images/IM/docs/slenderman/seven.png"
                   className="card-img-top"
@@ -205,7 +205,7 @@ const SlenderMan = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card bg-transparent text-light border-warning">
+              <div className="card bg-transparent text-light border-secondary">
                 <img
                   src="/images/IM/docs/slenderman/eight.png"
                   className="card-img-top"
@@ -222,13 +222,13 @@ const SlenderMan = () => {
 
         {/* User Testing Section */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary text-warning pb-2 mb-4">
             III. User Testing
           </h2>
 
           <div className="row g-4 mb-4">
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">Testing Process</h3>
                   <p>
@@ -277,7 +277,7 @@ const SlenderMan = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">Key Feedback</h3>
                   <ul className="list-group list-group-flush bg-transparent text-light">
@@ -306,13 +306,13 @@ const SlenderMan = () => {
 
         {/* Future Improvements Section */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary text-warning pb-2 mb-4">
             IV. Future Improvements
           </h2>
 
           <div className="row g-4">
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">Expansion Ideas</h3>
                   <ul>
@@ -325,7 +325,7 @@ const SlenderMan = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">Technical Improvements</h3>
                   <ul>
@@ -342,7 +342,7 @@ const SlenderMan = () => {
 
         {/* Technical Implementation */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary text-warning pb-2 mb-4">
             V. Technical Implementation
           </h2>
 
@@ -427,7 +427,7 @@ const SlenderMan = () => {
 
           <div className="row mt-4 g-4">
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning">
+              <div className="card bg-transparent text-light border-secondary">
                 <div className="card-body">
                   <h3 className="card-title">Fatema's Challenges</h3>
                   <ul>
@@ -439,7 +439,7 @@ const SlenderMan = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning">
+              <div className="card bg-transparent text-light border-secondary">
                 <div className="card-body">
                   <h3 className="card-title">Andres' Challenges</h3>
                   <ul>
@@ -467,7 +467,7 @@ const SlenderMan = () => {
 
         {/* Team Reflections */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary text-warning pb-2 mb-4">
             VI. Team Reflections
           </h2>
 
@@ -549,7 +549,7 @@ const SlenderMan = () => {
         </section>
 
         {/* Footer */}
-        <footer className="text-center py-4 border-top border-warning">
+        <footer className="text-center py-4 border-top border-secondary">
           <h3 className="text-warning">Slenderman's Scavenger Hunt</h3>
           <p className="text-muted">
             Created by{" "}
