@@ -42,13 +42,13 @@ const FifiRobot = () => {
 
         {/* Project Timeline */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary pb-2 mb-4">
             Project Timeline
           </h2>
 
           <div className="row g-4">
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">September 24</h3>
                   <p className="card-text">
@@ -67,7 +67,7 @@ const FifiRobot = () => {
             </div>
 
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <div className="card-body">
                   <h3 className="card-title">October 1</h3>
                   <p className="card-text">Initial controller implementation</p>
@@ -87,28 +87,28 @@ const FifiRobot = () => {
 
         {/* Performance Script */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary pb-2 mb-4">
             Performance Concept
           </h2>
 
-          <div className="card bg-transparent text-light border-warning mb-4">
+          <div className="card bg-transparent text-light border-secondary mb-4">
             <div className="card-body">
               <h3 className="card-title">Robot Characters</h3>
               <ul className="list-group list-group-flush bg-transparent">
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   3antar (Egyptian/Arab identity)
                 </li>
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   Explorer robots (Various identities)
                 </li>
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   Therapist/counselor robot
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="card bg-transparent text-light border-warning">
+          <div className="card bg-transparent text-light border-secondary">
             <div className="card-body">
               <h3 className="card-title">Script Excerpt</h3>
               <div className="p-3 bg-dark rounded">
@@ -139,13 +139,13 @@ const FifiRobot = () => {
 
         {/* Robot Design & Production */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary pb-2 mb-4">
             Robot Design & Production
           </h2>
 
           <div className="row g-4 mb-4">
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <img
                   src="/images/IM/docs/fifi/cactus.jpg"
                   className="card-img-top"
@@ -161,7 +161,7 @@ const FifiRobot = () => {
             </div>
 
             <div className="col-md-6">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <img
                   src="/images/IM/docs/fifi/robot1.jpg"
                   className="card-img-top"
@@ -179,7 +179,7 @@ const FifiRobot = () => {
 
           <div className="row g-4">
             <div className="col-md-4">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <img
                   src="/images/IM/docs/fifi/robot2.jpg"
                   className="card-img-top"
@@ -195,7 +195,7 @@ const FifiRobot = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <img
                   src="/images/IM/docs/fifi/robot3.jpg"
                   className="card-img-top"
@@ -211,7 +211,7 @@ const FifiRobot = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="card bg-transparent text-light border-warning h-100">
+              <div className="card bg-transparent text-light border-secondary h-100">
                 <img
                   src="/images/IM/docs/fifi/robot4.jpg"
                   className="card-img-top"
@@ -227,20 +227,20 @@ const FifiRobot = () => {
             </div>
           </div>
 
-          <div className="card bg-transparent text-light border-warning mt-4">
+          <div className="card bg-transparent text-light border-secondary mt-4">
             <div className="card-body">
               <h3 className="card-title">Production Challenges</h3>
               <ul className="list-group list-group-flush bg-transparent">
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   Difficulty working with aluminum (drilling, stabilization)
                 </li>
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   Motor shaft stabilization issues
                 </li>
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   Final solution: Welding shaft to hub
                 </li>
-                <li className="list-group-item bg-transparent text-light border-warning">
+                <li className="list-group-item bg-transparent text-light border-secondary">
                   Added extended wheels for stability
                 </li>
               </ul>
@@ -250,13 +250,13 @@ const FifiRobot = () => {
 
         {/* Technical Implementation */}
         <section className="mb-5">
-          <h2 className="border-bottom border-warning pb-2 mb-4">
+          <h2 className="border-bottom border-secondary pb-2 mb-4">
             Technical Implementation
           </h2>
 
           <div className="accordion" id="techAccordion">
             {/* Wheels Control */}
-            <div className="accordion-item bg-transparent text-light border-warning mb-3">
+            <div className="accordion-item bg-transparent text-light border-secondary mb-3">
               <h3 className="accordion-header">
                 <button
                   className="accordion-button bg-dark text-light"
@@ -291,7 +291,7 @@ else stop();`}
             </div>
 
             {/* Transmitter */}
-            <div className="accordion-item bg-transparent text-light border-warning mb-3">
+            <div className="accordion-item bg-transparent text-light border-secondary mb-3">
               <h3 className="accordion-header">
                 <button
                   className="accordion-button bg-dark text-light collapsed"
@@ -324,7 +324,7 @@ else stop();`}
             </div>
 
             {/* Receiver */}
-            <div className="accordion-item bg-transparent text-light border-warning">
+            <div className="accordion-item bg-transparent text-light border-secondary">
               <h3 className="accordion-header">
                 <button
                   className="accordion-button bg-dark text-light collapsed"
@@ -346,13 +346,13 @@ else stop();`}
                     subsystems:
                   </p>
                   <ul className="list-group list-group-flush bg-transparent">
-                    <li className="list-group-item bg-transparent text-light border-warning">
+                    <li className="list-group-item bg-transparent text-light border-secondary">
                       LED strip animation
                     </li>
-                    <li className="list-group-item bg-transparent text-light border-warning">
+                    <li className="list-group-item bg-transparent text-light border-secondary">
                       Servo-based dancing motions
                     </li>
-                    <li className="list-group-item bg-transparent text-light border-warning">
+                    <li className="list-group-item bg-transparent text-light border-secondary">
                       Talking mouth mechanism
                     </li>
                   </ul>
@@ -367,7 +367,7 @@ else stop();`}
         </section>
 
         {/* Footer */}
-        <footer className="text-center py-4 border-top border-warning">
+        <footer className="text-center py-4 border-top border-secondary">
           <h3 className="text-warning">FIFI - The Performing Robot</h3>
           <p>Created by Jannah Mokhtar and Fatema Nassar</p>
         </footer>
