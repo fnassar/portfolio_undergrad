@@ -357,11 +357,11 @@ const SlenderMan = () => {
                     <li>Score synchronization across players</li>
                     <li>Game state management</li>
                   </ul>
-                  <p className="text-secondary mt-3">
+                  {/* <p className="text-secondary mt-3">
                     <small>
                       Note: Currently broadcasting to all rooms - needs fixing
-                    </small>
-                  </p>
+                    </small> */}
+                  {/* </p> */}
                 </div>
               </div>
             </div>
