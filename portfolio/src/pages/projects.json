@@ -95,7 +95,7 @@
       {
         "key": "IM3",
         "title": "World Map Search",
-        "link": "https://github.com/fnassar/connectionslab/blob/main/Project1/README.md",
+        "link": "https://fnassar.github.io/connectionslab/Project1/",
         "description": "A website that allows users to search for countries and see their location on the map, as well as some information about them.",
         "image": "images/IM/display/IM-3.jpg"
       },
@@ -119,13 +119,6 @@
         "link": "https://fnassar.github.io/UIMP5/",
         "description": "With an aim to address the issue of passport hierarchy, this website allows users to find their destination based on their passport and see what kind of visa they need, if they are allowed to be there.",
         "image": "https://fnassar.github.io/UIMP5/assets/images/maldives.jpg"
-      },
-      {
-        "key": "IM10",
-        "title": "OpenFrameWorks simple animation",
-        "link": "https://github.com/fnassar/SoftwareArt/tree/main/assignment3",
-        "description": "link will take you to a documentation of the project",
-        "image": "https://raw.githubusercontent.com/fnassar/SoftwareArt/main/assignment3/bin/data/myPic6.jpg"
       }
     ]
   },
