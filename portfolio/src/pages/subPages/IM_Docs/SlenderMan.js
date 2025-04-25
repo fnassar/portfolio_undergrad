@@ -13,8 +13,7 @@ const SlenderMan = () => {
             Slenderman's Scavenger Hunt
           </h1>
           <p className="lead text-secondary">
-            A multiplayer mobile image processing game using ML5.js and
-            Socket.io
+            A multiplayer mobile scavenger hunt with a twist.
           </p>
           <div className="d-flex justify-content-center gap-3 mt-4">
             <a
