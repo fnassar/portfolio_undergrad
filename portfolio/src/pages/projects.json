@@ -3,7 +3,7 @@
     "id": "CS",
     "title": "Tech Projects",
     "subtitle": "(click to view)",
-    "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited creativity",
+    "description": "CS Projects are my technical projects, includes languages such as Java, C++, Python, and more. It Also Includes fullstack projects that have limited artistic expression and more technical base.",
     "image": "images/cards/cs_card.jpg",
     "projects": [
       {
@@ -52,9 +52,9 @@
   },
   {
     "id": "IM",
-    "title": "Interactive Media Arts",
+    "title": "Creative Projects",
     "subtitle": "(click to view)",
-    "description": "Interactive Media Projects have Front end, Back end, and Fullstack projects that are more creative and have more design elements. It also Has Interactive Art projects, some technical and some not.",
+    "description": "This set of work is my creative self coming to light, in more ways than one, I've explored worked on and created many projects hoping to find my favorite medium of expression.",
     "image": "images/cards/im_card.jpeg",
     "projects": [
       {
@@ -126,7 +126,7 @@
     "id": "O",
     "title": "Other Projects",
     "subtitle": "(click to view)",
-    "description": "This mostly includes projects that are not technical or interactive, such as design, photography and more. This is mostly personal projects.",
+    "description": "putting my main work asside, this is projects I've assisted on, or projects that are not in the main categories.",
     "image": "images/cards/other_card.jpeg",
     "projects": [
       {
