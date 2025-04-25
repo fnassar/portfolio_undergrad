@@ -12,8 +12,9 @@ const SlenderMan = () => {
           <h1 className="display-3 fw-bold text-warning">
             Slenderman's Scavenger Hunt
           </h1>
-          <p className="lead text-muted">
-            A multiplayer mobile AR game using ML5.js and Socket.io
+          <p className="lead text-secondary">
+            A multiplayer mobile image processing game using ML5.js and
+            Socket.io
           </p>
           <div className="d-flex justify-content-center gap-3 mt-4">
             <a
@@ -448,7 +449,7 @@ const SlenderMan = () => {
                     <li>Color vs B/W page detection</li>
                   </ul>
                   <p className="mt-2">
-                    <small className="text-muted">
+                    <small className="text-secondary">
                       <a
                         href="https://github.com/ml5js/ml5-library/issues/383"
                         target="_blank"
@@ -493,7 +494,7 @@ const SlenderMan = () => {
                       but still uses sockets as required by the class was our
                       greatest accomplishment."
                     </p>
-                    <footer className="blockquote-footer mt-2 text-muted">
+                    <footer className="blockquote-footer mt-2 text-secondary">
                       Fatema Nassar
                     </footer>
                   </blockquote>
@@ -524,7 +525,7 @@ const SlenderMan = () => {
                       iceberg, but for me, it was a great achievement to
                       understand its basic concepts."
                     </p>
-                    <footer className="blockquote-footer mt-2 text-muted">
+                    <footer className="blockquote-footer mt-2 text-secondary">
                       Andres Ugartechea
                     </footer>
                   </blockquote>
@@ -551,7 +552,7 @@ const SlenderMan = () => {
         {/* Footer */}
         <footer className="text-center py-4 border-top border-secondary">
           <h3 className="text-warning">Slenderman's Scavenger Hunt</h3>
-          <p className="text-muted">
+          <p className="text-secondary">
             Created by{" "}
             <a
               href="https://github.com/fnassar"

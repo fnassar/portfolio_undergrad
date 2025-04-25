@@ -10,7 +10,7 @@ const DigitalDoodle = () => {
         {/* Hero Section */}
         <section className="text-center mb-5">
           <h1 className="display-4 fw-bold mb-3">Digital Doodle</h1>
-          <h3 className="text-muted mb-4">
+          <h3 className="text-secondary mb-4">
             By: Ingy el sheikh & Fatema Nassar
           </h3>
           <p className="lead mx-auto" style={{ maxWidth: "800px" }}>

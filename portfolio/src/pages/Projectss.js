@@ -73,52 +73,48 @@ const Projectss = () => {
                       {card.projects.map((project) => (
                         <div
                           key={project.key}
-                          className="row d-flex mb-3 mt-3 flex-row justify-content-center align-items-center hover-zoom w-100"
+                          className="row d-flex mb-3 mt-3 justify-content-center align-items-center hover-zoom w-100"
                         >
-                          <div
-                            className="modal-css col-9 g-col-2"
-                            key={project.key}
-                          >
-                            <h3 style={{ fontSize: "1.1rem" }}>
-                              <a
-                                className="link-hover-decoration text-decoration-none text-light"
-                                href={
-                                  project.link.startsWith("/")
-                                    ? undefined
-                                    : project.link
-                                } // Use undefined for external links
-                                target={
-                                  project.link.startsWith("/")
-                                    ? undefined
-                                    : "_blank"
-                                } // Open external links in a new tab
-                                rel={
-                                  project.link.startsWith("/")
-                                    ? undefined
-                                    : "noopener noreferrer"
-                                } // Add security for external links
-                              >
-                                {project.link.startsWith("/") ? (
-                                  <Link
-                                    to={project.link}
-                                    className="text-light text-decoration-none"
-                                  >
-                                    {project.title}
-                                  </Link>
-                                ) : (
-                                  project.title
-                                )}
-                              </a>
-                            </h3>
-                            <span>{project.description}</span>
-                          </div>
-                          <img
-                            className="col-2 rounded-circle p-2 precious-img"
-                            src={project.image}
-                            alt=""
-                            // width for md screen
-                            // style={ {height: "20vh", width: "20vh"} }
-                          />
+                          {project.link.startsWith("/") ? (
+                            <Link
+                              to={project.link}
+                              className="d-flex flex-row link-hover-decoration text-decoration-none text-light w-100"
+                              onClick={() => window.scrollTo(0, 0)}
+                            >
+                              <div className="modal-css col-9 g-col-2">
+                                <h3 style={{ fontSize: "1.1rem" }}>
+                                  {project.title}
+                                </h3>
+                                <span>{project.description}</span>
+                              </div>
+                              <img
+                                className="col-2 rounded-circle p-2 precious-img"
+                                src={project.image}
+                                alt=""
+                                style={{ height: "20vh", width: "20vh" }} // Ensures consistent size
+                              />
+                            </Link>
+                          ) : (
+                            <a
+                              className="d-flex flex-row link-hover-decoration text-decoration-none text-light w-100"
+                              href={project.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <div className="modal-css col-9 g-col-2">
+                                <h3 style={{ fontSize: "1.1rem" }}>
+                                  {project.title}
+                                </h3>
+                                <span>{project.description}</span>
+                              </div>
+                              <img
+                                className="col-2 rounded-circle p-2 precious-img"
+                                src={project.image}
+                                alt=""
+                                style={{ height: "20vh", width: "20vh" }} // Ensures consistent size
+                              />
+                            </a>
+                          )}
                         </div>
                       ))}
                     </div>
