@@ -142,13 +142,6 @@
         "link": "https://aaron-sherwood.com/works/micropollen/",
         "description": "Assisted on Building, the physical structure of the mandala.",
         "image": "images/other/O-4.jpeg"
-      },
-      {
-        "key": "O2",
-        "title": "Adobe",
-        "link": "/Other2",
-        "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-        "image": "https://placehold.it/500x500"
       }
     ]
   }
