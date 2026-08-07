@@ -28,14 +28,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "^react-router/dom$": "react-router/dist/development/dom-export.js"
-    }
   },
   "browserslist": {
     "production": [
