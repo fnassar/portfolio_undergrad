@@ -1,6 +1,9 @@
-import Particles from "react-particles";
+import Particles, { ParticlesProvider } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
-import { useCallback } from "react";
+
+const particlesInit = async (engine) => {
+  await loadFull(engine);
+};
 
 const Backg = () => {
     const options = {
@@ -65,13 +68,11 @@ const Backg = () => {
       }
     };
   
-    const particlesInit = useCallback(async (engine) => {
-      await loadFull(engine);
-    }, []);
-  
     return (
       <div className="App zIndex1">
-        <Particles options={options} init={particlesInit} />
+        <ParticlesProvider init={particlesInit}>
+          <Particles options={options} />
+        </ParticlesProvider>
       </div>
     );
   };

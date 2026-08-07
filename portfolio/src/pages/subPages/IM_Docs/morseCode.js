@@ -55,7 +55,7 @@ const MorseCode = () => {
                   <div className="col-md-4 mb-3">
                     <img
                       src="/images/IM/docs/morse_code_1.jpeg"
-                      alt="Sample Love Story Output Photo"
+                      alt="Sample Love Story Output"
                       className="img-fluid rounded shadow"
                       style={{
                         width: "100%", // Ensures responsiveness
@@ -156,25 +156,25 @@ const MorseCode = () => {
 };
 export default MorseCode;
 
-{
-  /* add git url https://github.com/fnassar/morseCode/ */
-}
-{
-  /* <div className="text-center mt-4"> */
-}
-{
-  /* <a
-          href="https://github.com/fnassar/morseCode/"
-          className="btn btn-primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View on GitHub
-        </a> */
-}
-{
-  /* </div> */
-}
-{
-  /* </div> */
-}
+// {
+//   /* add git url https://github.com/fnassar/morseCode/ */
+// }
+// {
+//   /* <div className="text-center mt-4"> */
+// }
+// {
+//   /* <a
+//           href="https://github.com/fnassar/morseCode/"
+//           className="btn btn-primary"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           View on GitHub
+//         </a> */
+// }
+// {
+//   /* </div> */
+// }
+// {
+//   /* </div> */
+// }
