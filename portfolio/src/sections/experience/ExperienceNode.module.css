@@ -43,7 +43,7 @@
 .meta {
   font-family: var(--font-mono);
   font-size: 0.72rem;
-  letter-spacing: 0.1em;
+  letter-spacing: var(--tracking);
   text-transform: uppercase;
   color: var(--fg-muted);
 }

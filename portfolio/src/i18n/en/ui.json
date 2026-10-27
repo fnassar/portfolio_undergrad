@@ -1,0 +1,56 @@
+{
+  "brand": { "first": "Fatema", "last": "Nassar" },
+  "nav": {
+    "work": "Work",
+    "experience": "Experience",
+    "about": "About",
+    "contact": "Contact",
+    "resume": "Resume",
+    "menu": "Menu",
+    "close": "Close",
+    "email": "Email",
+    "language": "عربي",
+    "languageLabel": "Switch to Arabic"
+  },
+  "hero": { "cue": "Scroll to work ↓" },
+  "projects": {
+    "kicker": "Selected projects",
+    "title": "Work",
+    "tabsLabel": "Project categories",
+    "tabs": { "code": "Code", "art": "Art" },
+    "with": "With",
+    "loading": "Loading…"
+  },
+  "experience": {
+    "kicker": "Click a node",
+    "title": "Experience",
+    "types": { "research": "Research", "assisted": "Assisted", "education": "Education" }
+  },
+  "about": {
+    "kicker": "Hello",
+    "title": "About",
+    "lead": "I'm a programmer who loves problem-solving, finding ways to do things I didn't know I could, and probably likes debugging more than I should.",
+    "paragraphs": [
+      "I also have an inner artist I can't seem to suppress. Interactive media became my outlet for that side: a way to create and express the parts of me that a program with a fixed expected output can't show.",
+      "What I want next is to break problems apart with people who learn from each other, pick up new tools and build new connections along the way."
+    ]
+  },
+  "contact": {
+    "kicker": "Say hi",
+    "title": "Let's talk",
+    "copy": "Click to copy",
+    "copied": "Copied ✓",
+    "resume": "Resume",
+    "name": "Fatema Nassar"
+  },
+  "modal": { "close": "Close ✕" },
+  "links": {
+    "GitHub": "GitHub",
+    "Play": "Play",
+    "Live": "Live site",
+    "Video": "Video",
+    "Work": "View work",
+    "Solstice": "Solstice"
+  },
+  "tags": {}
+}

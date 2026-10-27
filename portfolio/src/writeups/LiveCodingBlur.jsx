@@ -1,63 +1,26 @@
+import useLanguage from "../hooks/useLanguage.js";
+import ar from "../i18n/ar/liveCodingBlur.json";
+import en from "../i18n/en/liveCodingBlur.json";
+import Paragraphs from "./blocks/Paragraphs.jsx";
 import VideoEmbed from "./blocks/VideoEmbed.jsx";
 import WriteupSection from "./blocks/WriteupSection.jsx";
 
+const text = { en, ar };
+
 export default function LiveCodingBlur() {
+  const t = useLanguage().pick(text);
+
   return (
     <>
-      <p>A collaborative audio-visual experience.</p>
-      <VideoEmbed
-        src="https://www.youtube.com/embed/JBx1zRjg2ns"
-        title="Live coding performance"
-      />
+      <p>{t.intro}</p>
+      <VideoEmbed src="https://www.youtube.com/embed/JBx1zRjg2ns" title={t.videoTitle} />
 
-      <WriteupSection title="Hydra (Marta & Fatema)">
-        <p>
-          For our visual side, we have decided to begin with vibrant visuals characterized
-          by dynamic, distorted light trails. Our initial code included loading the image,
-          modulating it with a simple oscillator, and then blending it with the original
-          image, resulting in a blur effect. As we progressed, we integrated more complex
-          functions based on various modulations.
-        </p>
-        <p>
-          As our project evolved, our goal was to synchronize our visuals more seamlessly
-          with the music, increasing in intensity as the musical layers deepened. We
-          incorporated a series of 'mult(shape)' functions to help us calm down the
-          visuals during slower beats.
-        </p>
-        <p>
-          Finally, we placed all the visuals in an array and used CCV to update them upon
-          the addition of each new layer of music. This enabled us to synchronize the
-          transitions between the music and visuals. Additionally, we integrated CCs into
-          the primary visual functions to enhance the piece with a more audio-reactive
-          experience.
-        </p>
+      <WriteupSection title={t.hydraTitle}>
+        <Paragraphs items={t.hydra} />
       </WriteupSection>
 
-      <WriteupSection title="TidalCycles (Bato & Jeongin)">
-        <p>
-          For our final composition, our group created a smooth blend of UK Garage and
-          House music, set at a tempo of 128 BPM. The track begins with a mellow melody
-          that progresses up and down in the E-flat minor scale. On top of this melody, we
-          layered a groovy UK Garage loop, establishing the mood and setting the tone of
-          the composition.
-        </p>
-        <p>
-          To gradually introduce rhythm to our composition, Jeong-In layered various drum
-          patterns, adding hi-hats, claps, and bass drums one by one. On top of Jeong-In's
-          drums, we introduce another layer of classic UK Garage drum loop, which
-          completes the rhythmic structure of the composition.
-        </p>
-        <p>
-          Furthermore, we incorporated a crisp bass sound, which gave the overall
-          composition a euphoric vibe. After introducing this element, we abruptly cut off
-          the drums to create a dramatic transition. At this point, we added a new melodic
-          layer, changing the atmosphere and breaking up the repetitiveness of the track.
-        </p>
-        <p>
-          Finally, we added a vocal sample to the composition, which was pitched up and
-          down to create a more dynamic sound. This vocal sample was introduced at the end
-          of the composition, creating a sense of closure and finality.
-        </p>
+      <WriteupSection title={t.tidalTitle}>
+        <Paragraphs items={t.tidal} />
       </WriteupSection>
     </>
   );

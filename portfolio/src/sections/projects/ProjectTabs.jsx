@@ -1,19 +1,22 @@
 import TabIndicator from "../../animations/TabIndicator.jsx";
+import useLanguage from "../../hooks/useLanguage.js";
 import styles from "./ProjectTabs.module.css";
 
-export default function ProjectTabs({ tabs, active, onChange }) {
+export default function ProjectTabs({ tabIds, active, onChange }) {
+  const { t } = useLanguage();
+
   return (
-    <div className={styles.tabs} role="tablist" aria-label="Project categories">
-      {tabs.map((tab) => (
+    <div className={styles.tabs} role="tablist" aria-label={t.projects.tabsLabel}>
+      {tabIds.map((id) => (
         <button
-          key={tab.id}
+          key={id}
           role="tab"
-          aria-selected={tab.id === active}
+          aria-selected={id === active}
           className={styles.tab}
-          onClick={() => onChange(tab.id)}
+          onClick={() => onChange(id)}
         >
-          {tab.label}
-          {tab.id === active ? <TabIndicator /> : null}
+          {t.projects.tabs[id]}
+          {id === active ? <TabIndicator /> : null}
         </button>
       ))}
     </div>

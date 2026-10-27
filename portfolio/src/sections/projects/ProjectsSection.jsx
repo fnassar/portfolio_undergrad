@@ -4,21 +4,20 @@ import Modal from "../../components/Modal.jsx";
 import Section from "../../components/Section.jsx";
 import { projects, projectsByCategory } from "../../data/projects.js";
 import useHashModal from "../../hooks/useHashModal.js";
+import useLanguage from "../../hooks/useLanguage.js";
 import ProjectDetail from "./ProjectDetail.jsx";
 import ProjectList from "./ProjectList.jsx";
 import ProjectTabs from "./ProjectTabs.jsx";
 import styles from "./ProjectsSection.module.css";
 
-const tabs = [
-  { id: "code", label: "Code" },
-  { id: "art", label: "Art" },
-];
+const tabIds = ["code", "art"];
 
 export default function ProjectsSection() {
   const [tab, setTab] = useState("code");
   const [activeId, setActiveId] = useState(null);
   const listsRef = useRef(null);
   const modal = useHashModal();
+  const { t, pick } = useLanguage();
 
   const tabProjects = projectsByCategory[tab];
   const active = tabProjects.find((project) => project.id === activeId) ?? tabProjects[0];
@@ -27,27 +26,27 @@ export default function ProjectsSection() {
   const openProject = projects.find((project) => project.id === modal.id);
 
   return (
-    <Section id="work" kicker="Selected projects" title="Work">
+    <Section id="work" kicker={t.projects.kicker} title={t.projects.title}>
       <div className={styles.layout}>
         <aside className={styles.aside}>
           <ScrollRects
             targetRef={listsRef}
             colors={active.colors}
-            label={`${tab} · ${position} / ${total}`}
+            label={`${t.projects.tabs[tab]} · ${position} / ${total}`}
           />
         </aside>
 
         <div>
           <ProjectTabs
-            tabs={tabs}
+            tabIds={tabIds}
             active={tab}
             onChange={(next) => startTransition(() => setTab(next))}
           />
           <div ref={listsRef}>
-            {tabs.map((item) => (
-              <Activity key={item.id} mode={item.id === tab ? "visible" : "hidden"}>
+            {tabIds.map((id) => (
+              <Activity key={id} mode={id === tab ? "visible" : "hidden"}>
                 <ProjectList
-                  projects={projectsByCategory[item.id]}
+                  projects={projectsByCategory[id]}
                   onActiveChange={setActiveId}
                 />
               </Activity>
@@ -58,7 +57,7 @@ export default function ProjectsSection() {
 
       {openProject ? (
         <Modal
-          label={openProject.title}
+          label={pick(openProject.title)}
           color={openProject.colors.a}
           onClose={modal.close}
         >

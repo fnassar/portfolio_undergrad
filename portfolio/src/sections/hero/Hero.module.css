@@ -17,12 +17,15 @@
   letter-spacing: -0.02em;
 }
 
-.name > span:first-child {
+.latin {
+  direction: ltr;
+  align-self: flex-start;
   color: var(--fg);
 }
 
 .arabic {
   direction: rtl;
+  letter-spacing: 0;
   align-self: flex-end;
   color: var(--accent);
 }
@@ -37,7 +40,7 @@
   margin-top: 48px;
   font-family: var(--font-mono);
   font-size: 0.8rem;
-  letter-spacing: 0.1em;
+  letter-spacing: var(--tracking);
   color: var(--fg-muted);
   text-decoration: none;
 }

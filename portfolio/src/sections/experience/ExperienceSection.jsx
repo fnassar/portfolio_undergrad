@@ -3,16 +3,18 @@ import ConstellationLine from "../../animations/ConstellationLine.jsx";
 import Modal from "../../components/Modal.jsx";
 import Section from "../../components/Section.jsx";
 import { experience } from "../../data/experience.js";
+import useLanguage from "../../hooks/useLanguage.js";
 import ExperienceDetail from "./ExperienceDetail.jsx";
 import ExperienceNode from "./ExperienceNode.jsx";
 import styles from "./ExperienceSection.module.css";
 
 export default function ExperienceSection() {
   const [openId, setOpenId] = useState(null);
+  const { t, pick } = useLanguage();
   const openItem = experience.find((item) => item.id === openId);
 
   return (
-    <Section id="experience" kicker="Click a node" title="Experience">
+    <Section id="experience" kicker={t.experience.kicker} title={t.experience.title}>
       <div className={styles.map}>
         <ConstellationLine count={experience.length} />
         <ol className={styles.nodes}>
@@ -29,7 +31,7 @@ export default function ExperienceSection() {
 
       {openItem ? (
         <Modal
-          label={openItem.org}
+          label={pick(openItem.org)}
           color={openItem.color}
           onClose={() => setOpenId(null)}
         >

@@ -1,6 +1,6 @@
 .row {
   content-visibility: auto;
-  contain-intrinsic-size: auto 520px;
+  contain-intrinsic-block-size: auto 520px;
 }
 
 .link {

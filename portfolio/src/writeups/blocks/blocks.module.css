@@ -66,7 +66,7 @@
 }
 
 .list {
-  padding-left: 20px;
+  padding-inline-start: 20px;
   color: var(--fg-muted);
 }
 
@@ -75,19 +75,21 @@
 }
 
 .code {
+  direction: ltr;
+  text-align: left;
   overflow-x: auto;
   padding: 16px;
   border-radius: 10px;
   background: #07061a;
-  font-family: var(--font-mono);
+  font-family: var(--font-code);
   font-size: 0.82rem;
   color: #fcd34d;
 }
 
 .quote {
   margin: 0 0 16px;
-  padding-left: 16px;
-  border-left: 2px solid var(--accent-2);
+  padding-inline-start: 16px;
+  border-inline-start: 2px solid var(--accent-2);
   font-style: italic;
 }
 

@@ -1,29 +1,34 @@
 import { useState } from "react";
 import { email, profiles, resumeUrl } from "../data/socials.js";
+import useLanguage from "../hooks/useLanguage.js";
 import ExternalLink from "./ExternalLink.jsx";
 import Icon from "./Icon.jsx";
 import styles from "./Nav.module.css";
 
-const sections = [
-  { href: "#work", label: "Work" },
-  { href: "#experience", label: "Experience" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
-];
-
-const iconLinks = [
-  { label: "Email", href: `mailto:${email}`, icon: "mail" },
-  ...profiles,
-];
+const sectionIds = ["work", "experience", "about", "contact"];
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const { t, toggle } = useLanguage();
+  const iconLinks = [
+    { label: t.nav.email, href: `mailto:${email}`, icon: "mail" },
+    ...profiles,
+  ];
 
   return (
     <nav className={styles.nav} data-open={open}>
       <a className={styles.brand} href="#top">
-        Fatema<span>Nassar</span>
+        {t.brand.first}
+        <span>{t.brand.last}</span>
       </a>
+
+      <button
+        className={styles.language}
+        aria-label={t.nav.languageLabel}
+        onClick={toggle}
+      >
+        {t.nav.language}
+      </button>
 
       <button
         className={styles.toggle}
@@ -31,26 +36,26 @@ export default function Nav() {
         aria-controls="nav-menu"
         onClick={() => setOpen(!open)}
       >
-        {open ? "Close" : "Menu"}
+        {open ? t.nav.close : t.nav.menu}
       </button>
 
       <div id="nav-menu" className={styles.menu}>
         <ul className={styles.links}>
-          {sections.map((section) => (
-            <li key={section.href}>
-              <a href={section.href} onClick={() => setOpen(false)}>
-                {section.label}
+          {sectionIds.map((id) => (
+            <li key={id}>
+              <a href={`#${id}`} onClick={() => setOpen(false)}>
+                {t.nav[id]}
               </a>
             </li>
           ))}
           <li>
-            <ExternalLink href={resumeUrl}>Resume ↗</ExternalLink>
+            <ExternalLink href={resumeUrl}>{t.nav.resume} ↗</ExternalLink>
           </li>
         </ul>
 
         <ul className={styles.socials}>
           {iconLinks.map((link) => (
-            <li key={link.label}>
+            <li key={link.icon}>
               <ExternalLink href={link.href} label={link.label}>
                 <Icon name={link.icon} />
               </ExternalLink>

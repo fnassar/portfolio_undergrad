@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import LinkButton from "../../components/LinkButton.jsx";
 import TagList from "../../components/TagList.jsx";
 import { projects } from "../../data/projects.js";
+import useLanguage from "../../hooks/useLanguage.js";
 import styles from "./ProjectDetail.module.css";
 
 const writeups = Object.fromEntries(
@@ -12,33 +13,36 @@ const writeups = Object.fromEntries(
 
 export default function ProjectDetail({ project }) {
   const Writeup = writeups[project.id];
+  const { lang, t, pick } = useLanguage();
 
   return (
-    <article className={styles.detail}>
+    <article>
       <header className={styles.header}>
-        <p className={styles.kicker}>{project.category}</p>
-        <h2 className={styles.title}>{project.title}</h2>
+        <p className={styles.kicker}>{t.projects.tabs[project.category]}</p>
+        <h2 className={styles.title}>{pick(project.title)}</h2>
         {project.team ? (
-          <p className={styles.team}>With {project.team.join(", ")}</p>
+          <p className={styles.team}>
+            {t.projects.with} {new Intl.ListFormat(lang).format(project.team)}
+          </p>
         ) : null}
         <TagList tags={project.tags} />
         <div className={styles.links}>
           {project.links.map((link) => (
             <LinkButton key={link.href} href={link.href}>
-              {link.label}
+              {t.links[link.label] ?? link.label}
             </LinkButton>
           ))}
         </div>
       </header>
 
       {Writeup ? (
-        <Suspense fallback={<p className={styles.loading}>Loading…</p>}>
+        <Suspense fallback={<p className={styles.loading}>{t.projects.loading}</p>}>
           <Writeup />
         </Suspense>
       ) : (
         <>
           <img className={styles.image} src={project.image} alt="" />
-          <p className={styles.summary}>{project.summary}</p>
+          <p className={styles.summary}>{pick(project.summary)}</p>
         </>
       )}
     </article>

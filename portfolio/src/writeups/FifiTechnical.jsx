@@ -18,26 +18,20 @@ const statesCode = `char* theStates[] = {
   "18 stop",
 };`;
 
-export default function FifiTechnical() {
+export default function FifiTechnical({ t }) {
   return (
-    <WriteupSection title="Technical Implementation">
-      <Collapsible title="Wheels Control System" open>
-        <p>Mapped RC controller input to variable speeds for precise movement control.</p>
+    <WriteupSection title={t.techTitle}>
+      <Collapsible title={t.wheelsTitle} open>
+        <p>{t.wheels}</p>
         <CodeBlock code={wheelsCode} />
       </Collapsible>
-      <Collapsible title="Transmitter System">
-        <p>Implemented state control for different performance actions.</p>
+      <Collapsible title={t.transmitterTitle}>
+        <p>{t.transmitter}</p>
         <CodeBlock code={statesCode} />
       </Collapsible>
-      <Collapsible title="Receiver System">
-        <p>Audio-synchronized performance control with multiple subsystems:</p>
-        <BulletList
-          items={[
-            "LED strip animation",
-            "Servo-based dancing motions",
-            "Talking mouth mechanism",
-          ]}
-        />
+      <Collapsible title={t.receiverTitle}>
+        <p>{t.receiver}</p>
+        <BulletList items={t.receiverParts} />
       </Collapsible>
     </WriteupSection>
   );

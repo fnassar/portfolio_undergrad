@@ -16,7 +16,7 @@
 .close {
   position: sticky;
   top: 0;
-  float: right;
+  float: inline-end;
   z-index: 1;
   padding: 6px 12px;
   border: 1px solid var(--line);

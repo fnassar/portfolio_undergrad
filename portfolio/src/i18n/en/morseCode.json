@@ -1,0 +1,16 @@
+{
+  "presentationTitle": "Final Presentation",
+  "videoTitle": "Animation video with voice over",
+  "images": [
+    "Animation and setup",
+    "Sample love story output",
+    "Sample love story output screenshot"
+  ],
+  "backgroundTitle": "Background and Inspiration",
+  "background": [
+    "The Louvre Museum in Abu Dhabi hosted a University take over the museum challenge. The prompt for the challenge was \"Sustainability, tangibility\", the art work, whatever it is, has to show these concepts or reflect these concepts.",
+    "On the museum website we found a poem by Al-Mutanabi, called \"Love is What Prevents Tongues from Speaking\". The title of the poem reflected a lot of what we wanted to work with, especially with morse code being a language that's not made for tongues to speak."
+  ],
+  "codeTitle": "Code: P5",
+  "code": "The animation on p5js was our first step. Part of our prototype. We did it so we can visualize what our project was and how to work with it, an animation of a spiral morse code that uses an input text, translates the letters to equivalent latin morse code characters."
+}

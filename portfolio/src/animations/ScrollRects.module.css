@@ -28,6 +28,6 @@
   margin: 0;
   font-family: var(--font-mono);
   font-size: 0.8rem;
-  letter-spacing: 0.1em;
+  letter-spacing: var(--tracking);
   color: var(--fg-muted);
 }

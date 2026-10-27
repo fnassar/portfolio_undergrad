@@ -1,0 +1,32 @@
+{
+  "intro": "The Digital Doodle project is designed to bring out the inner child in everyone. It allows users to create art using their hands, with the freedom to choose from five different brushes and a color selector.",
+  "images": [
+    "A drawing made with Digital Doodle",
+    "The Digital Doodle setup",
+    "Arduino implementation"
+  ],
+  "implementationTitle": "Implementation",
+  "implementation": [
+    "There were mainly two aspects of this project, the Processing aspect and the Arduino aspect (and serial communication), which is also how the work was split between us.",
+    "Fatema created the generative art pieces that played the role of our brushes and worked on the fiducial tracking, while Ingy focused on the Arduino side: wiring up the buttons and slide potentiometer, creating the color gradient and its code on Processing, and the serial communication between Arduino and Processing.",
+    "We found ourselves working together most of the time, helping each other when stuck, so it eventually turned into us working together on most aspects of the project."
+  ],
+  "lessonsTitle": "Lessons Learned",
+  "lessons": [
+    {
+      "title": "1. Preparation is Key",
+      "text": "During our presentation, a simple lighting issue caused panic. We learned to set up earlier, especially for projects prone to spontaneous errors."
+    },
+    {
+      "title": "2. User Feedback",
+      "text": "We should have included visual/audio feedback when buttons are pressed to indicate which brush is active."
+    },
+    {
+      "title": "3. Details Matter",
+      "text": "The finer details often take more time and effort than the core functionality, but they're what brings the project together."
+    }
+  ],
+  "showcaseTitle": "Showcase",
+  "showcase": "Some unique masterpieces created during our showcase. It was fascinating to see how differently people interacted with the project!",
+  "videoTitle": "Showcase video"
+}

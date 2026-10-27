@@ -1,6 +1,6 @@
+import ExternalLink from "../components/ExternalLink.jsx";
 import BulletList from "./blocks/BulletList.jsx";
 import Columns from "./blocks/Columns.jsx";
-import ExternalLink from "../components/ExternalLink.jsx";
 import Gallery from "./blocks/Gallery.jsx";
 import Panel from "./blocks/Panel.jsx";
 import WriteupSection from "./blocks/WriteupSection.jsx";
@@ -17,78 +17,49 @@ const pageNames = [
   "nonono",
 ];
 
-const pageDesigns = pageNames.map((name, index) => ({
-  src: `/images/IM/docs/slenderman/pages/${name}.JPEG`,
-  alt: `Page design ${index + 1}`,
-}));
+export default function SlenderManBuild({ t }) {
+  const pageDesigns = pageNames.map((name, index) => ({
+    src: `/images/IM/docs/slenderman/pages/${name}.JPEG`,
+    alt: `${t.tech.pageAlt} ${index + 1}`,
+  }));
 
-export default function SlenderManBuild() {
   return (
     <>
-      <WriteupSection title="IV. Future Improvements">
+      <WriteupSection title={t.future.title}>
         <Columns>
-          <Panel title="Expansion Ideas">
-            <BulletList
-              items={[
-                "Custom scavenger hunt creation tool",
-                "Enhanced Slenderman theme with jumpscares and music",
-                "Improved UI for the info button",
-                "Audio feedback for found pages",
-              ]}
-            />
+          <Panel title={t.future.expansionTitle}>
+            <BulletList items={t.future.expansion} />
           </Panel>
-          <Panel title="Technical Improvements">
-            <BulletList
-              items={[
-                "Retrain ML models for better accuracy",
-                "Fix iOS/Android compatibility issues",
-                "Enhanced user personalization",
-                "Fix room-specific socket data issues",
-              ]}
-            />
+          <Panel title={t.future.technicalTitle}>
+            <BulletList items={t.future.technical} />
           </Panel>
         </Columns>
       </WriteupSection>
 
-      <WriteupSection title="V. Technical Implementation">
+      <WriteupSection title={t.tech.title}>
         <Columns>
-          <Panel title="Socket.io">
-            <BulletList
-              items={[
-                "Real-time multiplayer functionality",
-                "Room-based user management",
-                "Score synchronization across players",
-                "Game state management",
-              ]}
-            />
+          <Panel title={t.tech.socketTitle}>
+            <BulletList items={t.tech.socket} />
           </Panel>
-          <Panel title="ML5.js">
+          <Panel title={t.tech.ml5Title}>
             <p>
-              Resources:{" "}
+              {t.tech.resources}{" "}
               <ExternalLink href="https://learn.ml5js.org/#/">
-                ML5.js documentation
+                {t.tech.docsLink}
               </ExternalLink>
-              ,{" "}
+              {" · "}
               <ExternalLink href="https://thecodingtrain.com/learning/ml5/">
-                The Coding Train tutorials
+                {t.tech.tutorialsLink}
               </ExternalLink>
-              .
             </p>
-            <BulletList
-              ordered
-              items={[
-                "Object Detection with COCO-SD",
-                "Feature Extractor Classification",
-                "Separate training page with model saving",
-              ]}
-            />
+            <BulletList ordered items={t.tech.steps} />
           </Panel>
         </Columns>
-        <h4>Page Designs</h4>
+        <h4>{t.tech.pagesTitle}</h4>
         <Gallery images={pageDesigns} columns={4} />
       </WriteupSection>
 
-      <SlenderManTeam />
+      <SlenderManTeam t={t.team} />
     </>
   );
 }

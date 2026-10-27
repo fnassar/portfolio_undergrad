@@ -1,9 +1,11 @@
 import { useEffect, useRef } from "react";
 import GeoFrame from "../animations/GeoFrame.jsx";
+import useLanguage from "../hooks/useLanguage.js";
 import styles from "./Modal.module.css";
 
 export default function Modal({ label, color, onClose, children }) {
   const dialogRef = useRef(null);
+  const { t } = useLanguage();
 
   useEffect(() => {
     if (!dialogRef.current.open) dialogRef.current.showModal();
@@ -21,7 +23,7 @@ export default function Modal({ label, color, onClose, children }) {
     >
       <GeoFrame color={color}>
         <button className={styles.close} onClick={onClose}>
-          Close ✕
+          {t.modal.close}
         </button>
         {children}
       </GeoFrame>

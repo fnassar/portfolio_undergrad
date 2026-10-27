@@ -9,9 +9,17 @@
 
   --font-body: "Alexandria", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-code: "JetBrains Mono", ui-monospace, monospace;
 
   --radius: 14px;
   --gutter: clamp(16px, 4vw, 48px);
   --max-width: 1180px;
   --nav-height: 64px;
+  --tracking: 0.12em;
+}
+
+/* Letter-spacing breaks the joins between Arabic letters, and the mono font has no Arabic glyphs. */
+:root[lang="ar"] {
+  --tracking: 0;
+  --font-mono: var(--font-body);
 }

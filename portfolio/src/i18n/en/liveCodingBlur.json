@@ -1,0 +1,17 @@
+{
+  "intro": "A collaborative audio-visual experience.",
+  "videoTitle": "Live coding performance",
+  "hydraTitle": "Hydra (Marta & Fatema)",
+  "hydra": [
+    "For our visual side, we have decided to begin with vibrant visuals characterized by dynamic, distorted light trails. Our initial code included loading the image, modulating it with a simple oscillator, and then blending it with the original image, resulting in a blur effect. As we progressed, we integrated more complex functions based on various modulations.",
+    "As our project evolved, our goal was to synchronize our visuals more seamlessly with the music, increasing in intensity as the musical layers deepened. We incorporated a series of 'mult(shape)' functions to help us calm down the visuals during slower beats.",
+    "Finally, we placed all the visuals in an array and used CCV to update them upon the addition of each new layer of music. This enabled us to synchronize the transitions between the music and visuals. Additionally, we integrated CCs into the primary visual functions to enhance the piece with a more audio-reactive experience."
+  ],
+  "tidalTitle": "TidalCycles (Bato & Jeongin)",
+  "tidal": [
+    "For our final composition, our group created a smooth blend of UK Garage and House music, set at a tempo of 128 BPM. The track begins with a mellow melody that progresses up and down in the E-flat minor scale. On top of this melody, we layered a groovy UK Garage loop, establishing the mood and setting the tone of the composition.",
+    "To gradually introduce rhythm to our composition, Jeong-In layered various drum patterns, adding hi-hats, claps, and bass drums one by one. On top of Jeong-In's drums, we introduce another layer of classic UK Garage drum loop, which completes the rhythmic structure of the composition.",
+    "Furthermore, we incorporated a crisp bass sound, which gave the overall composition a euphoric vibe. After introducing this element, we abruptly cut off the drums to create a dramatic transition. At this point, we added a new melodic layer, changing the atmosphere and breaking up the repetitiveness of the track.",
+    "Finally, we added a vocal sample to the composition, which was pitched up and down to create a more dynamic sound. This vocal sample was introduced at the end of the composition, creating a sense of closure and finality."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "intro": "A theatrical robotic performance project by Jannah and Fatema.",
+  "videoTitle": "FIFI final performance",
+  "timelineTitle": "Project Timeline",
+  "timeline": [
+    {
+      "date": "September 24",
+      "text": "Initial concept and story development.",
+      "link": "Inspiration music"
+    },
+    {
+      "date": "October 1",
+      "text": "Initial controller implementation.",
+      "link": "Controller demo"
+    }
+  ],
+  "conceptTitle": "Performance Concept",
+  "charactersTitle": "Robot Characters",
+  "characters": [
+    "3antar (Egyptian/Arab identity)",
+    "Explorer robots (various identities)",
+    "Therapist/counselor robot"
+  ],
+  "scriptTitle": "Script Excerpt",
+  "script": [
+    "ACT 1: Two humans wake up as robots",
+    "name5: \"I woke up today and I was not human...\"",
+    "name2: \"Dude, same I don't know what's happening...\"",
+    "ACT 2: Older robots notice the confused newcomers",
+    "3antar: *dancing dramatically*",
+    "name3: \"my man what are you doing!\""
+  ],
+  "productionTitle": "Robot Design & Production",
+  "build": [
+    "Concept: initial cactus-inspired design",
+    "Mechanical: Fusion 360 model with motors at each joint",
+    "Wood prototype to test mechanisms",
+    "Aluminium frame for lightweight stability",
+    "Final robot with all components"
+  ],
+  "challengesTitle": "Production Challenges",
+  "challenges": [
+    "Difficulty working with aluminium (drilling, stabilization)",
+    "Motor shaft stabilization issues",
+    "Final solution: welding shaft to hub",
+    "Added extended wheels for stability"
+  ],
+  "techTitle": "Technical Implementation",
+  "wheelsTitle": "Wheels Control System",
+  "wheels": "Mapped RC controller input to variable speeds for precise movement control.",
+  "transmitterTitle": "Transmitter System",
+  "transmitter": "Implemented state control for different performance actions.",
+  "receiverTitle": "Receiver System",
+  "receiver": "Audio-synchronized performance control with multiple subsystems:",
+  "receiverParts": [
+    "LED strip animation",
+    "Servo-based dancing motions",
+    "Talking mouth mechanism"
+  ]
+}

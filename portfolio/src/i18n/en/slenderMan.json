@@ -1,0 +1,86 @@
+{
+  "description": {
+    "title": "I. Description",
+    "beforeLink": "Slenderman's Scavenger Hunt is a multiplayer online game inspired by",
+    "creepypastaLink": "an Internet creepypasta from 2009",
+    "betweenLinks": "with the playability of the traditional game of scavenger hunt. The mobile-optimized website uses",
+    "afterLink": "for object detection.",
+    "players": "Players enter a username and join a room (up to 5 players). Using their phone's camera, they scan objects to get location hints in this augmented reality scavenger hunt with a creepy Slenderman theme."
+  },
+  "design": {
+    "title": "II. Design & Evolution",
+    "intro": "We designed a simple, intuitive layout specifically for mobile devices:",
+    "uiFlow": [
+      "Username & Room Entry",
+      "Loading Screen",
+      "Gameplay with AR",
+      "Player Scores",
+      "Page Found: visual confirmation when scanning succeeds",
+      "Win Screen: shown to the highest scoring player",
+      "Lose Screen: shown to other players",
+      "Wireframe"
+    ]
+  },
+  "testing": {
+    "title": "III. User Testing",
+    "processTitle": "Testing Process",
+    "process": "We tested with campus community members familiar with the environment. Testers included Professor Mathura Govindarajan and IM Lab Manager Ume Hussain.",
+    "photoAlt": "User testing",
+    "feedbackTitle": "Key Feedback",
+    "feedback": [
+      "Positive: enjoyable gameplay and attractive aesthetics",
+      "Issue: some ML5.js model detection glitches",
+      "UI improvement: make the top-right button more noticeable",
+      "Suggestion: add sound effects for found pages"
+    ]
+  },
+  "future": {
+    "title": "IV. Future Improvements",
+    "expansionTitle": "Expansion Ideas",
+    "expansion": [
+      "Custom scavenger hunt creation tool",
+      "Enhanced Slenderman theme with jumpscares and music",
+      "Improved UI for the info button",
+      "Audio feedback for found pages"
+    ],
+    "technicalTitle": "Technical Improvements",
+    "technical": [
+      "Retrain ML models for better accuracy",
+      "Fix iOS/Android compatibility issues",
+      "Enhanced user personalization",
+      "Fix room-specific socket data issues"
+    ]
+  },
+  "tech": {
+    "title": "V. Technical Implementation",
+    "socketTitle": "Socket.io",
+    "socket": [
+      "Real-time multiplayer functionality",
+      "Room-based user management",
+      "Score synchronization across players",
+      "Game state management"
+    ],
+    "ml5Title": "ML5.js",
+    "resources": "Resources:",
+    "docsLink": "ML5.js documentation",
+    "tutorialsLink": "The Coding Train tutorials",
+    "steps": [
+      "Object Detection with COCO-SD",
+      "Feature Extractor Classification",
+      "Separate training page with model saving"
+    ],
+    "pagesTitle": "Page Designs",
+    "pageAlt": "Page design"
+  },
+  "team": {
+    "title": "VI. Team Reflections",
+    "fatemaQuote": "I really enjoyed every part of this project... While we planned a different idea at the beginning, I think the fact that we ended up with a game that is mostly in person but still uses sockets as required by the class was our greatest accomplishment.",
+    "fatemaFocus": "Focus: Socket.io implementation, game logic, entry page design.",
+    "fatemaChallenges": "Challenges: room-specific socket data, win/lose screen consistency, balancing gameplay.",
+    "andresQuote": "This project was equally stressful and enjoyable to do... I know this is only the tip of the machine learning's iceberg, but for me, it was a great achievement to understand its basic concepts.",
+    "andresFocus": "Focus: ML5.js implementation, game visuals, model training.",
+    "andresChallenges": "Challenges: model accuracy, colour vs B/W page detection and",
+    "iosLink": "iOS compatibility",
+    "next": "Next: continue developing the game as a campus community-building activity."
+  }
+}

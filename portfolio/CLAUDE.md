@@ -46,10 +46,21 @@ src/
   components/   reusable UI with no art in it (Nav, Modal, Tag, LinkButton)
   writeups/     project write-ups, built from writeups/blocks/*
   animations/   all motion and art
-  hooks/        shared hooks
+  hooks/        shared hooks (useLanguage, useHashModal, useActiveId)
+  i18n/         en/ and ar/ JSON text + LanguageProvider
 ```
+
+## Languages (English / Arabic)
+
+- **UI text** (nav, headings, about, contact, tag names) lives in `src/i18n/en/ui.json` and `src/i18n/ar/ui.json`. Read it with `const { t } = useLanguage()`.
+- **Project and experience text** lives in the data files as `{ en, ar }` pairs. Read it with `pick(project.title)`.
+- **Write-up text** lives in `src/i18n/{en,ar}/<writeup>.json`. The write-up component only holds layout.
+- **Rule:** never hard-code visible text in a component. Add it to both languages.
+- **Arabic switches the page to `dir="rtl"`.**
+  - Use logical CSS (`margin-inline-start`, `padding-inline-start`, `text-align: start`), not left/right.
+  - Use `var(--tracking)` for letter-spacing. It is 0 in Arabic, because spacing breaks the letter joins.
 
 ## Editing content
 
-- **Projects:** `src/data/projects.js`. The `colors: { a, b }` field sets the two rotating rectangles' colors while that project is in view.
+- **Projects:** `src/data/projects.js` (titles and summaries are `{ en, ar }`). The `colors: { a, b }` field sets the two rotating rectangles' colors while that project is in view.
 - **Experience:** `src/data/experience.js`.

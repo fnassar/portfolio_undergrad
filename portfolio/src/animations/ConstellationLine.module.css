@@ -9,6 +9,10 @@
   height: 100%;
 }
 
+:global([dir="rtl"]) .svg {
+  transform: scaleX(-1);
+}
+
 .line {
   fill: none;
   stroke: var(--line);

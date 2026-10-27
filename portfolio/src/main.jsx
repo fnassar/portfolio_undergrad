@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { projectHash } from "./hooks/useHashModal.js";
+import LanguageProvider from "./i18n/LanguageProvider.jsx";
 import "./styles/tokens.css";
 import "./styles/global.css";
 
@@ -20,6 +21,8 @@ if (legacyId) {
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <LanguageProvider>
+      <App />
+    </LanguageProvider>
   </StrictMode>,
 );

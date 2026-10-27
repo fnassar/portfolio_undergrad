@@ -2,10 +2,12 @@ import { useState } from "react";
 import LinkButton from "../../components/LinkButton.jsx";
 import Section from "../../components/Section.jsx";
 import { email, profiles, resumeUrl } from "../../data/socials.js";
+import useLanguage from "../../hooks/useLanguage.js";
 import styles from "./Contact.module.css";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
+  const { t } = useLanguage();
 
   async function copyEmail() {
     await navigator.clipboard.writeText(email);
@@ -13,10 +15,10 @@ export default function Contact() {
   }
 
   return (
-    <Section id="contact" kicker="Say hi" title="Let's talk">
+    <Section id="contact" kicker={t.contact.kicker} title={t.contact.title}>
       <button className={styles.email} onClick={copyEmail}>
         {email}
-        <span className={styles.hint}>{copied ? "Copied ✓" : "Click to copy"}</span>
+        <span className={styles.hint}>{copied ? t.contact.copied : t.contact.copy}</span>
       </button>
       <div className={styles.links}>
         {profiles.map((profile) => (
@@ -24,9 +26,11 @@ export default function Contact() {
             {profile.label}
           </LinkButton>
         ))}
-        <LinkButton href={resumeUrl}>Resume</LinkButton>
+        <LinkButton href={resumeUrl}>{t.contact.resume}</LinkButton>
       </div>
-      <p className={styles.footer}>© {new Date().getFullYear()} Fatema Nassar</p>
+      <p className={styles.footer}>
+        © {new Date().getFullYear()} {t.contact.name}
+      </p>
     </Section>
   );
 }

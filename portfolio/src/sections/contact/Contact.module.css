@@ -9,7 +9,7 @@
   font-size: clamp(1.4rem, 5vw, 3.2rem);
   font-weight: 500;
   word-break: break-all;
-  text-align: left;
+  text-align: start;
   cursor: pointer;
   transition: color 0.2s;
 }
