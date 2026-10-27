@@ -1,6 +1,6 @@
 // Each entry becomes one node in the Experience section, ordered newest first by start date.
 // Text fields are { en, ar } pairs; bullets is a list of pairs.
-// type sets the node shape: "work" (square), "research" (diamond), "assisted" (dashed), "education" (circle)
+// type sets the node shape: "projects" (square), "research" (diamond), "assisted" (dashed), "education" (circle)
 
 export const experience = [
   {
@@ -8,7 +8,7 @@ export const experience = [
     org: { en: "San3a Tech", ar: "صنعة تك" },
     role: { en: "Physical Computing Instructor", ar: "مدرّبة حوسبة فيزيائية" },
     period: "Jun 2026 – Present",
-    type: "work",
+    type: "projects",
     color: "#fbbf24",
     summary: {
       en: "Mentoring small groups through hands-on IoT activities.",
@@ -31,7 +31,7 @@ export const experience = [
     org: { en: "Injaz-Tech", ar: "إنجاز تك" },
     role: { en: "Front End Engineer", ar: "مهندسة واجهات أمامية" },
     period: "Aug 2024 – Present",
-    type: "work",
+    type: "projects",
     color: "#60a5fa",
     summary: {
       en: "Building Angular Micro Frontend platforms for Tahakom (KSA): an intelligent dispatching system and an underground construction monitoring platform (RIPC).",
@@ -107,7 +107,7 @@ export const experience = [
     org: { en: "RDI-EG", ar: "RDI-EG" },
     role: { en: "ML Summer Intern", ar: "متدرّبة صيفية في تعلّم الآلة" },
     period: "Jun 2023 – Jul 2023",
-    type: "work",
+    type: "projects",
     color: "#f472b6",
     summary: {
       en: "Built an Arabic named-entity recognition model reaching an 80% F1 score.",
@@ -124,7 +124,7 @@ export const experience = [
     },
     role: { en: "IT Summer Intern", ar: "متدرّبة صيفية في تقنية المعلومات" },
     period: "Jul 2022 – Aug 2022",
-    type: "work",
+    type: "projects",
     color: "#fb923c",
     summary: {
       en: "Windows systems administration: user accounts, groups, security policies and Active Directory.",

@@ -1,7 +1,10 @@
 {
-  "brand": { "first": "Fatema", "last": "Nassar" },
+  "brand": {
+    "first": "Fatema",
+    "last": "Nassar"
+  },
   "nav": {
-    "work": "Work",
+    "projects": "Work",
     "experience": "Experience",
     "about": "About",
     "contact": "Contact",
@@ -12,19 +15,29 @@
     "language": "عربي",
     "languageLabel": "Switch to Arabic"
   },
-  "hero": { "cue": "Scroll to work ↓" },
+  "hero": {
+    "cue": "Scroll to projects ↓"
+  },
   "projects": {
     "kicker": "Selected projects",
     "title": "Work",
     "tabsLabel": "Project categories",
-    "tabs": { "code": "Code", "art": "Art" },
+    "tabs": {
+      "code": "Code",
+      "art": "Art"
+    },
     "with": "With",
     "loading": "Loading…"
   },
   "experience": {
     "kicker": "Click a node",
     "title": "Experience",
-    "types": { "work": "Work", "research": "Research", "assisted": "Assisted", "education": "Education" }
+    "types": {
+      "projects": "Work",
+      "research": "Research",
+      "assisted": "Assisted",
+      "education": "Education"
+    }
   },
   "about": {
     "kicker": "Hello",
@@ -43,13 +56,15 @@
     "resume": "Resume",
     "name": "Fatema Nassar"
   },
-  "modal": { "close": "Close ✕" },
+  "modal": {
+    "close": "Close ✕"
+  },
   "links": {
     "GitHub": "GitHub",
     "Play": "Play",
     "Live": "Live site",
     "Video": "Video",
-    "Work": "View work",
+    "Work": "View projects",
     "Solstice": "Solstice"
   },
   "tags": {}

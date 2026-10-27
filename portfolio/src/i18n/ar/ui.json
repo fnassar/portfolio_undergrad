@@ -1,7 +1,10 @@
 {
-  "brand": { "first": "فاطمة", "last": "نصار" },
+  "brand": {
+    "first": "فاطمة",
+    "last": "نصار"
+  },
   "nav": {
-    "work": "الأعمال",
+    "projects": "الأعمال",
     "experience": "الخبرات",
     "about": "نبذة",
     "contact": "تواصل",
@@ -12,19 +15,29 @@
     "language": "English",
     "languageLabel": "التبديل إلى الإنجليزية"
   },
-  "hero": { "cue": "انتقل إلى الأعمال ↓" },
+  "hero": {
+    "cue": "انتقل إلى الأعمال ↓"
+  },
   "projects": {
     "kicker": "مشاريع مختارة",
     "title": "الأعمال",
     "tabsLabel": "فئات المشاريع",
-    "tabs": { "code": "برمجة", "art": "فن" },
+    "tabs": {
+      "code": "برمجة",
+      "art": "فن"
+    },
     "with": "بالتعاون مع",
     "loading": "جارٍ التحميل…"
   },
   "experience": {
     "kicker": "اضغط على إحدى النقاط",
     "title": "الخبرات",
-    "types": { "work": "عمل", "research": "بحث", "assisted": "مساعدة", "education": "تعليم" }
+    "types": {
+      "projects": "عمل",
+      "research": "بحث",
+      "assisted": "مساعدة",
+      "education": "تعليم"
+    }
   },
   "about": {
     "kicker": "مرحبًا",
@@ -43,7 +56,9 @@
     "resume": "السيرة الذاتية",
     "name": "فاطمة نصار"
   },
-  "modal": { "close": "إغلاق ✕" },
+  "modal": {
+    "close": "إغلاق ✕"
+  },
   "links": {
     "GitHub": "GitHub",
     "Play": "العب الآن",

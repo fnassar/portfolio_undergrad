@@ -5,7 +5,7 @@ import ExternalLink from "./ExternalLink.jsx";
 import Icon from "./Icon.jsx";
 import styles from "./Nav.module.css";
 
-const sectionIds = ["work", "experience", "about", "contact"];
+const sectionIds = ["projects", "experience", "about", "contact"];
 
 export default function Nav() {
   const [open, setOpen] = useState(false);

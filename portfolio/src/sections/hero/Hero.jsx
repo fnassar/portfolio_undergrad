@@ -17,7 +17,7 @@ export default function Hero() {
       <p className={`${styles.tagline} ${styles.arabic}`}>
         <TextReveal text="مهندسة برمجيات وفنانة وسائط تفاعلية" delay={0.8} />
       </p>
-      <a className={styles.cue} href="#work">
+      <a className={styles.cue} href="#projects">
         {t.hero.cue}
       </a>
     </header>
