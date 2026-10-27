@@ -37,9 +37,10 @@ export default function ProjectsSection() {
   return (
     <Section
       ref={sectionRef}
-      id="work"
+      id="projects"
       kicker={t.projects.kicker}
       title={t.projects.title}
+      className={styles.projectsSection}
       aside={
         <div className={styles.pin}>
           <ProjectTabs

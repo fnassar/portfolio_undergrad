@@ -78,8 +78,8 @@ export const experience = [
         ar: "بنيت نموذجًا للتصحيح الإملائي للعربية العامية باستخدام PyTorch وAraBART، ورفعت الدقة من 74% إلى 82% بإضافة التنبؤ باللهجة واكتشاف الهلوسة.",
       },
       {
-        en: "Co-authored \"Exploiting Dialect Identification in Automatic Dialectal Text Normalization\" as my graduation capstone.",
-        ar: "شاركت في تأليف ورقة \"Exploiting Dialect Identification in Automatic Dialectal Text Normalization\" كمشروع تخرّجي.",
+        en: 'Co-authored "Exploiting Dialect Identification in Automatic Dialectal Text Normalization" as my graduation capstone.',
+        ar: 'شاركت في تأليف ورقة "Exploiting Dialect Identification in Automatic Dialectal Text Normalization" كمشروع تخرّجي.',
       },
       {
         en: "Wrote Bash scripts to automate data preprocessing and evaluation in a Linux environment.",
@@ -96,7 +96,7 @@ export const experience = [
     type: "assisted",
     color: "#a3e635",
     summary: {
-      en: "Physical computing work, including setting up a Raspberry Pi for a communication robot.",
+      en: "Physical computing projects, including setting up a Raspberry Pi for a communication robot.",
       ar: "أعمال في الحوسبة الفيزيائية، منها إعداد Raspberry Pi لروبوت تواصل.",
     },
     bullets: [],
@@ -118,7 +118,10 @@ export const experience = [
   },
   {
     id: "midor",
-    org: { en: "Middle East Oil Refinery (MIDOR)", ar: "شركة الشرق الأوسط لتكرير البترول (ميدور)" },
+    org: {
+      en: "Middle East Oil Refinery (MIDOR)",
+      ar: "شركة الشرق الأوسط لتكرير البترول (ميدور)",
+    },
     role: { en: "IT Summer Intern", ar: "متدرّبة صيفية في تقنية المعلومات" },
     period: "Jul 2022 – Aug 2022",
     type: "work",
@@ -141,7 +144,10 @@ export const experience = [
   },
   {
     id: "im-lab",
-    org: { en: "Interactive Media Lab, NYU", ar: "مختبر الوسائط التفاعلية، جامعة نيويورك" },
+    org: {
+      en: "Interactive Media Lab, NYU",
+      ar: "مختبر الوسائط التفاعلية، جامعة نيويورك",
+    },
     role: { en: "Lab Assistant", ar: "مساعدة مختبر" },
     period: "Jan 2022 – Dec 2023",
     type: "assisted",
