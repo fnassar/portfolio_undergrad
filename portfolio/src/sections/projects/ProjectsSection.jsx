@@ -1,5 +1,4 @@
 import { Activity, startTransition, useRef, useState } from "react";
-import ScrollRects from "../../animations/ScrollRects.jsx";
 import Modal from "../../components/Modal.jsx";
 import Section from "../../components/Section.jsx";
 import { projects, projectsByCategory } from "../../data/projects.js";
@@ -23,42 +22,42 @@ export default function ProjectsSection() {
   const active = tabProjects.find((project) => project.id === activeId) ?? tabProjects[0];
   const position = String(tabProjects.indexOf(active) + 1).padStart(2, "0");
   const total = String(tabProjects.length).padStart(2, "0");
+  const colors = {
+    code: tab === "code" ? active.colors : projectsByCategory.code[0].colors,
+    art: tab === "art" ? active.colors : projectsByCategory.art[0].colors,
+  };
   const openProject = projects.find((project) => project.id === modal.id);
 
   return (
     <Section id="work" kicker={t.projects.kicker} title={t.projects.title}>
       <div className={styles.layout}>
         <aside className={styles.aside}>
-          <ScrollRects
-            targetRef={listsRef}
-            colors={active.colors}
-            label={`${t.projects.tabs[tab]} · ${position} / ${total}`}
-          />
-        </aside>
-
-        <div>
           <ProjectTabs
             tabIds={tabIds}
             active={tab}
             onChange={(next) => startTransition(() => setTab(next))}
+            colors={colors}
+            targetRef={listsRef}
+            count={`${position} / ${total}`}
           />
-          <div ref={listsRef}>
-            {tabIds.map((id) => (
-              <Activity key={id} mode={id === tab ? "visible" : "hidden"}>
-                <ProjectList
-                  projects={projectsByCategory[id]}
-                  onActiveChange={setActiveId}
-                />
-              </Activity>
-            ))}
-          </div>
+        </aside>
+
+        <div ref={listsRef}>
+          {tabIds.map((id) => (
+            <Activity key={id} mode={id === tab ? "visible" : "hidden"}>
+              <ProjectList
+                projects={projectsByCategory[id]}
+                onActiveChange={setActiveId}
+              />
+            </Activity>
+          ))}
         </div>
       </div>
 
       {openProject ? (
         <Modal
           label={pick(openProject.title)}
-          color={openProject.colors.a}
+          color={openProject.colors[0]}
           onClose={modal.close}
         >
           <ProjectDetail project={openProject} />

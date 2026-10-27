@@ -43,7 +43,7 @@ src/
   styles/       tokens.css, global.css
   data/         projects.js, experience.js, socials.js
   sections/     hero, about, projects, experience, contact
-  components/   reusable UI with no art in it (Nav, Modal, Tag, LinkButton)
+  components/   reusable UI with no art in it (Nav, Modal, TagList, LinkButton, ExternalLink)
   writeups/     project write-ups, built from writeups/blocks/*
   animations/   all motion and art
   hooks/        shared hooks (useLanguage, useHashModal, useActiveId)
@@ -62,5 +62,6 @@ src/
 
 ## Editing content
 
-- **Projects:** `src/data/projects.js` (titles and summaries are `{ en, ar }`). The `colors: { a, b }` field sets the two rotating rectangles' colors while that project is in view.
+- **Projects:** `src/data/projects.js` (titles and summaries are `{ en, ar }`). The `colors` list (3 hex values) tints the side shapes while that project is in view.
+- **Side shapes:** `src/animations/shapeSets.js`. Each tab (code = rectangles, art = triangles + circle) has a list of shapes with size and spin speed. Only the open tab's shapes spin with scroll.
 - **Experience:** `src/data/experience.js`.

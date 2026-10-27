@@ -1,8 +1,15 @@
-import TabIndicator from "../../animations/TabIndicator.jsx";
+import ShapeCluster from "../../animations/ShapeCluster.jsx";
 import useLanguage from "../../hooks/useLanguage.js";
 import styles from "./ProjectTabs.module.css";
 
-export default function ProjectTabs({ tabIds, active, onChange }) {
+export default function ProjectTabs({
+  tabIds,
+  active,
+  onChange,
+  colors,
+  targetRef,
+  count,
+}) {
   const { t } = useLanguage();
 
   return (
@@ -15,8 +22,22 @@ export default function ProjectTabs({ tabIds, active, onChange }) {
           className={styles.tab}
           onClick={() => onChange(id)}
         >
-          {t.projects.tabs[id]}
-          {id === active ? <TabIndicator /> : null}
+          <span className={styles.art}>
+            <ShapeCluster
+              set={id}
+              colors={colors[id]}
+              targetRef={targetRef}
+              active={id === active}
+            />
+          </span>
+          <span className={styles.label}>
+            {t.projects.tabs[id]}
+            {id === active ? (
+              <span className={styles.count} dir="ltr">
+                {count}
+              </span>
+            ) : null}
+          </span>
         </button>
       ))}
     </div>

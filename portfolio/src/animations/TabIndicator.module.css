@@ -1,6 +1,0 @@
-.indicator {
-  position: absolute;
-  inset: auto 0 -2px;
-  height: 2px;
-  background: var(--accent-2);
-}

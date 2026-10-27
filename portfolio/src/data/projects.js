@@ -1,5 +1,5 @@
 // `title` / `summary` are { en, ar } pairs.
-// `colors.a` / `colors.b` tint the two rotating rectangles while the project is in view.
+// `colors` tint the side shapes while the project is in view (the shapes cycle through the list).
 // `loadWriteup` is optional: projects without it show the summary layout in the popup.
 
 export const projects = [
@@ -16,7 +16,7 @@ export const projects = [
     },
     image: "/images/CS/CS-1.png",
     tags: ["NLP", "Python", "Research"],
-    colors: { a: "#8b7cf6", b: "#5eead4" },
+    colors: ["#8b7cf6", "#5eead4", "#f9a8d4"],
     links: [],
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     },
     image: "/images/CS/CS-6.jpg",
     tags: ["ML", "Docker", "Python"],
-    colors: { a: "#f472b6", b: "#fbbf24" },
+    colors: ["#f472b6", "#fbbf24", "#60a5fa"],
     links: [{ label: "GitHub", href: "https://github.com/fnassar/Guess-drawing-ml" }],
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     },
     image: "/images/CS/CS-3-thumb.jpg",
     tags: ["Game", "p5.js", "Python"],
-    colors: { a: "#38bdf8", b: "#fb923c" },
+    colors: ["#38bdf8", "#fb923c", "#fde047"],
     links: [{ label: "GitHub", href: "https://github.com/fnassar/feeding-nemo-fork" }],
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
     },
     image: "/images/CS/CS-5-thumb.jpg",
     tags: ["Product", "Figma", "Research"],
-    colors: { a: "#a78bfa", b: "#f9a8d4" },
+    colors: ["#a78bfa", "#f9a8d4", "#5eead4"],
     links: [
       { label: "GitHub", href: "https://github.com/fnassar/Prototyping_figma" },
       { label: "Solstice", href: "https://usesolstice.com/" },
@@ -83,7 +83,7 @@ export const projects = [
     },
     image: "/images/CS/CS-4.jpeg",
     tags: ["Python", "Package"],
-    colors: { a: "#34d399", b: "#818cf8" },
+    colors: ["#34d399", "#818cf8", "#fbbf24"],
     links: [
       { label: "GitHub", href: "https://github.com/fnassar/python-fun-calc-package" },
     ],
@@ -102,7 +102,7 @@ export const projects = [
     },
     image: "/images/CS/CS-2.gif",
     tags: ["Docker", "Full-stack"],
-    colors: { a: "#fca5a5", b: "#fde68a" },
+    colors: ["#fca5a5", "#fde68a", "#93c5fd"],
     links: [
       { label: "GitHub", href: "https://github.com/fnassar/Cookbook-Docker/tree/main" },
     ],
@@ -121,7 +121,7 @@ export const projects = [
     image: "/images/IM/display/IM-5-thumb.jpg",
     tags: ["p5.js", "Installation", "Louvre Abu Dhabi"],
     team: ["Genie Hou", "Jannah Mokhtar"],
-    colors: { a: "#f472b6", b: "#c4b5fd" },
+    colors: ["#f472b6", "#c4b5fd", "#5eead4"],
     links: [{ label: "GitHub", href: "https://github.com/fnassar/morseCode/" }],
     loadWriteup: () => import("../writeups/MorseCode.jsx"),
   },
@@ -139,7 +139,7 @@ export const projects = [
     image: "/images/IM/display/IM-1.jpg",
     tags: ["Processing", "Arduino", "Physical computing"],
     team: ["Ingy el Sheikh"],
-    colors: { a: "#facc15", b: "#60a5fa" },
+    colors: ["#facc15", "#60a5fa", "#f472b6"],
     links: [],
     loadWriteup: () => import("../writeups/DigitalDoodle.jsx"),
   },
@@ -157,7 +157,7 @@ export const projects = [
     image: "/images/IM/display/IM-6-thumb.jpg",
     tags: ["Hydra", "TidalCycles", "Performance"],
     team: ["Marta", "Bato", "Jeongin"],
-    colors: { a: "#22d3ee", b: "#e879f9" },
+    colors: ["#22d3ee", "#e879f9", "#a3e635"],
     links: [
       {
         label: "GitHub",
@@ -180,7 +180,7 @@ export const projects = [
     image: "/images/IM/display/IM-2.png",
     tags: ["ml5.js", "Socket.io", "Mobile"],
     team: ["Andres Ugartechea"],
-    colors: { a: "#e5e7eb", b: "#ef4444" },
+    colors: ["#e5e7eb", "#ef4444", "#a78bfa"],
     links: [
       { label: "GitHub", href: "https://github.com/fnassar/Slenderman" },
       { label: "Play", href: "https://slenderman-scavenger-hunt.glitch.me/" },
@@ -201,7 +201,7 @@ export const projects = [
     image: "/images/IM/display/IM-11-thumb.jpg",
     tags: ["Robotics", "Arduino", "Performance"],
     team: ["Jannah Mokhtar"],
-    colors: { a: "#f59e0b", b: "#a78bfa" },
+    colors: ["#f59e0b", "#a78bfa", "#34d399"],
     links: [{ label: "Video", href: "https://www.youtube.com/shorts/Z11REMjYteA" }],
     loadWriteup: () => import("../writeups/FifiRobot.jsx"),
   },
@@ -218,7 +218,7 @@ export const projects = [
     },
     image: "/images/IM/display/IM-3.jpg",
     tags: ["Web", "API"],
-    colors: { a: "#4ade80", b: "#38bdf8" },
+    colors: ["#4ade80", "#38bdf8", "#facc15"],
     links: [
       { label: "Live", href: "https://fnassar.github.io/connectionslab/Project1/" },
     ],
@@ -237,7 +237,7 @@ export const projects = [
     },
     image: "/images/IM/display/IM-4.jpg",
     tags: ["Web"],
-    colors: { a: "#fb7185", b: "#93c5fd" },
+    colors: ["#fb7185", "#93c5fd", "#fde68a"],
     links: [{ label: "Live", href: "https://howl-are-you-mr-rabbit.glitch.me/" }],
   },
   {
@@ -253,7 +253,7 @@ export const projects = [
     },
     image: "https://raw.githubusercontent.com/fnassar/ArtGallary/master/tunnel.jpg",
     tags: ["Web", "Gallery"],
-    colors: { a: "#a3e635", b: "#c084fc" },
+    colors: ["#a3e635", "#c084fc", "#38bdf8"],
     links: [{ label: "Live", href: "https://fnassar.github.io/ArtGallary/" }],
   },
   {
@@ -269,7 +269,7 @@ export const projects = [
     },
     image: "https://fnassar.github.io/UIMP5/assets/images/maldives.jpg",
     tags: ["Web", "Data"],
-    colors: { a: "#2dd4bf", b: "#fcd34d" },
+    colors: ["#2dd4bf", "#fcd34d", "#fb7185"],
     links: [{ label: "Live", href: "https://fnassar.github.io/UIMP5/" }],
   },
   {
@@ -285,7 +285,7 @@ export const projects = [
     },
     image: "/images/other/O-3-thumb.jpg",
     tags: ["assisted", "Installation", "Fabrication"],
-    colors: { a: "#fda4af", b: "#a5b4fc" },
+    colors: ["#fda4af", "#a5b4fc", "#5eead4"],
     links: [{ label: "Work", href: "https://aaron-sherwood.com/works/mandala/" }],
   },
   {
@@ -302,7 +302,7 @@ export const projects = [
     },
     image: "/images/other/O-4.jpeg",
     tags: ["assisted", "Installation", "Fabrication"],
-    colors: { a: "#fde047", b: "#86efac" },
+    colors: ["#fde047", "#86efac", "#c084fc"],
     links: [{ label: "Work", href: "https://aaron-sherwood.com/works/micropollen/" }],
   },
 ];
