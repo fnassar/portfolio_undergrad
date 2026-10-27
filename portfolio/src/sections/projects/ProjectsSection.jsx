@@ -14,6 +14,7 @@ const tabIds = ["code", "art"];
 export default function ProjectsSection() {
   const [tab, setTab] = useState("code");
   const [activeId, setActiveId] = useState(null);
+  const sectionRef = useRef(null);
   const listsRef = useRef(null);
   const modal = useHashModal();
   const { t, pick } = useLanguage();
@@ -28,30 +29,36 @@ export default function ProjectsSection() {
   };
   const openProject = projects.find((project) => project.id === modal.id);
 
+  function selectTab(next) {
+    startTransition(() => setTab(next));
+    sectionRef.current.scrollIntoView({ block: "start" });
+  }
+
   return (
-    <Section id="work" kicker={t.projects.kicker} title={t.projects.title}>
-      <div className={styles.layout}>
-        <aside className={styles.aside}>
+    <Section
+      ref={sectionRef}
+      id="work"
+      kicker={t.projects.kicker}
+      title={t.projects.title}
+      aside={
+        <div className={styles.pin}>
           <ProjectTabs
             tabIds={tabIds}
             active={tab}
-            onChange={(next) => startTransition(() => setTab(next))}
+            onChange={selectTab}
             colors={colors}
             targetRef={listsRef}
             count={`${position} / ${total}`}
           />
-        </aside>
-
-        <div ref={listsRef}>
-          {tabIds.map((id) => (
-            <Activity key={id} mode={id === tab ? "visible" : "hidden"}>
-              <ProjectList
-                projects={projectsByCategory[id]}
-                onActiveChange={setActiveId}
-              />
-            </Activity>
-          ))}
         </div>
+      }
+    >
+      <div ref={listsRef}>
+        {tabIds.map((id) => (
+          <Activity key={id} mode={id === tab ? "visible" : "hidden"}>
+            <ProjectList projects={projectsByCategory[id]} onActiveChange={setActiveId} />
+          </Activity>
+        ))}
       </div>
 
       {openProject ? (

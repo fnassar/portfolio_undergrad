@@ -1,8 +1,20 @@
 .section {
+  --pad-top: clamp(80px, 12vh, 140px);
   position: relative;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: clamp(80px, 12vh, 140px) var(--gutter);
+  padding: var(--pad-top) var(--gutter) clamp(80px, 12vh, 140px);
+}
+
+.section[data-aside="true"] {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) 2fr;
+  gap: clamp(32px, 6vw, 80px);
+}
+
+/* Starts at the section's top edge (above the padding) so sticky content lines up with it. */
+.aside {
+  margin-top: calc(-1 * var(--pad-top));
 }
 
 .header {
@@ -20,4 +32,27 @@
 
 .title {
   font-size: clamp(2.4rem, 6vw, 4.5rem);
+}
+
+@media (max-width: 760px) {
+  .section[data-aside="true"] {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  /* Interleave: header, then the aside as a sticky bar, then the content. */
+  .section[data-aside="true"] .main {
+    display: contents;
+  }
+
+  .section[data-aside="true"] .header {
+    order: -1;
+  }
+
+  .aside {
+    position: sticky;
+    top: var(--nav-height);
+    z-index: 2;
+    margin: 0 calc(-1 * var(--gutter)) 24px;
+  }
 }
