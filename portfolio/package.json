@@ -2,6 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@tsparticles/engine": "^4.3.2",
     "@tsparticles/react": "^4.3.2",
@@ -13,35 +20,12 @@
     "react-creative-cursor": "^1.2.7",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.2",
-    "react-scripts": "^5.0.1",
-    "tsparticles": "^4.3.2",
-    "web-vitals": "^6.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "tsparticles": "^4.3.2"
   },
   "devDependencies": {
-    "dotenv": "^17.4.2"
+    "@vitejs/plugin-react": "^6.1.2",
+    "dotenv": "^17.4.2",
+    "vite": "^8.3.5"
   },
   "engines": {
     "node": "22.x"

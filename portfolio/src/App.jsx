@@ -5,10 +5,10 @@ import "react-creative-cursor/dist/styles.css";
 import "./App.css";
 // import { NavLink } from "react-router-dom";
 
-import Home from "./pages/Home.js";
-import Projectss from "./pages/Projectss.js";
-import About from "./pages/About.js";
-import Contact from "./pages/Contact.js";
+import Home from "./pages/Home.jsx";
+import Projectss from "./pages/Projectss.jsx";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const App = () => {
     return (
