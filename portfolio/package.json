@@ -7,24 +7,26 @@
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@tsparticles/engine": "^4.3.2",
-    "@tsparticles/react": "^4.3.2",
-    "axios": "^1.19.0",
-    "bootstrap": "^5.3.8",
-    "history": "^5.3.0",
+    "motion": "^14.7.1",
+    "ogl": "^1.0.11",
     "react": "^19.2.8",
-    "react-bootstrap": "^2.10.10",
-    "react-creative-cursor": "^1.2.7",
-    "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.2",
-    "tsparticles": "^4.3.2"
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
     "@vitejs/plugin-react": "^6.1.2",
-    "dotenv": "^17.4.2",
+    "eslint": "^9.39.5",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
     "vite": "^8.3.5"
   },
   "engines": {

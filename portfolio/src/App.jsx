@@ -1,24 +1,29 @@
-// frontend/src/App.js
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "react-creative-cursor/dist/styles.css";
-import "./App.css";
-// import { NavLink } from "react-router-dom";
+import { lazy, Suspense } from "react";
+import Cursor from "./animations/Cursor.jsx";
+import Nav from "./components/Nav.jsx";
+import About from "./sections/about/About.jsx";
+import Contact from "./sections/contact/Contact.jsx";
+import ExperienceSection from "./sections/experience/ExperienceSection.jsx";
+import Hero from "./sections/hero/Hero.jsx";
+import ProjectsSection from "./sections/projects/ProjectsSection.jsx";
 
-import Home from "./pages/Home.jsx";
-import Projectss from "./pages/Projectss.jsx";
-import About from "./pages/About.jsx";
-import Contact from "./pages/Contact.jsx";
+const Background = lazy(() => import("./animations/Background.jsx"));
 
-const App = () => {
-    return (
-        <div className="blue-bg">
-            <Home key="x3" />
-            <About key="x4" />
-            <Projectss key="x5" />
-            <Contact key="x6" />
-        </div>
-    );
-};
-
-export default App;
+export default function App() {
+  return (
+    <>
+      <Suspense fallback={null}>
+        <Background />
+      </Suspense>
+      <Cursor />
+      <Nav />
+      <main>
+        <Hero />
+        <ProjectsSection />
+        <ExperienceSection />
+        <About />
+        <Contact />
+      </main>
+    </>
+  );
+}

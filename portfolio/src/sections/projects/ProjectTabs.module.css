@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--line);
+}
+
+.tab {
+  position: relative;
+  padding: 0 0 12px;
+  border: 0;
+  background: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+  cursor: pointer;
+}
+
+.tab[aria-selected="true"] {
+  color: var(--fg);
+}

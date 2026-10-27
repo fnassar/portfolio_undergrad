@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  min-height: 100dvh;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--nav-height) var(--gutter) 0;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: clamp(3rem, 11vw, 8.5rem);
+  letter-spacing: -0.02em;
+}
+
+.name > span:first-child {
+  color: var(--fg);
+}
+
+.arabic {
+  direction: rtl;
+  align-self: flex-end;
+  color: var(--accent);
+}
+
+.tagline {
+  margin: 0;
+  font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+  color: var(--fg-muted);
+}
+
+.cue {
+  margin-top: 48px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--fg-muted);
+  text-decoration: none;
+}
+
+.cue:hover {
+  color: var(--accent-2);
+}

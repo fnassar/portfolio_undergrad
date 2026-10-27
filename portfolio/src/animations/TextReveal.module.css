@@ -1,0 +1,9 @@
+.line {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0 0.28em;
+}
+
+.word {
+  display: inline-block;
+}

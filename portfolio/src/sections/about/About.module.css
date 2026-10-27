@@ -1,0 +1,12 @@
+.body {
+  max-width: 68ch;
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  color: var(--fg-muted);
+}
+
+.lead {
+  font-size: clamp(1.3rem, 2.4vw, 1.8rem);
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--fg);
+}

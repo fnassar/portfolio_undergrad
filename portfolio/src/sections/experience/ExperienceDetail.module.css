@@ -1,0 +1,16 @@
+.detail {
+  max-width: 60ch;
+}
+
+.kicker {
+  composes: kicker from "../../components/Section.module.css";
+}
+
+.org {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+.role {
+  margin: 8px 0 24px;
+  color: var(--accent);
+}

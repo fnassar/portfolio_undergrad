@@ -1,0 +1,49 @@
+.node {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: 8px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.diamond {
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--node-color);
+  rotate: 45deg;
+  transition:
+    background 0.25s,
+    scale 0.25s,
+    box-shadow 0.25s;
+}
+
+.node[data-type="education"] .diamond {
+  border-radius: 50%;
+}
+
+.node[data-type="assisted"] .diamond {
+  border-style: dashed;
+}
+
+.node:hover .diamond,
+.node:focus-visible .diamond {
+  background: var(--node-color);
+  scale: 1.2;
+  box-shadow: 0 0 32px var(--node-color);
+}
+
+.org {
+  max-width: 16ch;
+  font-weight: 500;
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}

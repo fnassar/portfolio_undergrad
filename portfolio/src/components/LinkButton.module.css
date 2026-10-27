@@ -1,0 +1,26 @@
+.link {
+  display: inline-flex;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--fg);
+  text-decoration: none;
+  clip-path: polygon(
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+
+.link:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
