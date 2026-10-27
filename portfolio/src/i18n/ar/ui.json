@@ -24,7 +24,7 @@
   "experience": {
     "kicker": "اضغط على إحدى النقاط",
     "title": "الخبرات",
-    "types": { "research": "بحث", "assisted": "مساعدة", "education": "تعليم" }
+    "types": { "work": "عمل", "research": "بحث", "assisted": "مساعدة", "education": "تعليم" }
   },
   "about": {
     "kicker": "مرحبًا",
@@ -71,6 +71,8 @@
     "API": "واجهات برمجية",
     "Gallery": "معرض",
     "Data": "بيانات",
-    "Fabrication": "تصنيع"
+    "Fabrication": "تصنيع",
+    "Teaching": "تدريس",
+    "Electronics": "إلكترونيات"
   }
 }

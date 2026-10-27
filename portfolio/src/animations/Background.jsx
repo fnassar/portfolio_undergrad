@@ -3,8 +3,8 @@ import { Camera, Color, Geometry, Mesh, Program, Renderer } from "ogl";
 import { fragment, vertex } from "./backgroundShaders.js";
 import styles from "./Background.module.css";
 
-const PARTICLE_COUNT = 260;
-const palette = { a: "#8b7cf6", b: "#ff7ab6", c: "#5eead4" };
+const PARTICLE_COUNT = 400;
+const palette = { a: "#998bff", b: "#90ffe3", c: "#8de4ff" };
 
 function createParticles(gl) {
   const position = new Float32Array(PARTICLE_COUNT * 3);

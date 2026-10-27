@@ -24,7 +24,7 @@
   "experience": {
     "kicker": "Click a node",
     "title": "Experience",
-    "types": { "research": "Research", "assisted": "Assisted", "education": "Education" }
+    "types": { "work": "Work", "research": "Research", "assisted": "Assisted", "education": "Education" }
   },
   "about": {
     "kicker": "Hello",
