@@ -1,12 +1,12 @@
 import styles from "./Section.module.css";
 
 // `aside` (optional) renders a side column that starts at the very top of the section.
-export default function Section({ id, kicker, title, aside, ref, children }) {
+export default function Section({ id, kicker, title, aside, className, ref, children }) {
   return (
     <section
       ref={ref}
       id={id}
-      className={styles.section}
+      className={className ? `${styles.section} ${className}` : styles.section}
       data-aside={Boolean(aside)}
       aria-labelledby={`${id}-title`}
     >
