@@ -1,11 +1,13 @@
 // `title` / `summary` are { en, ar } pairs.
 // `colors` tint the side shapes while the project is in view (the shapes cycle through the list).
 // `loadWriteup` is optional: projects without it show the summary layout in the popup.
+// `hidden: true` removes a project from the site without deleting it.
 
-export const projects = [
+const allProjects = [
   {
     id: "coda-dialect-id",
     category: "code",
+    hidden: false,
     title: {
       en: "Arabic (CODA) Spelling Correction and Dialect ID",
       ar: "التصحيح الإملائي للعربية (CODA) وتحديد اللهجة",
@@ -22,6 +24,7 @@ export const projects = [
   {
     id: "draw-the-word",
     category: "code",
+    hidden: false,
     title: {
       en: "Draw the Word",
       ar: "ارسم الكلمة",
@@ -38,6 +41,7 @@ export const projects = [
   {
     id: "feeding-nemo",
     category: "code",
+    hidden: false,
     title: {
       en: "Feeding Nemo",
       ar: "إطعام نيمو",
@@ -54,6 +58,7 @@ export const projects = [
   {
     id: "rise-app",
     category: "code",
+    hidden: false,
     title: {
       en: "RISE: Product Application Design",
       ar: "RISE: تصميم تطبيق لمنتج",
@@ -73,6 +78,7 @@ export const projects = [
   {
     id: "metric-calculator",
     category: "code",
+    hidden: false,
     title: {
       en: "Metric Calculator",
       ar: "حاسبة القياسات",
@@ -91,6 +97,7 @@ export const projects = [
   {
     id: "cookbook",
     category: "code",
+    hidden: false,
     title: {
       en: "Cookbook",
       ar: "كتاب الطبخ",
@@ -110,6 +117,7 @@ export const projects = [
   {
     id: "morse-code",
     category: "art",
+    hidden: false,
     title: {
       en: "Love is the Universal Language",
       ar: "الحب لغة عالمية",
@@ -128,6 +136,7 @@ export const projects = [
   {
     id: "digital-doodle",
     category: "art",
+    hidden: false,
     title: {
       en: "Digital Doodle",
       ar: "خربشة رقمية",
@@ -146,6 +155,7 @@ export const projects = [
   {
     id: "live-coding-blur",
     category: "art",
+    hidden: false,
     title: {
       en: "LiveCoding: Blur!",
       ar: "برمجة حية: ضبابية!",
@@ -169,6 +179,7 @@ export const projects = [
   {
     id: "slenderman",
     category: "art",
+    hidden: false,
     title: {
       en: "Slenderman's Scavenger Hunt",
       ar: "مطاردة كنز سلندرمان",
@@ -190,6 +201,7 @@ export const projects = [
   {
     id: "fifi-robot",
     category: "art",
+    hidden: false,
     title: {
       en: "Performing Robot: FIFI",
       ar: "الروبوت المؤدي: فيفي",
@@ -208,6 +220,7 @@ export const projects = [
   {
     id: "world-map",
     category: "art",
+    hidden: false,
     title: {
       en: "World Map Search",
       ar: "البحث في خريطة العالم",
@@ -226,6 +239,7 @@ export const projects = [
   {
     id: "howl-mr-rabbit",
     category: "art",
+    hidden: false,
     title: {
       en: "Howl Are You, Mr. Rabbit?",
       ar: "كيف حالك يا سيد أرنب؟",
@@ -243,6 +257,7 @@ export const projects = [
   {
     id: "lost-found-reborn",
     category: "art",
+    hidden: false,
     title: {
       en: "Lost, Found & Reborn",
       ar: "ضاع، وُجد، ووُلد من جديد",
@@ -259,6 +274,7 @@ export const projects = [
   {
     id: "find-your-destination",
     category: "art",
+    hidden: false,
     title: {
       en: "Find Your Destination",
       ar: "اعثر على وجهتك",
@@ -275,6 +291,7 @@ export const projects = [
   {
     id: "mandala",
     category: "art",
+    hidden: false,
     title: {
       en: "Mandala with Prof. Aaron Sherwood",
       ar: "ماندالا مع البروفيسور آرون شيروود",
@@ -291,6 +308,7 @@ export const projects = [
   {
     id: "micro-pollen",
     category: "art",
+    hidden: false,
     title: {
       en: "MICRO: Pollen with Prof. Aaron Sherwood",
       ar: "MICRO: حبوب اللقاح مع البروفيسور آرون شيروود",
@@ -306,5 +324,7 @@ export const projects = [
     links: [{ label: "Work", href: "https://aaron-sherwood.com/works/micropollen/" }],
   },
 ];
+
+export const projects = allProjects.filter((project) => !project.hidden);
 
 export const projectsByCategory = Object.groupBy(projects, (project) => project.category);

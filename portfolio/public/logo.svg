@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Frame -->
+  <polygon points="44,0 256,0 256,212 212,256 0,256 0,44" fill="#a99ef0" />
+  <polygon points="48,10 246,10 246,208 208,246 10,246 10,48" fill="#0b0a1a" />
+
+  <!-- F -->
+  <g fill="#a99ef0">
+    <rect x="48" y="64" width="24" height="128" />
+    <rect x="48" y="64" width="64" height="24" />
+  </g>
+  <rect x="72" y="118" width="34" height="24" fill="#ff7ab6" />
+
+  <!-- N -->
+  <g fill="#a99ef0">
+    <rect x="134" y="64" width="24" height="128" />
+    <rect x="184" y="64" width="24" height="128" />
+    <polygon points="134,64 158,64 208,192 184,192" />
+  </g>
+</svg>
