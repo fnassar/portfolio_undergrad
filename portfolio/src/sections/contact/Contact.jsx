@@ -15,7 +15,12 @@ export default function Contact() {
   }
 
   return (
-    <Section id="contact" kicker={t.contact.kicker} title={t.contact.title}>
+    <Section
+      id="contact"
+      kicker={t.contact.kicker}
+      title={t.contact.title}
+      className={styles.contactSection}
+    >
       <button className={styles.email} onClick={copyEmail}>
         {email}
         <span className={styles.hint}>{copied ? t.contact.copied : t.contact.copy}</span>

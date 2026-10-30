@@ -37,3 +37,9 @@
   font-size: 0.75rem;
   color: var(--fg-muted);
 }
+
+@media (min-width: 760px) {
+  .contactSection {
+    padding-inline: calc(var(--gutter) + 10vw);
+  }
+}

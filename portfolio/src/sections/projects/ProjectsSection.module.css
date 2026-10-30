@@ -8,7 +8,7 @@
 }
 
 .projectsSection {
-  padding-inline: calc(var(--gutter) + 15vw);
+  padding-inline: calc(var(--gutter) + 10vw);
 }
 
 @media (max-width: 760px) {
