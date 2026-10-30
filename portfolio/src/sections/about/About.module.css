@@ -10,3 +10,7 @@
   line-height: 1.35;
   color: var(--fg);
 }
+
+.aboutSection {
+  padding-inline: calc(var(--gutter) + 15vw);
+}

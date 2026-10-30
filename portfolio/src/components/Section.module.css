@@ -1,9 +1,12 @@
-.section {
-  --pad-top: clamp(80px, 12vh, 140px);
-  position: relative;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: var(--pad-top) var(--gutter) clamp(80px, 12vh, 140px);
+/* Layered so a section's own `className` always overrides it, whatever order the CSS loads in. */
+@layer section-base {
+  .section {
+    --pad-top: clamp(80px, 12vh, 140px);
+    position: relative;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--pad-top) var(--gutter) clamp(80px, 12vh, 140px);
+  }
 }
 
 .section[data-aside="true"] {

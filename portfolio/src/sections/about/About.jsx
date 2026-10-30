@@ -6,7 +6,12 @@ export default function About() {
   const { t } = useLanguage();
 
   return (
-    <Section id="about" kicker={t.about.kicker} title={t.about.title}>
+    <Section
+      id="about"
+      kicker={t.about.kicker}
+      title={t.about.title}
+      className={styles.aboutSection}
+    >
       <div className={styles.body}>
         <p className={styles.lead}>{t.about.lead}</p>
         {t.about.paragraphs.map((paragraph) => (

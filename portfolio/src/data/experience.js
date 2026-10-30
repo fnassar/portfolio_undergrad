@@ -10,6 +10,7 @@ export const experience = [
     role: { en: "Physical Computing Instructor", ar: "مدرّبة حوسبة فيزيائية" },
     period: "Jun 2026 – Present",
     type: "projects",
+    link: "https://www.san3atech.com/",
     color: "#fbbf24",
     summary: {
       en: "Mentoring small groups through hands-on IoT activities.",
@@ -65,6 +66,7 @@ export const experience = [
   },
   {
     id: "camel-lab",
+    link: "https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab.html",
     org: { en: "CAMeL Lab, NYU", ar: "مختبر CAMeL، جامعة نيويورك" },
     role: { en: "Student Researcher", ar: "باحثة طالبة" },
     period: "Sep 2023 – May 2024",
@@ -106,6 +108,7 @@ export const experience = [
   },
   {
     id: "rdi-eg",
+    link: "https://rdi-eg.ai/english/",
     org: { en: "RDI-EG", ar: "RDI-EG" },
     role: { en: "ML Summer Intern", ar: "متدرّبة صيفية في تعلّم الآلة" },
     period: "Jun 2023 – Jul 2023",
@@ -120,6 +123,7 @@ export const experience = [
   },
   {
     id: "midor",
+    link: "https://www.midor.com.eg/",
     org: {
       en: "Middle East Oil Refinery (MIDOR)",
       ar: "شركة الشرق الأوسط لتكرير البترول (ميدور)",
@@ -146,6 +150,7 @@ export const experience = [
   },
   {
     id: "im-lab",
+    link: "https://aimlab-haptics.com/",
     org: {
       en: "Interactive Media Lab, NYU",
       ar: "مختبر الوسائط التفاعلية، جامعة نيويورك",
@@ -172,6 +177,7 @@ export const experience = [
   },
   {
     id: "aaron-sherwood",
+    link: "https://aaron-sherwood.com/",
     org: { en: "Aaron Sherwood Studio", ar: "استوديو آرون شيروود" },
     role: { en: "Fabrication Assistant", ar: "مساعدة في التصنيع" },
     period: "Jan 2022 – Jun 2022",
@@ -188,22 +194,5 @@ export const experience = [
       },
     ],
     tags: ["Installation", "Fabrication"],
-  },
-  {
-    id: "nyu",
-    org: { en: "New York University", ar: "جامعة نيويورك" },
-    role: {
-      en: "Computer Science & Interactive Media",
-      ar: "علوم الحاسوب والوسائط التفاعلية",
-    },
-    period: "2020 – 2024",
-    type: "education",
-    color: "#5eead4",
-    summary: {
-      en: "B.Sc. in Computer Science and Interactive Media at NYU Abu Dhabi, GPA 3.69.",
-      ar: "بكالوريوس في علوم الحاسوب والوسائط التفاعلية من جامعة نيويورك أبوظبي، بمعدل 3.69.",
-    },
-    bullets: [],
-    tags: [],
   },
 ];
