@@ -2,7 +2,8 @@
   display: inline-flex;
   gap: 6px;
   padding: 8px 16px;
-  border: 1px solid var(--accent);
+  border-block: 1px solid var(--accent);
+  border-inline: 1.5px solid var(--accent);
   font-family: var(--font-mono);
   font-size: 0.85rem;
   color: var(--fg);

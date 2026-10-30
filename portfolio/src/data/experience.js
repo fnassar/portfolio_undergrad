@@ -1,5 +1,6 @@
 // Each entry becomes one node in the Experience section, ordered newest first by start date.
 // Text fields are { en, ar } pairs; bullets is a list of pairs.
+// link is optional: makes the org name in the popup link to that URL.
 // type sets the node shape: "projects" (square), "research" (diamond), "assisted" (dashed), "education" (circle)
 
 export const experience = [
@@ -33,6 +34,7 @@ export const experience = [
     period: "Aug 2024 – Present",
     type: "projects",
     color: "#60a5fa",
+    link: "https://injaz-consulting.com/",
     summary: {
       en: "Building Angular Micro Frontend platforms for Tahakom (KSA): an intelligent dispatching system and an underground construction monitoring platform (RIPC).",
       ar: "بناء منصات Angular بمعمارية الواجهات الأمامية المصغّرة لصالح تحكّم (السعودية): نظام إرسال ذكي ومنصة لمراقبة الإنشاءات تحت الأرض (RIPC).",

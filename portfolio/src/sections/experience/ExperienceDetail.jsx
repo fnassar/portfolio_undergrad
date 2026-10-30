@@ -1,3 +1,4 @@
+import ExternalLink from "../../components/ExternalLink.jsx";
 import TagList from "../../components/TagList.jsx";
 import useLanguage from "../../hooks/useLanguage.js";
 import BulletList from "../../writeups/blocks/BulletList.jsx";
@@ -9,7 +10,15 @@ export default function ExperienceDetail({ item }) {
   return (
     <article className={styles.detail}>
       <p className={styles.kicker}>{t.experience.types[item.type]}</p>
-      <h2 className={styles.org}>{pick(item.org)}</h2>
+      <h2 className={styles.org}>
+        {item.link ? (
+          <ExternalLink className={styles.orgLink} href={item.link}>
+            {pick(item.org)} <span className={styles.arrow} aria-hidden="true">↗</span>
+          </ExternalLink>
+        ) : (
+          pick(item.org)
+        )}
+      </h2>
       <p className={styles.role}>
         {pick(item.role)}
         {item.period ? ` · ${item.period}` : null}

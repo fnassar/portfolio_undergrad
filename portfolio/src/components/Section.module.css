@@ -8,7 +8,7 @@
 
 .section[data-aside="true"] {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) 2fr;
+  grid-template-columns: minmax(0, 1fr) 1.5fr;
   gap: clamp(32px, 6vw, 80px);
 }
 

@@ -220,7 +220,7 @@ const allProjects = [
   {
     id: "world-map",
     category: "art",
-    hidden: false,
+    hidden: true,
     title: {
       en: "World Map Search",
       ar: "البحث في خريطة العالم",
@@ -274,7 +274,7 @@ const allProjects = [
   {
     id: "find-your-destination",
     category: "art",
-    hidden: false,
+    hidden: true,
     title: {
       en: "Find Your Destination",
       ar: "اعثر على وجهتك",
