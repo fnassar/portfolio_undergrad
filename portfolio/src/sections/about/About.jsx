@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 
 export default function About() {
   const { t } = useLanguage();
-
+  // edit later
   return (
     <Section
       id="about"
