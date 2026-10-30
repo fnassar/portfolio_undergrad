@@ -4,7 +4,7 @@
     "last": "Nassar"
   },
   "nav": {
-    "projects": "Work",
+    "projects": "Projects",
     "experience": "Experience",
     "about": "About",
     "contact": "Contact",
@@ -19,8 +19,8 @@
     "cue": "Scroll to projects ↓"
   },
   "projects": {
-    "kicker": "Selected projects",
-    "title": "Work",
+    "kicker": "Selected",
+    "title": "Projects",
     "tabsLabel": "Project categories",
     "tabs": {
       "code": "Code",
@@ -33,7 +33,7 @@
     "kicker": "Click a node",
     "title": "Experience",
     "types": {
-      "projects": "Work",
+      "projects": "Projects",
       "research": "Research",
       "assisted": "Assisted",
       "education": "Education"
