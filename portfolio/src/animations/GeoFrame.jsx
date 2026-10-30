@@ -15,13 +15,17 @@ export default function GeoFrame({ color, children }) {
         initial={{ rotate: 0 }}
         animate={{ rotate: 135 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
-      />
+      >
+        <span className={styles.square} />
+      </motion.span>
       <motion.span
         className={`${styles.corner} ${styles.bottomLeft}`}
         initial={{ rotate: 0 }}
         animate={{ rotate: -135 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
-      />
+      >
+        <span className={styles.square} />
+      </motion.span>
       <div className={styles.inner}>{children}</div>
     </motion.div>
   );
